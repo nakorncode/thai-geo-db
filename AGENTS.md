@@ -3,6 +3,7 @@
 ## Project Rules
 
 - Keep extraction reproducible from the committed workbook in `sources/`.
+- Keep ThepExcel source attribution in public docs when changing source-data behavior.
 - Treat canonical JSON as the source for every generated format after extraction.
 - Do not hand-edit generated files under `dist/`; change extractors or generators instead.
 - The `build` command cleans `dist/` before writing new outputs. Read canonical data before cleanup if the command needs `dist/thai-postal-codes.json`.

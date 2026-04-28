@@ -16,6 +16,18 @@ npm install
 sources/thai-postal-codes.xlsx
 ```
 
+## แหล่งข้อมูลและเครดิต
+
+ข้อมูลตั้งต้นนำมาจาก ThepExcel: [ฐานข้อมูลตำบล อำเภอ จังหวัด รหัสไปรษณีย์ ของประเทศไทย V3](https://www.thepexcel.com/thailand-tambon-database/)
+
+ไฟล์ Excel ตัวอย่างอยู่ที่ GitHub ของ ThepExcel:
+
+```text
+https://github.com/ThepExcel/download/blob/master/ThepExcel-Thailand-Tambon.xlsx
+```
+
+โปรเจกต์นี้เป็นเครื่องมือแปลง format เพื่อให้นำข้อมูลไปใช้ต่อได้ง่ายขึ้น ไม่ใช่แหล่งข้อมูลราชการหรือ official database โปรดตรวจสอบความถูกต้องกับแหล่งข้อมูลที่เหมาะสมก่อนใช้ในงานสำคัญ
+
 ## Extract ข้อมูลจาก XLSX
 
 ```bash

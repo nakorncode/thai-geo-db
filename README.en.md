@@ -16,6 +16,18 @@ Place the source workbook at:
 sources/thai-postal-codes.xlsx
 ```
 
+## Data Source and Credit
+
+The source data comes from ThepExcel: [Thailand Tambon, District, Province, and Postal Code Database V3](https://www.thepexcel.com/thailand-tambon-database/)
+
+The example Excel workbook is available from ThepExcel on GitHub:
+
+```text
+https://github.com/ThepExcel/download/blob/master/ThepExcel-Thailand-Tambon.xlsx
+```
+
+This project only converts the workbook into reusable formats. It is not an official government database. Please verify the data with appropriate sources before using it in critical work.
+
 ## Extract Data from XLSX
 
 ```bash
