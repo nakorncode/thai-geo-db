@@ -2,9 +2,13 @@ import ExcelJS from 'exceljs';
 import { normalizeRecords, normalizeText } from './normalize.js';
 
 const HEADER_ALIASES = {
+  tambonId: ['tambonid', 'subdistrictid'],
   province: ['province', 'provincethai', 'จังหวัด'],
-  district: ['district', 'districtthai', 'districtthaishort', 'อำเภอ', 'อําเภอ', 'เขต'],
-  subdistrict: ['subdistrict', 'tambonthai', 'tambonthaishort', 'ตำบล', 'ตําบล', 'แขวง'],
+  provinceEn: ['provinceeng', 'provinceen'],
+  district: ['districtthaishort', 'district', 'districtthai', 'อำเภอ', 'อําเภอ', 'เขต'],
+  districtEn: ['districtengshort', 'districteng', 'districten'],
+  subdistrict: ['tambonthaishort', 'subdistrict', 'tambonthai', 'ตำบล', 'ตําบล', 'แขวง'],
+  subdistrictEn: ['tambonengshort', 'subdistricteng', 'tamboneng', 'subdistricten'],
   postalCode: ['postalcode', 'post_code', 'postcode', 'zip', 'zipcode', 'รหัสไปรษณีย์']
 };
 
@@ -29,14 +33,63 @@ export async function extractPostalCodesFromXlsx(sourcePath, options = {}) {
     throw new Error(`Missing required column(s): ${missing.join(', ')}`);
   }
 
+  const tambonDatabase = readTambonDatabase(workbook);
   const rawRows = rows.slice(1).map((row) => ({
+    tambonId: headerMap.tambonId === undefined ? undefined : row[headerMap.tambonId],
     province: row[headerMap.province],
+    provinceEn: valueWithTambonFallback(row, headerMap.provinceEn, tambonDatabase, headerMap.tambonId, 'provinceEn'),
     district: row[headerMap.district],
+    districtEn: valueWithTambonFallback(row, headerMap.districtEn, tambonDatabase, headerMap.tambonId, 'districtEn'),
     subdistrict: row[headerMap.subdistrict],
+    subdistrictEn: valueWithTambonFallback(row, headerMap.subdistrictEn, tambonDatabase, headerMap.tambonId, 'subdistrictEn'),
     postalCode: row[headerMap.postalCode]
   }));
 
-  return normalizeRecords(rawRows);
+  return normalizeRecords(rawRows, { slugStyle: options.slugStyle });
+}
+
+function readTambonDatabase(workbook) {
+  const table = findWorkbookTable(workbook, 'ThepExcelTambon') ?? findWorkbookTable(workbook, 'TambonDatabase');
+  if (!table) {
+    return new Map();
+  }
+
+  const rows = readTableRows(table.worksheet, table.ref);
+  if (rows.length === 0) {
+    return new Map();
+  }
+
+  const headerMap = mapHeaders(rows[0]);
+  if (headerMap.tambonId === undefined) {
+    return new Map();
+  }
+
+  const tambons = new Map();
+  for (const row of rows.slice(1)) {
+    const tambonId = normalizeText(row[headerMap.tambonId]);
+    if (!tambonId) {
+      continue;
+    }
+
+    tambons.set(tambonId, {
+      provinceEn: headerMap.provinceEn === undefined ? '' : row[headerMap.provinceEn],
+      districtEn: headerMap.districtEn === undefined ? '' : row[headerMap.districtEn],
+      subdistrictEn: headerMap.subdistrictEn === undefined ? '' : row[headerMap.subdistrictEn]
+    });
+  }
+
+  return tambons;
+}
+
+function valueWithTambonFallback(row, columnIndex, tambonDatabase, tambonIdColumnIndex, field) {
+  if (columnIndex !== undefined) {
+    return row[columnIndex];
+  }
+  if (tambonIdColumnIndex === undefined) {
+    return undefined;
+  }
+  const tambonId = normalizeText(row[tambonIdColumnIndex]);
+  return tambonDatabase.get(tambonId)?.[field];
 }
 
 function findWorkbookTable(workbook, tableName) {
@@ -128,10 +181,12 @@ function mapHeaders(headerRow) {
   const mapped = {};
 
   for (const [field, aliases] of Object.entries(HEADER_ALIASES)) {
-    const aliasSet = new Set(aliases.map(normalizeHeader));
-    const index = normalizedHeaders.findIndex((header) => aliasSet.has(header));
-    if (index !== -1) {
-      mapped[field] = index;
+    for (const alias of aliases.map(normalizeHeader)) {
+      const index = normalizedHeaders.findIndex((header) => header === alias);
+      if (index !== -1) {
+        mapped[field] = index;
+        break;
+      }
     }
   }
 

@@ -1,78 +1,78 @@
-id	name	slug
-1	กระบี่	กระบี่
-2	กรุงเทพมหานคร	กรุงเทพมหานคร
-3	กาญจนบุรี	กาญจนบุรี
-4	กาฬสินธุ์	กาฬสินธุ์
-5	กำแพงเพชร	กำแพงเพชร
-6	ขอนแก่น	ขอนแก่น
-7	จันทบุรี	จันทบุรี
-8	ฉะเชิงเทรา	ฉะเชิงเทรา
-9	ชลบุรี	ชลบุรี
-10	ชัยนาท	ชัยนาท
-11	ชัยภูมิ	ชัยภูมิ
-12	ชุมพร	ชุมพร
-13	เชียงราย	เชียงราย
-14	เชียงใหม่	เชียงใหม่
-15	ตรัง	ตรัง
-16	ตราด	ตราด
-17	ตาก	ตาก
-18	นครนายก	นครนายก
-19	นครปฐม	นครปฐม
-20	นครพนม	นครพนม
-21	นครราชสีมา	นครราชสีมา
-22	นครศรีธรรมราช	นครศรีธรรมราช
-23	นครสวรรค์	นครสวรรค์
-24	นนทบุรี	นนทบุรี
-25	นราธิวาส	นราธิวาส
-26	น่าน	น่าน
-27	บึงกาฬ	บึงกาฬ
-28	บุรีรัมย์	บุรีรัมย์
-29	ปทุมธานี	ปทุมธานี
-30	ประจวบคีรีขันธ์	ประจวบคีรีขันธ์
-31	ปราจีนบุรี	ปราจีนบุรี
-32	ปัตตานี	ปัตตานี
-33	พระนครศรีอยุธยา	พระนครศรีอยุธยา
-34	พะเยา	พะเยา
-35	พังงา	พังงา
-36	พัทลุง	พัทลุง
-37	พิจิตร	พิจิตร
-38	พิษณุโลก	พิษณุโลก
-39	เพชรบุรี	เพชรบุรี
-40	เพชรบูรณ์	เพชรบูรณ์
-41	แพร่	แพร่
-42	ภูเก็ต	ภูเก็ต
-43	มหาสารคาม	มหาสารคาม
-44	มุกดาหาร	มุกดาหาร
-45	แม่ฮ่องสอน	แม่ฮ่องสอน
-46	ยโสธร	ยโสธร
-47	ยะลา	ยะลา
-48	ร้อยเอ็ด	ร้อยเอ็ด
-49	ระนอง	ระนอง
-50	ระยอง	ระยอง
-51	ราชบุรี	ราชบุรี
-52	ลพบุรี	ลพบุรี
-53	ลำปาง	ลำปาง
-54	ลำพูน	ลำพูน
-55	เลย	เลย
-56	ศรีสะเกษ	ศรีสะเกษ
-57	สกลนคร	สกลนคร
-58	สงขลา	สงขลา
-59	สตูล	สตูล
-60	สมุทรปราการ	สมุทรปราการ
-61	สมุทรสงคราม	สมุทรสงคราม
-62	สมุทรสาคร	สมุทรสาคร
-63	สระแก้ว	สระแก้ว
-64	สระบุรี	สระบุรี
-65	สิงห์บุรี	สิงห์บุรี
-66	สุโขทัย	สุโขทัย
-67	สุพรรณบุรี	สุพรรณบุรี
-68	สุราษฎร์ธานี	สุราษฎร์ธานี
-69	สุรินทร์	สุรินทร์
-70	หนองคาย	หนองคาย
-71	หนองบัวลำภู	หนองบัวลำภู
-72	อ่างทอง	อ่างทอง
-73	อำนาจเจริญ	อำนาจเจริญ
-74	อุดรธานี	อุดรธานี
-75	อุตรดิตถ์	อุตรดิตถ์
-76	อุทัยธานี	อุทัยธานี
-77	อุบลราชธานี	อุบลราชธานี
+id	name	nameEn	slug
+1	กระบี่	Krabi	krabi
+2	กรุงเทพมหานคร	Bangkok	bangkok
+3	กาญจนบุรี	Kanchanaburi	kanchanaburi
+4	กาฬสินธุ์	Kalasin	kalasin
+5	กำแพงเพชร	Kamphaeng Phet	kamphaeng-phet
+6	ขอนแก่น	Khon Kaen	khon-kaen
+7	จันทบุรี	Chanthaburi	chanthaburi
+8	ฉะเชิงเทรา	Chachoengsao	chachoengsao
+9	ชลบุรี	Chon Buri	chon-buri
+10	ชัยนาท	Chai Nat	chai-nat
+11	ชัยภูมิ	Chaiyaphum	chaiyaphum
+12	ชุมพร	Chumphon	chumphon
+13	เชียงราย	Chiang Rai	chiang-rai
+14	เชียงใหม่	Chiang Mai	chiang-mai
+15	ตรัง	Trang	trang
+16	ตราด	Trat	trat
+17	ตาก	Tak	tak
+18	นครนายก	Nakhon Nayok	nakhon-nayok
+19	นครปฐม	Nakhon Pathom	nakhon-pathom
+20	นครพนม	Nakhon Phanom	nakhon-phanom
+21	นครราชสีมา	Nakhon Ratchasima	nakhon-ratchasima
+22	นครศรีธรรมราช	Nakhon Si Thammarat	nakhon-si-thammarat
+23	นครสวรรค์	Nakhon Sawan	nakhon-sawan
+24	นนทบุรี	Nonthaburi	nonthaburi
+25	นราธิวาส	Narathiwat	narathiwat
+26	น่าน	Nan	nan
+27	บึงกาฬ	Bueng Kan	bueng-kan
+28	บุรีรัมย์	Buri Ram	buri-ram
+29	ปทุมธานี	Pathum Thani	pathum-thani
+30	ประจวบคีรีขันธ์	Prachuap Khiri Khan	prachuap-khiri-khan
+31	ปราจีนบุรี	Prachin Buri	prachin-buri
+32	ปัตตานี	Pattani	pattani
+33	พระนครศรีอยุธยา	Phra Nakhon Si Ayutthaya	phra-nakhon-si-ayutthaya
+34	พะเยา	Phayao	phayao
+35	พังงา	Phangnga	phangnga
+36	พัทลุง	Phatthalung	phatthalung
+37	พิจิตร	Phichit	phichit
+38	พิษณุโลก	Phitsanulok	phitsanulok
+39	เพชรบุรี	Phetchaburi	phetchaburi
+40	เพชรบูรณ์	Phetchabun	phetchabun
+41	แพร่	Phrae	phrae
+42	ภูเก็ต	Phuket	phuket
+43	มหาสารคาม	Maha Sarakham	maha-sarakham
+44	มุกดาหาร	Mukdahan	mukdahan
+45	แม่ฮ่องสอน	Mae Hong Son	mae-hong-son
+46	ยโสธร	Yasothon	yasothon
+47	ยะลา	Yala	yala
+48	ร้อยเอ็ด	Roi Et	roi-et
+49	ระนอง	Ranong	ranong
+50	ระยอง	Rayong	rayong
+51	ราชบุรี	Ratchaburi	ratchaburi
+52	ลพบุรี	Lop Buri	lop-buri
+53	ลำปาง	Lampang	lampang
+54	ลำพูน	Lamphun	lamphun
+55	เลย	Loei	loei
+56	ศรีสะเกษ	Si Sa Ket	si-sa-ket
+57	สกลนคร	Sakon Nakhon	sakon-nakhon
+58	สงขลา	Songkhla	songkhla
+59	สตูล	Satun	satun
+60	สมุทรปราการ	Samut Prakan	samut-prakan
+61	สมุทรสงคราม	Samut Songkhram	samut-songkhram
+62	สมุทรสาคร	Samut Sakhon	samut-sakhon
+63	สระแก้ว	Sa Kaeo	sa-kaeo
+64	สระบุรี	Saraburi	saraburi
+65	สิงห์บุรี	Sing Buri	sing-buri
+66	สุโขทัย	Sukhothai	sukhothai
+67	สุพรรณบุรี	Suphan Buri	suphan-buri
+68	สุราษฎร์ธานี	Surat Thani	surat-thani
+69	สุรินทร์	Surin	surin
+70	หนองคาย	Nong Khai	nong-khai
+71	หนองบัวลำภู	Nong Bua Lam Phu	nong-bua-lam-phu
+72	อ่างทอง	Ang Thong	ang-thong
+73	อำนาจเจริญ	Amnat Charoen	amnat-charoen
+74	อุดรธานี	Udon Thani	udon-thani
+75	อุตรดิตถ์	Uttaradit	uttaradit
+76	อุทัยธานี	Uthai Thani	uthai-thani
+77	อุบลราชธานี	Ubon Ratchathani	ubon-ratchathani

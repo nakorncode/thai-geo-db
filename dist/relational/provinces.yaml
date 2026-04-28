@@ -1,231 +1,308 @@
 - id: 1
   name: กระบี่
-  slug: กระบี่
+  nameEn: Krabi
+  slug: krabi
 - id: 2
   name: กรุงเทพมหานคร
-  slug: กรุงเทพมหานคร
+  nameEn: Bangkok
+  slug: bangkok
 - id: 3
   name: กาญจนบุรี
-  slug: กาญจนบุรี
+  nameEn: Kanchanaburi
+  slug: kanchanaburi
 - id: 4
   name: กาฬสินธุ์
-  slug: กาฬสินธุ์
+  nameEn: Kalasin
+  slug: kalasin
 - id: 5
   name: กำแพงเพชร
-  slug: กำแพงเพชร
+  nameEn: Kamphaeng Phet
+  slug: kamphaeng-phet
 - id: 6
   name: ขอนแก่น
-  slug: ขอนแก่น
+  nameEn: Khon Kaen
+  slug: khon-kaen
 - id: 7
   name: จันทบุรี
-  slug: จันทบุรี
+  nameEn: Chanthaburi
+  slug: chanthaburi
 - id: 8
   name: ฉะเชิงเทรา
-  slug: ฉะเชิงเทรา
+  nameEn: Chachoengsao
+  slug: chachoengsao
 - id: 9
   name: ชลบุรี
-  slug: ชลบุรี
+  nameEn: Chon Buri
+  slug: chon-buri
 - id: 10
   name: ชัยนาท
-  slug: ชัยนาท
+  nameEn: Chai Nat
+  slug: chai-nat
 - id: 11
   name: ชัยภูมิ
-  slug: ชัยภูมิ
+  nameEn: Chaiyaphum
+  slug: chaiyaphum
 - id: 12
   name: ชุมพร
-  slug: ชุมพร
+  nameEn: Chumphon
+  slug: chumphon
 - id: 13
   name: เชียงราย
-  slug: เชียงราย
+  nameEn: Chiang Rai
+  slug: chiang-rai
 - id: 14
   name: เชียงใหม่
-  slug: เชียงใหม่
+  nameEn: Chiang Mai
+  slug: chiang-mai
 - id: 15
   name: ตรัง
-  slug: ตรัง
+  nameEn: Trang
+  slug: trang
 - id: 16
   name: ตราด
-  slug: ตราด
+  nameEn: Trat
+  slug: trat
 - id: 17
   name: ตาก
-  slug: ตาก
+  nameEn: Tak
+  slug: tak
 - id: 18
   name: นครนายก
-  slug: นครนายก
+  nameEn: Nakhon Nayok
+  slug: nakhon-nayok
 - id: 19
   name: นครปฐม
-  slug: นครปฐม
+  nameEn: Nakhon Pathom
+  slug: nakhon-pathom
 - id: 20
   name: นครพนม
-  slug: นครพนม
+  nameEn: Nakhon Phanom
+  slug: nakhon-phanom
 - id: 21
   name: นครราชสีมา
-  slug: นครราชสีมา
+  nameEn: Nakhon Ratchasima
+  slug: nakhon-ratchasima
 - id: 22
   name: นครศรีธรรมราช
-  slug: นครศรีธรรมราช
+  nameEn: Nakhon Si Thammarat
+  slug: nakhon-si-thammarat
 - id: 23
   name: นครสวรรค์
-  slug: นครสวรรค์
+  nameEn: Nakhon Sawan
+  slug: nakhon-sawan
 - id: 24
   name: นนทบุรี
-  slug: นนทบุรี
+  nameEn: Nonthaburi
+  slug: nonthaburi
 - id: 25
   name: นราธิวาส
-  slug: นราธิวาส
+  nameEn: Narathiwat
+  slug: narathiwat
 - id: 26
   name: น่าน
-  slug: น่าน
+  nameEn: Nan
+  slug: nan
 - id: 27
   name: บึงกาฬ
-  slug: บึงกาฬ
+  nameEn: Bueng Kan
+  slug: bueng-kan
 - id: 28
   name: บุรีรัมย์
-  slug: บุรีรัมย์
+  nameEn: Buri Ram
+  slug: buri-ram
 - id: 29
   name: ปทุมธานี
-  slug: ปทุมธานี
+  nameEn: Pathum Thani
+  slug: pathum-thani
 - id: 30
   name: ประจวบคีรีขันธ์
-  slug: ประจวบคีรีขันธ์
+  nameEn: Prachuap Khiri Khan
+  slug: prachuap-khiri-khan
 - id: 31
   name: ปราจีนบุรี
-  slug: ปราจีนบุรี
+  nameEn: Prachin Buri
+  slug: prachin-buri
 - id: 32
   name: ปัตตานี
-  slug: ปัตตานี
+  nameEn: Pattani
+  slug: pattani
 - id: 33
   name: พระนครศรีอยุธยา
-  slug: พระนครศรีอยุธยา
+  nameEn: Phra Nakhon Si Ayutthaya
+  slug: phra-nakhon-si-ayutthaya
 - id: 34
   name: พะเยา
-  slug: พะเยา
+  nameEn: Phayao
+  slug: phayao
 - id: 35
   name: พังงา
-  slug: พังงา
+  nameEn: Phangnga
+  slug: phangnga
 - id: 36
   name: พัทลุง
-  slug: พัทลุง
+  nameEn: Phatthalung
+  slug: phatthalung
 - id: 37
   name: พิจิตร
-  slug: พิจิตร
+  nameEn: Phichit
+  slug: phichit
 - id: 38
   name: พิษณุโลก
-  slug: พิษณุโลก
+  nameEn: Phitsanulok
+  slug: phitsanulok
 - id: 39
   name: เพชรบุรี
-  slug: เพชรบุรี
+  nameEn: Phetchaburi
+  slug: phetchaburi
 - id: 40
   name: เพชรบูรณ์
-  slug: เพชรบูรณ์
+  nameEn: Phetchabun
+  slug: phetchabun
 - id: 41
   name: แพร่
-  slug: แพร่
+  nameEn: Phrae
+  slug: phrae
 - id: 42
   name: ภูเก็ต
-  slug: ภูเก็ต
+  nameEn: Phuket
+  slug: phuket
 - id: 43
   name: มหาสารคาม
-  slug: มหาสารคาม
+  nameEn: Maha Sarakham
+  slug: maha-sarakham
 - id: 44
   name: มุกดาหาร
-  slug: มุกดาหาร
+  nameEn: Mukdahan
+  slug: mukdahan
 - id: 45
   name: แม่ฮ่องสอน
-  slug: แม่ฮ่องสอน
+  nameEn: Mae Hong Son
+  slug: mae-hong-son
 - id: 46
   name: ยโสธร
-  slug: ยโสธร
+  nameEn: Yasothon
+  slug: yasothon
 - id: 47
   name: ยะลา
-  slug: ยะลา
+  nameEn: Yala
+  slug: yala
 - id: 48
   name: ร้อยเอ็ด
-  slug: ร้อยเอ็ด
+  nameEn: Roi Et
+  slug: roi-et
 - id: 49
   name: ระนอง
-  slug: ระนอง
+  nameEn: Ranong
+  slug: ranong
 - id: 50
   name: ระยอง
-  slug: ระยอง
+  nameEn: Rayong
+  slug: rayong
 - id: 51
   name: ราชบุรี
-  slug: ราชบุรี
+  nameEn: Ratchaburi
+  slug: ratchaburi
 - id: 52
   name: ลพบุรี
-  slug: ลพบุรี
+  nameEn: Lop Buri
+  slug: lop-buri
 - id: 53
   name: ลำปาง
-  slug: ลำปาง
+  nameEn: Lampang
+  slug: lampang
 - id: 54
   name: ลำพูน
-  slug: ลำพูน
+  nameEn: Lamphun
+  slug: lamphun
 - id: 55
   name: เลย
-  slug: เลย
+  nameEn: Loei
+  slug: loei
 - id: 56
   name: ศรีสะเกษ
-  slug: ศรีสะเกษ
+  nameEn: Si Sa Ket
+  slug: si-sa-ket
 - id: 57
   name: สกลนคร
-  slug: สกลนคร
+  nameEn: Sakon Nakhon
+  slug: sakon-nakhon
 - id: 58
   name: สงขลา
-  slug: สงขลา
+  nameEn: Songkhla
+  slug: songkhla
 - id: 59
   name: สตูล
-  slug: สตูล
+  nameEn: Satun
+  slug: satun
 - id: 60
   name: สมุทรปราการ
-  slug: สมุทรปราการ
+  nameEn: Samut Prakan
+  slug: samut-prakan
 - id: 61
   name: สมุทรสงคราม
-  slug: สมุทรสงคราม
+  nameEn: Samut Songkhram
+  slug: samut-songkhram
 - id: 62
   name: สมุทรสาคร
-  slug: สมุทรสาคร
+  nameEn: Samut Sakhon
+  slug: samut-sakhon
 - id: 63
   name: สระแก้ว
-  slug: สระแก้ว
+  nameEn: Sa Kaeo
+  slug: sa-kaeo
 - id: 64
   name: สระบุรี
-  slug: สระบุรี
+  nameEn: Saraburi
+  slug: saraburi
 - id: 65
   name: สิงห์บุรี
-  slug: สิงห์บุรี
+  nameEn: Sing Buri
+  slug: sing-buri
 - id: 66
   name: สุโขทัย
-  slug: สุโขทัย
+  nameEn: Sukhothai
+  slug: sukhothai
 - id: 67
   name: สุพรรณบุรี
-  slug: สุพรรณบุรี
+  nameEn: Suphan Buri
+  slug: suphan-buri
 - id: 68
   name: สุราษฎร์ธานี
-  slug: สุราษฎร์ธานี
+  nameEn: Surat Thani
+  slug: surat-thani
 - id: 69
   name: สุรินทร์
-  slug: สุรินทร์
+  nameEn: Surin
+  slug: surin
 - id: 70
   name: หนองคาย
-  slug: หนองคาย
+  nameEn: Nong Khai
+  slug: nong-khai
 - id: 71
   name: หนองบัวลำภู
-  slug: หนองบัวลำภู
+  nameEn: Nong Bua Lam Phu
+  slug: nong-bua-lam-phu
 - id: 72
   name: อ่างทอง
-  slug: อ่างทอง
+  nameEn: Ang Thong
+  slug: ang-thong
 - id: 73
   name: อำนาจเจริญ
-  slug: อำนาจเจริญ
+  nameEn: Amnat Charoen
+  slug: amnat-charoen
 - id: 74
   name: อุดรธานี
-  slug: อุดรธานี
+  nameEn: Udon Thani
+  slug: udon-thani
 - id: 75
   name: อุตรดิตถ์
-  slug: อุตรดิตถ์
+  nameEn: Uttaradit
+  slug: uttaradit
 - id: 76
   name: อุทัยธานี
-  slug: อุทัยธานี
+  nameEn: Uthai Thani
+  slug: uthai-thani
 - id: 77
   name: อุบลราชธานี
-  slug: อุบลราชธานี
+  nameEn: Ubon Ratchathani
+  slug: ubon-ratchathani

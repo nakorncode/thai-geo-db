@@ -14,6 +14,8 @@
 ## Data Rules
 
 - Canonical fields are `id`, `province`, `district`, `subdistrict`, `postalCode`, `provinceSlug`, `districtSlug`, and `subdistrictSlug`.
+- Canonical records also include English fields from `TambonDatabase`: `provinceEn`, `districtEn`, and `subdistrictEn`.
+- Prefer English names for generated slugs; fall back to Thai names when English is missing.
 - Postal codes must be stored as strings.
 - Sort records by province, district, subdistrict, and postal code.
 - Deduplicate exact province/district/subdistrict/postal-code combinations.

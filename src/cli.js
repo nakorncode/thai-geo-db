@@ -2,7 +2,7 @@
 import { existsSync } from 'node:fs';
 import { Command } from 'commander';
 import { checkbox, confirm, input } from '@inquirer/prompts';
-import { ALL_FORMATS, DEFAULT_OUTPUT_DIR, DEFAULT_SOURCE, DEFAULT_SQL_OPTIONS, DEFAULT_TABLE_NAME } from './defaults.js';
+import { ALL_FORMATS, DEFAULT_OUTPUT_DIR, DEFAULT_SLUG_STYLE, DEFAULT_SOURCE, DEFAULT_SQL_OPTIONS, DEFAULT_TABLE_NAME, SLUG_STYLES } from './defaults.js';
 import { extractPostalCodesFromXlsx } from './extract.js';
 import { generateOutputs, readCanonicalRecords, writeCanonicalRecords } from './generate.js';
 
@@ -19,9 +19,10 @@ program
   .option('-s, --source <path>', 'source XLSX path', DEFAULT_SOURCE)
   .option('-t, --table <name>', 'Excel table name', DEFAULT_TABLE_NAME)
   .option('-o, --output-dir <dir>', 'output directory', DEFAULT_OUTPUT_DIR)
+  .option('--slug-style <style>', `slug style: ${SLUG_STYLES.join(', ')}`, DEFAULT_SLUG_STYLE)
   .action(async (options) => {
     await requireExistingFile(options.source);
-    const records = await extractPostalCodesFromXlsx(options.source, { tableName: options.table });
+    const records = await extractPostalCodesFromXlsx(options.source, { tableName: options.table, slugStyle: options.slugStyle });
     const filePath = await writeCanonicalRecords(records, options.outputDir);
     console.log(`Extracted ${records.length} records to ${filePath}`);
   });
@@ -34,8 +35,11 @@ program
   .option('--table <name>', 'SQL table name', DEFAULT_SQL_OPTIONS.tableName)
   .option('--column-id <name>', 'SQL id column name', DEFAULT_SQL_OPTIONS.columns.id)
   .option('--column-province <name>', 'SQL province column name', DEFAULT_SQL_OPTIONS.columns.province)
+  .option('--column-province-en <name>', 'SQL province English column name', DEFAULT_SQL_OPTIONS.columns.provinceEn)
   .option('--column-district <name>', 'SQL district column name', DEFAULT_SQL_OPTIONS.columns.district)
+  .option('--column-district-en <name>', 'SQL district English column name', DEFAULT_SQL_OPTIONS.columns.districtEn)
   .option('--column-subdistrict <name>', 'SQL subdistrict column name', DEFAULT_SQL_OPTIONS.columns.subdistrict)
+  .option('--column-subdistrict-en <name>', 'SQL subdistrict English column name', DEFAULT_SQL_OPTIONS.columns.subdistrictEn)
   .option('--column-postal-code <name>', 'SQL postal code column name', DEFAULT_SQL_OPTIONS.columns.postalCode)
   .option('--db-layout <layout>', 'DB output layout: combined, relational, or both', DEFAULT_SQL_OPTIONS.dbLayout)
   .option('--table-provinces <name>', 'relational provinces table/collection name', DEFAULT_SQL_OPTIONS.relationalTables.provinces)
@@ -61,12 +65,13 @@ program
   .action(async () => {
     const source = await input({ message: 'Source XLSX path', default: DEFAULT_SOURCE });
     const tableName = await input({ message: 'Excel table name', default: DEFAULT_TABLE_NAME });
+    const slugStyle = await input({ message: `Slug style (${SLUG_STYLES.join(', ')})`, default: DEFAULT_SLUG_STYLE });
     const outputDir = await input({ message: 'Output directory', default: DEFAULT_OUTPUT_DIR });
     const shouldExtract = await confirm({ message: 'Extract canonical JSON before building outputs?', default: true });
 
     if (shouldExtract) {
       await requireExistingFile(source);
-      const records = await extractPostalCodesFromXlsx(source, { tableName });
+      const records = await extractPostalCodesFromXlsx(source, { tableName, slugStyle });
       await writeCanonicalRecords(records, outputDir);
       console.log(`Extracted ${records.length} records.`);
     }
@@ -79,8 +84,11 @@ program
     const table = await input({ message: 'SQL table name', default: DEFAULT_SQL_OPTIONS.tableName });
     const columnId = await input({ message: 'SQL id column', default: DEFAULT_SQL_OPTIONS.columns.id });
     const columnProvince = await input({ message: 'SQL province column', default: DEFAULT_SQL_OPTIONS.columns.province });
+    const columnProvinceEn = await input({ message: 'SQL province English column', default: DEFAULT_SQL_OPTIONS.columns.provinceEn });
     const columnDistrict = await input({ message: 'SQL district column', default: DEFAULT_SQL_OPTIONS.columns.district });
+    const columnDistrictEn = await input({ message: 'SQL district English column', default: DEFAULT_SQL_OPTIONS.columns.districtEn });
     const columnSubdistrict = await input({ message: 'SQL subdistrict column', default: DEFAULT_SQL_OPTIONS.columns.subdistrict });
+    const columnSubdistrictEn = await input({ message: 'SQL subdistrict English column', default: DEFAULT_SQL_OPTIONS.columns.subdistrictEn });
     const columnPostalCode = await input({ message: 'SQL postal code column', default: DEFAULT_SQL_OPTIONS.columns.postalCode });
     const dropTable = await confirm({ message: 'Include DROP TABLE?', default: false });
     const createTable = await confirm({ message: 'Include CREATE TABLE?', default: true });
@@ -100,8 +108,11 @@ program
       table,
       columnId,
       columnProvince,
+      columnProvinceEn,
       columnDistrict,
+      columnDistrictEn,
       columnSubdistrict,
+      columnSubdistrictEn,
       columnPostalCode,
       dropTable,
       createTable,
@@ -146,8 +157,11 @@ function buildGenerateOptions(options) {
       columns: {
         id: options.columnId,
         province: options.columnProvince,
+        provinceEn: options.columnProvinceEn,
         district: options.columnDistrict,
+        districtEn: options.columnDistrictEn,
         subdistrict: options.columnSubdistrict,
+        subdistrictEn: options.columnSubdistrictEn,
         postalCode: options.columnPostalCode
       },
       dropTable: options.dropTable,

@@ -101,9 +101,9 @@ async function writeYamlOutputs(records, outputDir) {
 async function writeRelationalDataOutputs(outputDir, extension, data, serialize) {
   const directory = path.join(outputDir, 'relational');
   const files = [
-    ['provinces', data.provinces, ['id', 'name', 'slug']],
-    ['districts', data.districts, ['id', 'provinceId', 'name', 'slug']],
-    ['subdistricts', data.subdistricts, ['id', 'districtId', 'name', 'slug']],
+    ['provinces', data.provinces, ['id', 'name', 'nameEn', 'slug']],
+    ['districts', data.districts, ['id', 'provinceId', 'name', 'nameEn', 'slug']],
+    ['subdistricts', data.subdistricts, ['id', 'districtId', 'name', 'nameEn', 'slug']],
     ['postal-codes', data.postalCodes, ['id', 'subdistrictId', 'postalCode']]
   ];
   const written = [];
@@ -123,7 +123,7 @@ async function writeFileOutput(directory, filename, content) {
 }
 
 function combinedColumns() {
-  return ['id', 'province', 'district', 'subdistrict', 'postalCode', 'provinceSlug', 'districtSlug', 'subdistrictSlug'];
+  return ['id', 'province', 'provinceEn', 'district', 'districtEn', 'subdistrict', 'subdistrictEn', 'postalCode', 'provinceSlug', 'districtSlug', 'subdistrictSlug'];
 }
 
 function toCsv(records, columns) {
@@ -154,12 +154,14 @@ export function toPostgresqlRelational(records, options = {}) {
       `CREATE TABLE IF NOT EXISTS ${tableNames.provinces} (`,
       '  id INTEGER PRIMARY KEY,',
       '  name TEXT NOT NULL UNIQUE,',
+      '  name_en TEXT NOT NULL,',
       '  slug TEXT NOT NULL',
       ');',
       `CREATE TABLE IF NOT EXISTS ${tableNames.districts} (`,
       '  id INTEGER PRIMARY KEY,',
       `  province_id INTEGER NOT NULL REFERENCES ${tableNames.provinces}(id),`,
       '  name TEXT NOT NULL,',
+      '  name_en TEXT NOT NULL,',
       '  slug TEXT NOT NULL,',
       '  UNIQUE (province_id, name)',
       ');',
@@ -167,6 +169,7 @@ export function toPostgresqlRelational(records, options = {}) {
       '  id INTEGER PRIMARY KEY,',
       `  district_id INTEGER NOT NULL REFERENCES ${tableNames.districts}(id),`,
       '  name TEXT NOT NULL,',
+      '  name_en TEXT NOT NULL,',
       '  slug TEXT NOT NULL,',
       '  UNIQUE (district_id, name)',
       ');',
@@ -217,8 +220,11 @@ export function toPostgresql(records, options = {}) {
       `CREATE TABLE IF NOT EXISTS ${table} (`,
       `  ${pgIdentifier(sqlOptions.columns.id)} INTEGER PRIMARY KEY,`,
       `  ${pgIdentifier(sqlOptions.columns.province)} TEXT NOT NULL,`,
+      `  ${pgIdentifier(sqlOptions.columns.provinceEn)} TEXT NOT NULL,`,
       `  ${pgIdentifier(sqlOptions.columns.district)} TEXT NOT NULL,`,
+      `  ${pgIdentifier(sqlOptions.columns.districtEn)} TEXT NOT NULL,`,
       `  ${pgIdentifier(sqlOptions.columns.subdistrict)} TEXT NOT NULL,`,
+      `  ${pgIdentifier(sqlOptions.columns.subdistrictEn)} TEXT NOT NULL,`,
       `  ${pgIdentifier(sqlOptions.columns.postalCode)} VARCHAR(5) NOT NULL`,
       ');'
     );
@@ -226,7 +232,7 @@ export function toPostgresql(records, options = {}) {
 
   if (sqlOptions.insertRows && records.length > 0) {
     lines.push(`INSERT INTO ${table} (${columns}) VALUES`);
-    lines.push(records.map((record) => `  (${record.id}, ${sqlString(record.province)}, ${sqlString(record.district)}, ${sqlString(record.subdistrict)}, ${sqlString(record.postalCode)})`).join(',\n') + ';');
+    lines.push(records.map((record) => `  (${record.id}, ${sqlString(record.province)}, ${sqlString(record.provinceEn)}, ${sqlString(record.district)}, ${sqlString(record.districtEn)}, ${sqlString(record.subdistrict)}, ${sqlString(record.subdistrictEn)}, ${sqlString(record.postalCode)})`).join(',\n') + ';');
   }
 
   return `${lines.join('\n')}\n`;
@@ -252,6 +258,7 @@ export function toMysqlRelational(records, options = {}) {
       `CREATE TABLE IF NOT EXISTS ${tableNames.provinces} (`,
       '  `id` INT PRIMARY KEY,',
       '  `name` TEXT NOT NULL,',
+      '  `name_en` TEXT NOT NULL,',
       '  `slug` TEXT NOT NULL,',
       '  UNIQUE KEY `provinces_name_unique` (`name`(191))',
       ') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;',
@@ -259,6 +266,7 @@ export function toMysqlRelational(records, options = {}) {
       '  `id` INT PRIMARY KEY,',
       '  `province_id` INT NOT NULL,',
       '  `name` TEXT NOT NULL,',
+      '  `name_en` TEXT NOT NULL,',
       '  `slug` TEXT NOT NULL,',
       '  UNIQUE KEY `districts_province_name_unique` (`province_id`, `name`(191)),',
       `  CONSTRAINT \`districts_province_id_fk\` FOREIGN KEY (\`province_id\`) REFERENCES ${tableNames.provinces}(\`id\`)`,
@@ -267,6 +275,7 @@ export function toMysqlRelational(records, options = {}) {
       '  `id` INT PRIMARY KEY,',
       '  `district_id` INT NOT NULL,',
       '  `name` TEXT NOT NULL,',
+      '  `name_en` TEXT NOT NULL,',
       '  `slug` TEXT NOT NULL,',
       '  UNIQUE KEY `subdistricts_district_name_unique` (`district_id`, `name`(191)),',
       `  CONSTRAINT \`subdistricts_district_id_fk\` FOREIGN KEY (\`district_id\`) REFERENCES ${tableNames.districts}(\`id\`)`,
@@ -303,8 +312,11 @@ export function toMysql(records, options = {}) {
       `CREATE TABLE IF NOT EXISTS ${table} (`,
       `  ${mysqlIdentifier(sqlOptions.columns.id)} INT PRIMARY KEY,`,
       `  ${mysqlIdentifier(sqlOptions.columns.province)} TEXT NOT NULL,`,
+      `  ${mysqlIdentifier(sqlOptions.columns.provinceEn)} TEXT NOT NULL,`,
       `  ${mysqlIdentifier(sqlOptions.columns.district)} TEXT NOT NULL,`,
+      `  ${mysqlIdentifier(sqlOptions.columns.districtEn)} TEXT NOT NULL,`,
       `  ${mysqlIdentifier(sqlOptions.columns.subdistrict)} TEXT NOT NULL,`,
+      `  ${mysqlIdentifier(sqlOptions.columns.subdistrictEn)} TEXT NOT NULL,`,
       `  ${mysqlIdentifier(sqlOptions.columns.postalCode)} VARCHAR(5) NOT NULL`,
       ') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;'
     );
@@ -312,7 +324,7 @@ export function toMysql(records, options = {}) {
 
   if (sqlOptions.insertRows && records.length > 0) {
     lines.push(`INSERT INTO ${table} (${columns}) VALUES`);
-    lines.push(records.map((record) => `  (${record.id}, ${sqlString(record.province)}, ${sqlString(record.district)}, ${sqlString(record.subdistrict)}, ${sqlString(record.postalCode)})`).join(',\n') + ';');
+    lines.push(records.map((record) => `  (${record.id}, ${sqlString(record.province)}, ${sqlString(record.provinceEn)}, ${sqlString(record.district)}, ${sqlString(record.districtEn)}, ${sqlString(record.subdistrict)}, ${sqlString(record.subdistrictEn)}, ${sqlString(record.postalCode)})`).join(',\n') + ';');
   }
 
   return `${lines.join('\n')}\n`;
@@ -359,7 +371,7 @@ export function toRelationalData(records) {
     if (!provinceId) {
       provinceId = provinces.length + 1;
       provinceIds.set(provinceKey, provinceId);
-      provinces.push({ id: provinceId, name: record.province, slug: record.provinceSlug });
+      provinces.push({ id: provinceId, name: record.province, nameEn: record.provinceEn, slug: record.provinceSlug });
     }
 
     const districtKey = `${provinceId}\u001f${record.district}`;
@@ -367,7 +379,7 @@ export function toRelationalData(records) {
     if (!districtId) {
       districtId = districts.length + 1;
       districtIds.set(districtKey, districtId);
-      districts.push({ id: districtId, provinceId, name: record.district, slug: record.districtSlug });
+      districts.push({ id: districtId, provinceId, name: record.district, nameEn: record.districtEn, slug: record.districtSlug });
     }
 
     const subdistrictKey = `${districtId}\u001f${record.subdistrict}`;
@@ -375,7 +387,7 @@ export function toRelationalData(records) {
     if (!subdistrictId) {
       subdistrictId = subdistricts.length + 1;
       subdistrictIds.set(subdistrictKey, subdistrictId);
-      subdistricts.push({ id: subdistrictId, districtId, name: record.subdistrict, slug: record.subdistrictSlug });
+      subdistricts.push({ id: subdistrictId, districtId, name: record.subdistrict, nameEn: record.subdistrictEn, slug: record.subdistrictSlug });
     }
 
     const postalCodeKey = `${subdistrictId}\u001f${record.postalCode}`;
@@ -446,16 +458,16 @@ function relationalTableNames(names, quoteIdentifier) {
 
 function pushRelationalInserts(lines, data, tableNames, quoteIdentifier) {
   if (data.provinces.length > 0) {
-    lines.push(`INSERT INTO ${tableNames.provinces} (${quoteIdentifier('id')}, ${quoteIdentifier('name')}, ${quoteIdentifier('slug')}) VALUES`);
-    lines.push(data.provinces.map((row) => `  (${row.id}, ${sqlString(row.name)}, ${sqlString(row.slug)})`).join(',\n') + ';');
+    lines.push(`INSERT INTO ${tableNames.provinces} (${quoteIdentifier('id')}, ${quoteIdentifier('name')}, ${quoteIdentifier('name_en')}, ${quoteIdentifier('slug')}) VALUES`);
+    lines.push(data.provinces.map((row) => `  (${row.id}, ${sqlString(row.name)}, ${sqlString(row.nameEn)}, ${sqlString(row.slug)})`).join(',\n') + ';');
   }
   if (data.districts.length > 0) {
-    lines.push(`INSERT INTO ${tableNames.districts} (${quoteIdentifier('id')}, ${quoteIdentifier('province_id')}, ${quoteIdentifier('name')}, ${quoteIdentifier('slug')}) VALUES`);
-    lines.push(data.districts.map((row) => `  (${row.id}, ${row.provinceId}, ${sqlString(row.name)}, ${sqlString(row.slug)})`).join(',\n') + ';');
+    lines.push(`INSERT INTO ${tableNames.districts} (${quoteIdentifier('id')}, ${quoteIdentifier('province_id')}, ${quoteIdentifier('name')}, ${quoteIdentifier('name_en')}, ${quoteIdentifier('slug')}) VALUES`);
+    lines.push(data.districts.map((row) => `  (${row.id}, ${row.provinceId}, ${sqlString(row.name)}, ${sqlString(row.nameEn)}, ${sqlString(row.slug)})`).join(',\n') + ';');
   }
   if (data.subdistricts.length > 0) {
-    lines.push(`INSERT INTO ${tableNames.subdistricts} (${quoteIdentifier('id')}, ${quoteIdentifier('district_id')}, ${quoteIdentifier('name')}, ${quoteIdentifier('slug')}) VALUES`);
-    lines.push(data.subdistricts.map((row) => `  (${row.id}, ${row.districtId}, ${sqlString(row.name)}, ${sqlString(row.slug)})`).join(',\n') + ';');
+    lines.push(`INSERT INTO ${tableNames.subdistricts} (${quoteIdentifier('id')}, ${quoteIdentifier('district_id')}, ${quoteIdentifier('name')}, ${quoteIdentifier('name_en')}, ${quoteIdentifier('slug')}) VALUES`);
+    lines.push(data.subdistricts.map((row) => `  (${row.id}, ${row.districtId}, ${sqlString(row.name)}, ${sqlString(row.nameEn)}, ${sqlString(row.slug)})`).join(',\n') + ';');
   }
   if (data.postalCodes.length > 0) {
     lines.push(`INSERT INTO ${tableNames.postalCodes} (${quoteIdentifier('id')}, ${quoteIdentifier('subdistrict_id')}, ${quoteIdentifier('postal_code')}) VALUES`);
@@ -479,7 +491,7 @@ function mergeSqlOptions(options = {}) {
 }
 
 function sqlColumnList(columns, quoteIdentifier) {
-  return [columns.id, columns.province, columns.district, columns.subdistrict, columns.postalCode]
+  return [columns.id, columns.province, columns.provinceEn, columns.district, columns.districtEn, columns.subdistrict, columns.subdistrictEn, columns.postalCode]
     .map(quoteIdentifier)
     .join(', ');
 }
@@ -493,5 +505,5 @@ function mysqlIdentifier(value) {
 }
 
 function sqlString(value) {
-  return `'${String(value).replace(/'/g, "''")}'`;
+  return `'${String(value ?? '').replace(/'/g, "''")}'`;
 }

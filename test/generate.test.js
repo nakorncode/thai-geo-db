@@ -9,8 +9,11 @@ const records = [
   {
     id: 1,
     province: "กรุงเทพ'มหานคร",
+    provinceEn: 'Bangkok',
     district: 'พระนคร',
+    districtEn: 'Phra Nakhon',
     subdistrict: 'พระบรมมหาราชวัง',
+    subdistrictEn: 'Phra Borom Maha Ratchawang',
     postalCode: '10200',
     provinceSlug: 'กรุงเทพ-มหานคร',
     districtSlug: 'พระนคร',
@@ -19,8 +22,11 @@ const records = [
   {
     id: 2,
     province: "กรุงเทพ'มหานคร",
+    provinceEn: 'Bangkok',
     district: 'พระนคร',
+    districtEn: 'Phra Nakhon',
     subdistrict: 'วังบูรพาภิรมย์',
+    subdistrictEn: 'Wang Burapha Phirom',
     postalCode: '10200',
     provinceSlug: 'กรุงเทพ-มหานคร',
     districtSlug: 'พระนคร',
@@ -29,8 +35,11 @@ const records = [
   {
     id: 3,
     province: 'เชียงใหม่',
+    provinceEn: 'Chiang Mai',
     district: 'เมืองเชียงใหม่',
+    districtEn: 'Mueang Chiang Mai',
     subdistrict: 'ศรีภูมิ',
+    subdistrictEn: 'Si Phum',
     postalCode: '50200',
     provinceSlug: 'เชียงใหม่',
     districtSlug: 'เมืองเชียงใหม่',
@@ -46,12 +55,12 @@ test('generates core text formats', async () => {
 
     assert.match(await readFile(path.join(directory, 'thai-postal-codes.json'), 'utf8'), /"postalCode": "10200"/);
     assert.match(await readFile(path.join(directory, 'thai-postal-codes.jsonl'), 'utf8'), /"province"/);
-    assert.match(await readFile(path.join(directory, 'thai-postal-codes.csv'), 'utf8'), /^id,province,district/m);
+    assert.match(await readFile(path.join(directory, 'thai-postal-codes.csv'), 'utf8'), /^id,province,provinceEn,district/m);
     assert.match(await readFile(path.join(directory, 'thai-postal-codes.txt'), 'utf8'), /^พระบรมมหาราชวัง\tพระนคร\tกรุงเทพ'มหานคร\t10200/m);
     assert.match(await readFile(path.join(directory, 'thai-postal-codes.yaml'), 'utf8'), /postalCode: "10200"/);
     assert.match(await readFile(path.join(directory, 'relational', 'provinces.json'), 'utf8'), /"name": "เชียงใหม่"/);
-    assert.match(await readFile(path.join(directory, 'relational', 'districts.csv'), 'utf8'), /^id,provinceId,name,slug/m);
-    assert.match(await readFile(path.join(directory, 'relational', 'subdistricts.txt'), 'utf8'), /^id\tdistrictId\tname\tslug/m);
+    assert.match(await readFile(path.join(directory, 'relational', 'districts.csv'), 'utf8'), /^id,provinceId,name,nameEn,slug/m);
+    assert.match(await readFile(path.join(directory, 'relational', 'subdistricts.txt'), 'utf8'), /^id\tdistrictId\tname\tnameEn\tslug/m);
     assert.match(await readFile(path.join(directory, 'relational', 'postal-codes.yaml'), 'utf8'), /postalCode: "50200"/);
   } finally {
     await rm(directory, { recursive: true, force: true });
@@ -77,7 +86,7 @@ test('builds relational data with stable foreign keys', () => {
   assert.equal(data.districts.length, 2);
   assert.equal(data.subdistricts.length, 3);
   assert.equal(data.postalCodes.length, 3);
-  assert.deepEqual(data.districts[0], { id: 1, provinceId: 1, name: 'พระนคร', slug: 'พระนคร' });
+  assert.deepEqual(data.districts[0], { id: 1, provinceId: 1, name: 'พระนคร', nameEn: 'Phra Nakhon', slug: 'พระนคร' });
   assert.deepEqual(data.postalCodes[0], { id: 1, subdistrictId: 1, postalCode: '10200' });
 });
 
@@ -88,6 +97,7 @@ test('generates relational postgresql sql', () => {
   assert.match(sql, /CREATE TABLE IF NOT EXISTS districts/);
   assert.match(sql, /CREATE TABLE IF NOT EXISTS subdistricts/);
   assert.match(sql, /CREATE TABLE IF NOT EXISTS postal_codes/);
+  assert.match(sql, /name_en TEXT NOT NULL/);
   assert.match(sql, /province_id INTEGER NOT NULL REFERENCES provinces\(id\)/);
   assert.match(sql, /INSERT INTO postal_codes \(id, subdistrict_id, postal_code\) VALUES/);
 });

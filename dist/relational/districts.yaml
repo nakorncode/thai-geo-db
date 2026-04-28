@@ -1,3712 +1,4640 @@
 - id: 1
   provinceId: 1
   name: เกาะลันตา
-  slug: เกาะลันตา
+  nameEn: Ko Lanta
+  slug: ko-lanta
 - id: 2
   provinceId: 1
   name: เขาพนม
-  slug: เขาพนม
+  nameEn: Khao Phanom
+  slug: khao-phanom
 - id: 3
   provinceId: 1
   name: คลองท่อม
-  slug: คลองท่อม
+  nameEn: Khlong Thom
+  slug: khlong-thom
 - id: 4
   provinceId: 1
   name: ปลายพระยา
-  slug: ปลายพระยา
+  nameEn: Plai Phraya
+  slug: plai-phraya
 - id: 5
   provinceId: 1
   name: เมืองกระบี่
-  slug: เมืองกระบี่
+  nameEn: Mueang Krabi
+  slug: mueang-krabi
 - id: 6
   provinceId: 1
   name: ลำทับ
-  slug: ลำทับ
+  nameEn: Lam Thap
+  slug: lam-thap
 - id: 7
   provinceId: 1
   name: เหนือคลอง
-  slug: เหนือคลอง
+  nameEn: Nuea Khlong
+  slug: nuea-khlong
 - id: 8
   provinceId: 1
   name: อ่าวลึก
-  slug: อ่าวลึก
+  nameEn: Ao Luek
+  slug: ao-luek
 - id: 9
   provinceId: 2
   name: คลองเตย
-  slug: คลองเตย
+  nameEn: Khlong Toei
+  slug: khlong-toei
 - id: 10
   provinceId: 2
   name: คลองสาน
-  slug: คลองสาน
+  nameEn: Khlong San
+  slug: khlong-san
 - id: 11
   provinceId: 2
   name: คลองสามวา
-  slug: คลองสามวา
+  nameEn: Khlong Sam Wa
+  slug: khlong-sam-wa
 - id: 12
   provinceId: 2
   name: คันนายาว
-  slug: คันนายาว
+  nameEn: Khan Na Yao
+  slug: khan-na-yao
 - id: 13
   provinceId: 2
   name: จตุจักร
-  slug: จตุจักร
+  nameEn: Chatuchak
+  slug: chatuchak
 - id: 14
   provinceId: 2
   name: จอมทอง
-  slug: จอมทอง
+  nameEn: Chom Thong
+  slug: chom-thong
 - id: 15
   provinceId: 2
   name: ดอนเมือง
-  slug: ดอนเมือง
+  nameEn: Don Mueang
+  slug: don-mueang
 - id: 16
   provinceId: 2
   name: ดินแดง
-  slug: ดินแดง
+  nameEn: Din Daeng
+  slug: din-daeng
 - id: 17
   provinceId: 2
   name: ดุสิต
-  slug: ดุสิต
+  nameEn: Dusit
+  slug: dusit
 - id: 18
   provinceId: 2
   name: ตลิ่งชัน
-  slug: ตลิ่งชัน
+  nameEn: Taling Chan
+  slug: taling-chan
 - id: 19
   provinceId: 2
   name: ทวีวัฒนา
-  slug: ทวีวัฒนา
+  nameEn: Thawi Watthana
+  slug: thawi-watthana
 - id: 20
   provinceId: 2
   name: ทุ่งครุ
-  slug: ทุ่งครุ
+  nameEn: Thung Khru
+  slug: thung-khru
 - id: 21
   provinceId: 2
   name: ธนบุรี
-  slug: ธนบุรี
+  nameEn: Thon Buri
+  slug: thon-buri
 - id: 22
   provinceId: 2
   name: บางกอกน้อย
-  slug: บางกอกน้อย
+  nameEn: Bangkok Noi
+  slug: bangkok-noi
 - id: 23
   provinceId: 2
   name: บางกอกใหญ่
-  slug: บางกอกใหญ่
+  nameEn: Bangkok Yai
+  slug: bangkok-yai
 - id: 24
   provinceId: 2
   name: บางกะปิ
-  slug: บางกะปิ
+  nameEn: Bang Kapi
+  slug: bang-kapi
 - id: 25
   provinceId: 2
   name: บางขุนเทียน
-  slug: บางขุนเทียน
+  nameEn: Bang Khun Thian
+  slug: bang-khun-thian
 - id: 26
   provinceId: 2
   name: บางเขน
-  slug: บางเขน
+  nameEn: Bang Khen
+  slug: bang-khen
 - id: 27
   provinceId: 2
   name: บางคอแหลม
-  slug: บางคอแหลม
+  nameEn: Bang Kho Laem
+  slug: bang-kho-laem
 - id: 28
   provinceId: 2
   name: บางแค
-  slug: บางแค
+  nameEn: Bang Khae
+  slug: bang-khae
 - id: 29
   provinceId: 2
   name: บางซื่อ
-  slug: บางซื่อ
+  nameEn: Bang Sue
+  slug: bang-sue
 - id: 30
   provinceId: 2
   name: บางนา
-  slug: บางนา
+  nameEn: Bang Na
+  slug: bang-na
 - id: 31
   provinceId: 2
   name: บางบอน
-  slug: บางบอน
+  nameEn: Bang Bon
+  slug: bang-bon
 - id: 32
   provinceId: 2
   name: บางพลัด
-  slug: บางพลัด
+  nameEn: Bang Phlat
+  slug: bang-phlat
 - id: 33
   provinceId: 2
   name: บางรัก
-  slug: บางรัก
+  nameEn: Bang Rak
+  slug: bang-rak
 - id: 34
   provinceId: 2
   name: บึงกุ่ม
-  slug: บึงกุ่ม
+  nameEn: Bueng Kum
+  slug: bueng-kum
 - id: 35
   provinceId: 2
   name: ปทุมวัน
-  slug: ปทุมวัน
+  nameEn: Pathum Wan
+  slug: pathum-wan
 - id: 36
   provinceId: 2
   name: ประเวศ
-  slug: ประเวศ
+  nameEn: Prawet
+  slug: prawet
 - id: 37
   provinceId: 2
   name: ป้อมปราบศัตรูพ่าย
-  slug: ป้อมปราบศัตรูพ่าย
+  nameEn: Pom Prap Sattru Phai
+  slug: pom-prap-sattru-phai
 - id: 38
   provinceId: 2
   name: พญาไท
-  slug: พญาไท
+  nameEn: Phaya Thai
+  slug: phaya-thai
 - id: 39
   provinceId: 2
   name: พระโขนง
-  slug: พระโขนง
+  nameEn: Phra Khanong
+  slug: phra-khanong
 - id: 40
   provinceId: 2
   name: พระนคร
-  slug: พระนคร
+  nameEn: Phra Nakhon
+  slug: phra-nakhon
 - id: 41
   provinceId: 2
   name: ภาษีเจริญ
-  slug: ภาษีเจริญ
+  nameEn: Phasi Charoen
+  slug: phasi-charoen
 - id: 42
   provinceId: 2
   name: มีนบุรี
-  slug: มีนบุรี
+  nameEn: Min Buri
+  slug: min-buri
 - id: 43
   provinceId: 2
   name: ยานนาวา
-  slug: ยานนาวา
+  nameEn: Yan Nawa
+  slug: yan-nawa
 - id: 44
   provinceId: 2
   name: ราชเทวี
-  slug: ราชเทวี
+  nameEn: Ratchathewi
+  slug: ratchathewi
 - id: 45
   provinceId: 2
   name: ราษฎร์บูรณะ
-  slug: ราษฎร์บูรณะ
+  nameEn: Rat Burana
+  slug: rat-burana
 - id: 46
   provinceId: 2
   name: ลาดกระบัง
-  slug: ลาดกระบัง
+  nameEn: Lat Krabang
+  slug: lat-krabang
 - id: 47
   provinceId: 2
   name: ลาดพร้าว
-  slug: ลาดพร้าว
+  nameEn: Lat Phrao
+  slug: lat-phrao
 - id: 48
   provinceId: 2
   name: วังทองหลาง
-  slug: วังทองหลาง
+  nameEn: Wang Thonglang
+  slug: wang-thonglang
 - id: 49
   provinceId: 2
   name: วัฒนา
-  slug: วัฒนา
+  nameEn: Vadhana
+  slug: vadhana
 - id: 50
   provinceId: 2
   name: สวนหลวง
-  slug: สวนหลวง
+  nameEn: Suan Luang
+  slug: suan-luang
 - id: 51
   provinceId: 2
   name: สะพานสูง
-  slug: สะพานสูง
+  nameEn: Saphan Sung
+  slug: saphan-sung
 - id: 52
   provinceId: 2
   name: สัมพันธวงศ์
-  slug: สัมพันธวงศ์
+  nameEn: Samphanthawong
+  slug: samphanthawong
 - id: 53
   provinceId: 2
   name: สาทร
-  slug: สาทร
+  nameEn: Sathon
+  slug: sathon
 - id: 54
   provinceId: 2
   name: สายไหม
-  slug: สายไหม
+  nameEn: Sai Mai
+  slug: sai-mai
 - id: 55
   provinceId: 2
   name: หนองแขม
-  slug: หนองแขม
+  nameEn: Nong Khaem
+  slug: nong-khaem
 - id: 56
   provinceId: 2
   name: หนองจอก
-  slug: หนองจอก
+  nameEn: Nong Chok
+  slug: nong-chok
 - id: 57
   provinceId: 2
   name: หลักสี่
-  slug: หลักสี่
+  nameEn: Lak Si
+  slug: lak-si
 - id: 58
   provinceId: 2
   name: ห้วยขวาง
-  slug: ห้วยขวาง
+  nameEn: Huai Khwang
+  slug: huai-khwang
 - id: 59
   provinceId: 3
   name: ด่านมะขามเตี้ย
-  slug: ด่านมะขามเตี้ย
+  nameEn: Dan Makham Tia
+  slug: dan-makham-tia
 - id: 60
   provinceId: 3
   name: ทองผาภูมิ
-  slug: ทองผาภูมิ
+  nameEn: Thong Pha Phum
+  slug: thong-pha-phum
 - id: 61
   provinceId: 3
   name: ท่าม่วง
-  slug: ท่าม่วง
+  nameEn: Tha Muang
+  slug: tha-muang
 - id: 62
   provinceId: 3
   name: ท่ามะกา
-  slug: ท่ามะกา
+  nameEn: Tha Maka
+  slug: tha-maka
 - id: 63
   provinceId: 3
   name: ไทรโยค
-  slug: ไทรโยค
+  nameEn: Sai Yok
+  slug: sai-yok
 - id: 64
   provinceId: 3
   name: บ่อพลอย
-  slug: บ่อพลอย
+  nameEn: Bo Phloi
+  slug: bo-phloi
 - id: 65
   provinceId: 3
   name: พนมทวน
-  slug: พนมทวน
+  nameEn: Phanom Thuan
+  slug: phanom-thuan
 - id: 66
   provinceId: 3
   name: เมืองกาญจนบุรี
-  slug: เมืองกาญจนบุรี
+  nameEn: Mueang Kanchanaburi
+  slug: mueang-kanchanaburi
 - id: 67
   provinceId: 3
   name: เลาขวัญ
-  slug: เลาขวัญ
+  nameEn: Lao Khwan
+  slug: lao-khwan
 - id: 68
   provinceId: 3
   name: ศรีสวัสดิ์
-  slug: ศรีสวัสดิ์
+  nameEn: Si Sawat
+  slug: si-sawat
 - id: 69
   provinceId: 3
   name: สังขละบุรี
-  slug: สังขละบุรี
+  nameEn: Sangkhla Buri
+  slug: sangkhla-buri
 - id: 70
   provinceId: 3
   name: หนองปรือ
-  slug: หนองปรือ
+  nameEn: Nong Prue
+  slug: nong-prue
 - id: 71
   provinceId: 3
   name: ห้วยกระเจา
-  slug: ห้วยกระเจา
+  nameEn: Huai Krachao
+  slug: huai-krachao
 - id: 72
   provinceId: 4
   name: กมลาไสย
-  slug: กมลาไสย
+  nameEn: Kamalasai
+  slug: kamalasai
 - id: 73
   provinceId: 4
   name: กุฉินารายณ์
-  slug: กุฉินารายณ์
+  nameEn: Kuchinarai
+  slug: kuchinarai
 - id: 74
   provinceId: 4
   name: เขาวง
-  slug: เขาวง
+  nameEn: Khao Wong
+  slug: khao-wong
 - id: 75
   provinceId: 4
   name: คำม่วง
-  slug: คำม่วง
+  nameEn: Kham Muang
+  slug: kham-muang
 - id: 76
   provinceId: 4
   name: ฆ้องชัย
-  slug: ฆ้องชัย
+  nameEn: Khong Chai
+  slug: khong-chai
 - id: 77
   provinceId: 4
   name: ดอนจาน
-  slug: ดอนจาน
+  nameEn: Don Chan
+  slug: don-chan
 - id: 78
   provinceId: 4
   name: ท่าคันโท
-  slug: ท่าคันโท
+  nameEn: Tha Khantho
+  slug: tha-khantho
 - id: 79
   provinceId: 4
   name: นาคู
-  slug: นาคู
+  nameEn: Na Khu
+  slug: na-khu
 - id: 80
   provinceId: 4
   name: นามน
-  slug: นามน
+  nameEn: Na Mon
+  slug: na-mon
 - id: 81
   provinceId: 4
   name: เมืองกาฬสินธุ์
-  slug: เมืองกาฬสินธุ์
+  nameEn: Mueang Kalasin
+  slug: mueang-kalasin
 - id: 82
   provinceId: 4
   name: ยางตลาด
-  slug: ยางตลาด
+  nameEn: Yang Talat
+  slug: yang-talat
 - id: 83
   provinceId: 4
   name: ร่องคำ
-  slug: ร่องคำ
+  nameEn: Rong Kham
+  slug: rong-kham
 - id: 84
   provinceId: 4
   name: สมเด็จ
-  slug: สมเด็จ
+  nameEn: Somdet
+  slug: somdet
 - id: 85
   provinceId: 4
   name: สหัสขันธ์
-  slug: สหัสขันธ์
+  nameEn: Sahatsakhan
+  slug: sahatsakhan
 - id: 86
   provinceId: 4
   name: สามชัย
-  slug: สามชัย
+  nameEn: Sam Chai
+  slug: sam-chai
 - id: 87
   provinceId: 4
   name: หนองกุงศรี
-  slug: หนองกุงศรี
+  nameEn: Nong Kung Si
+  slug: nong-kung-si
 - id: 88
   provinceId: 4
   name: ห้วยผึ้ง
-  slug: ห้วยผึ้ง
+  nameEn: Huai Phueng
+  slug: huai-phueng
 - id: 89
   provinceId: 4
   name: ห้วยเม็ก
-  slug: ห้วยเม็ก
+  nameEn: Huai Mek
+  slug: huai-mek
 - id: 90
   provinceId: 5
   name: โกสัมพีนคร
-  slug: โกสัมพีนคร
+  nameEn: Kosamphi Nakhon
+  slug: kosamphi-nakhon
 - id: 91
   provinceId: 5
   name: ขาณุวรลักษบุรี
-  slug: ขาณุวรลักษบุรี
+  nameEn: Khanu Woralaksaburi
+  slug: khanu-woralaksaburi
 - id: 92
   provinceId: 5
   name: คลองขลุง
-  slug: คลองขลุง
+  nameEn: Khlong Khlung
+  slug: khlong-khlung
 - id: 93
   provinceId: 5
   name: คลองลาน
-  slug: คลองลาน
+  nameEn: Khlong Lan
+  slug: khlong-lan
 - id: 94
   provinceId: 5
   name: ทรายทองวัฒนา
-  slug: ทรายทองวัฒนา
+  nameEn: Sai Thong Watthana
+  slug: sai-thong-watthana
 - id: 95
   provinceId: 5
   name: ไทรงาม
-  slug: ไทรงาม
+  nameEn: Sai Ngam
+  slug: sai-ngam
 - id: 96
   provinceId: 5
   name: บึงสามัคคี
-  slug: บึงสามัคคี
+  nameEn: Bueng Samakkhi
+  slug: bueng-samakkhi
 - id: 97
   provinceId: 5
   name: ปางศิลาทอง
-  slug: ปางศิลาทอง
+  nameEn: Pang Sila Thong
+  slug: pang-sila-thong
 - id: 98
   provinceId: 5
   name: พรานกระต่าย
-  slug: พรานกระต่าย
+  nameEn: Phran Kratai
+  slug: phran-kratai
 - id: 99
   provinceId: 5
   name: เมืองกำแพงเพชร
-  slug: เมืองกำแพงเพชร
+  nameEn: Mueang Kamphaeng Phet
+  slug: mueang-kamphaeng-phet
 - id: 100
   provinceId: 5
   name: ลานกระบือ
-  slug: ลานกระบือ
+  nameEn: Lan Krabue
+  slug: lan-krabue
 - id: 101
   provinceId: 6
   name: กระนวน
-  slug: กระนวน
+  nameEn: Kranuan
+  slug: kranuan
 - id: 102
   provinceId: 6
   name: เขาสวนกวาง
-  slug: เขาสวนกวาง
+  nameEn: Khao Suan Kwang
+  slug: khao-suan-kwang
 - id: 103
   provinceId: 6
   name: โคกโพธิ์ไชย
-  slug: โคกโพธิ์ไชย
+  nameEn: Khok Pho Chai
+  slug: khok-pho-chai
 - id: 104
   provinceId: 6
   name: ชนบท
-  slug: ชนบท
+  nameEn: Chonnabot
+  slug: chonnabot
 - id: 105
   provinceId: 6
   name: ชุมแพ
-  slug: ชุมแพ
+  nameEn: Chum Phae
+  slug: chum-phae
 - id: 106
   provinceId: 6
   name: ซำสูง
-  slug: ซำสูง
+  nameEn: Sam Sung
+  slug: sam-sung
 - id: 107
   provinceId: 6
   name: น้ำพอง
-  slug: น้ำพอง
+  nameEn: Nam Phong
+  slug: nam-phong
 - id: 108
   provinceId: 6
   name: โนนศิลา
-  slug: โนนศิลา
+  nameEn: Non Sila
+  slug: non-sila
 - id: 109
   provinceId: 6
   name: บ้านไผ่
-  slug: บ้านไผ่
+  nameEn: Ban Phai
+  slug: ban-phai
 - id: 110
   provinceId: 6
   name: บ้านฝาง
-  slug: บ้านฝาง
+  nameEn: Ban Fang
+  slug: ban-fang
 - id: 111
   provinceId: 6
   name: บ้านแฮด
-  slug: บ้านแฮด
+  nameEn: Ban Haet
+  slug: ban-haet
 - id: 112
   provinceId: 6
   name: เปือยน้อย
-  slug: เปือยน้อย
+  nameEn: Pueai Noi
+  slug: pueai-noi
 - id: 113
   provinceId: 6
   name: พระยืน
-  slug: พระยืน
+  nameEn: Phra Yuen
+  slug: phra-yuen
 - id: 114
   provinceId: 6
   name: พล
-  slug: พล
+  nameEn: Phon
+  slug: phon
 - id: 115
   provinceId: 6
   name: ภูผาม่าน
-  slug: ภูผาม่าน
+  nameEn: Phu Pha Man
+  slug: phu-pha-man
 - id: 116
   provinceId: 6
   name: ภูเวียง
-  slug: ภูเวียง
+  nameEn: Phu Wiang
+  slug: phu-wiang
 - id: 117
   provinceId: 6
   name: มัญจาคีรี
-  slug: มัญจาคีรี
+  nameEn: Mancha Khiri
+  slug: mancha-khiri
 - id: 118
   provinceId: 6
   name: เมืองขอนแก่น
-  slug: เมืองขอนแก่น
+  nameEn: Mueang Khon Kaen
+  slug: mueang-khon-kaen
 - id: 119
   provinceId: 6
   name: เวียงเก่า
-  slug: เวียงเก่า
+  nameEn: Wiang Kao
+  slug: wiang-kao
 - id: 120
   provinceId: 6
   name: แวงน้อย
-  slug: แวงน้อย
+  nameEn: Waeng Noi
+  slug: waeng-noi
 - id: 121
   provinceId: 6
   name: แวงใหญ่
-  slug: แวงใหญ่
+  nameEn: Waeng Yai
+  slug: waeng-yai
 - id: 122
   provinceId: 6
   name: สีชมพู
-  slug: สีชมพู
+  nameEn: Si Chomphu
+  slug: si-chomphu
 - id: 123
   provinceId: 6
   name: หนองนาคำ
-  slug: หนองนาคำ
+  nameEn: Nong Na Kham
+  slug: nong-na-kham
 - id: 124
   provinceId: 6
   name: หนองเรือ
-  slug: หนองเรือ
+  nameEn: Nong Ruea
+  slug: nong-ruea
 - id: 125
   provinceId: 6
   name: หนองสองห้อง
-  slug: หนองสองห้อง
+  nameEn: Nong Song Hong
+  slug: nong-song-hong
 - id: 126
   provinceId: 6
   name: อุบลรัตน์
-  slug: อุบลรัตน์
+  nameEn: Ubolratana
+  slug: ubolratana
 - id: 127
   provinceId: 7
   name: แก่งหางแมว
-  slug: แก่งหางแมว
+  nameEn: Kaeng Hang Maeo
+  slug: kaeng-hang-maeo
 - id: 128
   provinceId: 7
   name: ขลุง
-  slug: ขลุง
+  nameEn: Khlung
+  slug: khlung
 - id: 129
   provinceId: 7
   name: เขาคิชฌกูฏ
-  slug: เขาคิชฌกูฏ
+  nameEn: Khao Khitchakut
+  slug: khao-khitchakut
 - id: 130
   provinceId: 7
   name: ท่าใหม่
-  slug: ท่าใหม่
+  nameEn: Tha Mai
+  slug: tha-mai
 - id: 131
   provinceId: 7
   name: นายายอาม
-  slug: นายายอาม
+  nameEn: Na Yai Am
+  slug: na-yai-am
 - id: 132
   provinceId: 7
   name: โป่งน้ำร้อน
-  slug: โป่งน้ำร้อน
+  nameEn: Pong Nam Ron
+  slug: pong-nam-ron
 - id: 133
   provinceId: 7
   name: มะขาม
-  slug: มะขาม
+  nameEn: Makham
+  slug: makham
 - id: 134
   provinceId: 7
   name: เมืองจันทบุรี
-  slug: เมืองจันทบุรี
+  nameEn: Mueang Chanthaburi
+  slug: mueang-chanthaburi
 - id: 135
   provinceId: 7
   name: สอยดาว
-  slug: สอยดาว
+  nameEn: Soi Dao
+  slug: soi-dao
 - id: 136
   provinceId: 7
   name: แหลมสิงห์
-  slug: แหลมสิงห์
+  nameEn: Laem Sing
+  slug: laem-sing
 - id: 137
   provinceId: 8
   name: คลองเขื่อน
-  slug: คลองเขื่อน
+  nameEn: Khlong Khuean
+  slug: khlong-khuean
 - id: 138
   provinceId: 8
   name: ท่าตะเกียบ
-  slug: ท่าตะเกียบ
+  nameEn: Tha Takiap
+  slug: tha-takiap
 - id: 139
   provinceId: 8
   name: บางคล้า
-  slug: บางคล้า
+  nameEn: Bang Khla
+  slug: bang-khla
 - id: 140
   provinceId: 8
   name: บางน้ำเปรี้ยว
-  slug: บางน้ำเปรี้ยว
+  nameEn: Bang Nam Priao
+  slug: bang-nam-priao
 - id: 141
   provinceId: 8
   name: บางปะกง
-  slug: บางปะกง
+  nameEn: Bang Pakong
+  slug: bang-pakong
 - id: 142
   provinceId: 8
   name: บ้านโพธิ์
-  slug: บ้านโพธิ์
+  nameEn: Ban Pho
+  slug: ban-pho
 - id: 143
   provinceId: 8
   name: แปลงยาว
-  slug: แปลงยาว
+  nameEn: Plaeng Yao
+  slug: plaeng-yao
 - id: 144
   provinceId: 8
   name: พนมสารคาม
-  slug: พนมสารคาม
+  nameEn: Phanom Sarakham
+  slug: phanom-sarakham
 - id: 145
   provinceId: 8
   name: เมืองฉะเชิงเทรา
-  slug: เมืองฉะเชิงเทรา
+  nameEn: Mueang Chachoengsao
+  slug: mueang-chachoengsao
 - id: 146
   provinceId: 8
   name: ราชสาส์น
-  slug: ราชสาส์น
+  nameEn: Ratchasan
+  slug: ratchasan
 - id: 147
   provinceId: 8
   name: สนามชัยเขต
-  slug: สนามชัยเขต
+  nameEn: Sanam Chai Khet
+  slug: sanam-chai-khet
 - id: 148
   provinceId: 9
   name: เกาะจันทร์
-  slug: เกาะจันทร์
+  nameEn: Ko Chan
+  slug: ko-chan
 - id: 149
   provinceId: 9
   name: เกาะสีชัง
-  slug: เกาะสีชัง
+  nameEn: Ko Sichang
+  slug: ko-sichang
 - id: 150
   provinceId: 9
   name: บ่อทอง
-  slug: บ่อทอง
+  nameEn: Bo Thong
+  slug: bo-thong
 - id: 151
   provinceId: 9
   name: บางละมุง
-  slug: บางละมุง
+  nameEn: Bang Lamung
+  slug: bang-lamung
 - id: 152
   provinceId: 9
   name: บ้านบึง
-  slug: บ้านบึง
+  nameEn: Ban Bueng
+  slug: ban-bueng
 - id: 153
   provinceId: 9
   name: พนัสนิคม
-  slug: พนัสนิคม
+  nameEn: Phanat Nikhom
+  slug: phanat-nikhom
 - id: 154
   provinceId: 9
   name: พานทอง
-  slug: พานทอง
+  nameEn: Phan Thong
+  slug: phan-thong
 - id: 155
   provinceId: 9
   name: เมืองชลบุรี
-  slug: เมืองชลบุรี
+  nameEn: Mueang Chon Buri
+  slug: mueang-chon-buri
 - id: 156
   provinceId: 9
   name: ศรีราชา
-  slug: ศรีราชา
+  nameEn: Si Racha
+  slug: si-racha
 - id: 157
   provinceId: 9
   name: สัตหีบ
-  slug: สัตหีบ
+  nameEn: Sattahip
+  slug: sattahip
 - id: 158
   provinceId: 9
   name: หนองใหญ่
-  slug: หนองใหญ่
+  nameEn: Nong Yai
+  slug: nong-yai
 - id: 159
   provinceId: 10
   name: เนินขาม
-  slug: เนินขาม
+  nameEn: Noen Kham
+  slug: noen-kham
 - id: 160
   provinceId: 10
   name: มโนรมย์
-  slug: มโนรมย์
+  nameEn: Manorom
+  slug: manorom
 - id: 161
   provinceId: 10
   name: เมืองชัยนาท
-  slug: เมืองชัยนาท
+  nameEn: Mueang Chai Nat
+  slug: mueang-chai-nat
 - id: 162
   provinceId: 10
   name: วัดสิงห์
-  slug: วัดสิงห์
+  nameEn: Wat Sing
+  slug: wat-sing
 - id: 163
   provinceId: 10
   name: สรรคบุรี
-  slug: สรรคบุรี
+  nameEn: Sankhaburi
+  slug: sankhaburi
 - id: 164
   provinceId: 10
   name: สรรพยา
-  slug: สรรพยา
+  nameEn: Sapphaya
+  slug: sapphaya
 - id: 165
   provinceId: 10
   name: หนองมะโมง
-  slug: หนองมะโมง
+  nameEn: Nong Mamong
+  slug: nong-mamong
 - id: 166
   provinceId: 10
   name: หันคา
-  slug: หันคา
+  nameEn: Hankha
+  slug: hankha
 - id: 167
   provinceId: 11
   name: เกษตรสมบูรณ์
-  slug: เกษตรสมบูรณ์
+  nameEn: Kaset Sombun
+  slug: kaset-sombun
 - id: 168
   provinceId: 11
   name: แก้งคร้อ
-  slug: แก้งคร้อ
+  nameEn: Kaeng Khro
+  slug: kaeng-khro
 - id: 169
   provinceId: 11
   name: คอนสวรรค์
-  slug: คอนสวรรค์
+  nameEn: Khon Sawan
+  slug: khon-sawan
 - id: 170
   provinceId: 11
   name: คอนสาร
-  slug: คอนสาร
+  nameEn: Khon San
+  slug: khon-san
 - id: 171
   provinceId: 11
   name: จัตุรัส
-  slug: จัตุรัส
+  nameEn: Chatturat
+  slug: chatturat
 - id: 172
   provinceId: 11
   name: ซับใหญ่
-  slug: ซับใหญ่
+  nameEn: Sap Yai
+  slug: sap-yai
 - id: 173
   provinceId: 11
   name: เทพสถิต
-  slug: เทพสถิต
+  nameEn: Thep Sathit
+  slug: thep-sathit
 - id: 174
   provinceId: 11
   name: เนินสง่า
-  slug: เนินสง่า
+  nameEn: Noen Sa-nga
+  slug: noen-sa-nga
 - id: 175
   provinceId: 11
   name: บ้านเขว้า
-  slug: บ้านเขว้า
+  nameEn: Ban Khwao
+  slug: ban-khwao
 - id: 176
   provinceId: 11
   name: บ้านแท่น
-  slug: บ้านแท่น
+  nameEn: Ban Thaen
+  slug: ban-thaen
 - id: 177
   provinceId: 11
   name: บำเหน็จณรงค์
-  slug: บำเหน็จณรงค์
+  nameEn: Bamnet Narong
+  slug: bamnet-narong
 - id: 178
   provinceId: 11
   name: ภักดีชุมพล
-  slug: ภักดีชุมพล
+  nameEn: Phakdi Chumphon
+  slug: phakdi-chumphon
 - id: 179
   provinceId: 11
   name: ภูเขียว
-  slug: ภูเขียว
+  nameEn: Phu Khiao
+  slug: phu-khiao
 - id: 180
   provinceId: 11
   name: เมืองชัยภูมิ
-  slug: เมืองชัยภูมิ
+  nameEn: Mueang Chaiyaphum
+  slug: mueang-chaiyaphum
 - id: 181
   provinceId: 11
   name: หนองบัวแดง
-  slug: หนองบัวแดง
+  nameEn: Nong Bua Daeng
+  slug: nong-bua-daeng
 - id: 182
   provinceId: 11
   name: หนองบัวระเหว
-  slug: หนองบัวระเหว
+  nameEn: Nong Bua Rawe
+  slug: nong-bua-rawe
 - id: 183
   provinceId: 12
   name: ท่าแซะ
-  slug: ท่าแซะ
+  nameEn: Tha Sae
+  slug: tha-sae
 - id: 184
   provinceId: 12
   name: ทุ่งตะโก
-  slug: ทุ่งตะโก
+  nameEn: Thung Tako
+  slug: thung-tako
 - id: 185
   provinceId: 12
   name: ปะทิว
-  slug: ปะทิว
+  nameEn: Pathio
+  slug: pathio
 - id: 186
   provinceId: 12
   name: พะโต๊ะ
-  slug: พะโต๊ะ
+  nameEn: Phato
+  slug: phato
 - id: 187
   provinceId: 12
   name: เมืองชุมพร
-  slug: เมืองชุมพร
+  nameEn: Mueang Chumphon
+  slug: mueang-chumphon
 - id: 188
   provinceId: 12
   name: ละแม
-  slug: ละแม
+  nameEn: Lamae
+  slug: lamae
 - id: 189
   provinceId: 12
   name: สวี
-  slug: สวี
+  nameEn: Sawi
+  slug: sawi
 - id: 190
   provinceId: 12
   name: หลังสวน
-  slug: หลังสวน
+  nameEn: Lang Suan
+  slug: lang-suan
 - id: 191
   provinceId: 13
   name: ขุนตาล
-  slug: ขุนตาล
+  nameEn: Khun Tan
+  slug: khun-tan
 - id: 192
   provinceId: 13
   name: เชียงของ
-  slug: เชียงของ
+  nameEn: Chiang Khong
+  slug: chiang-khong
 - id: 193
   provinceId: 13
   name: เชียงแสน
-  slug: เชียงแสน
+  nameEn: Chiang Saen
+  slug: chiang-saen
 - id: 194
   provinceId: 13
   name: ดอยหลวง
-  slug: ดอยหลวง
+  nameEn: Doi Luang
+  slug: doi-luang
 - id: 195
   provinceId: 13
   name: เทิง
-  slug: เทิง
+  nameEn: Thoeng
+  slug: thoeng
 - id: 196
   provinceId: 13
   name: ป่าแดด
-  slug: ป่าแดด
+  nameEn: Pa Daet
+  slug: pa-daet
 - id: 197
   provinceId: 13
   name: พญาเม็งราย
-  slug: พญาเม็งราย
+  nameEn: Phaya Mengrai
+  slug: phaya-mengrai
 - id: 198
   provinceId: 13
   name: พาน
-  slug: พาน
+  nameEn: Phan
+  slug: phan
 - id: 199
   provinceId: 13
   name: เมืองเชียงราย
-  slug: เมืองเชียงราย
+  nameEn: Mueang Chiang Rai
+  slug: mueang-chiang-rai
 - id: 200
   provinceId: 13
   name: แม่จัน
-  slug: แม่จัน
+  nameEn: Mae Chan
+  slug: mae-chan
 - id: 201
   provinceId: 13
   name: แม่ฟ้าหลวง
-  slug: แม่ฟ้าหลวง
+  nameEn: Mae Fa Luang
+  slug: mae-fa-luang
 - id: 202
   provinceId: 13
   name: แม่ลาว
-  slug: แม่ลาว
+  nameEn: Mae Lao
+  slug: mae-lao
 - id: 203
   provinceId: 13
   name: แม่สรวย
-  slug: แม่สรวย
+  nameEn: Mae Suai
+  slug: mae-suai
 - id: 204
   provinceId: 13
   name: แม่สาย
-  slug: แม่สาย
+  nameEn: Mae Sai
+  slug: mae-sai
 - id: 205
   provinceId: 13
   name: เวียงแก่น
-  slug: เวียงแก่น
+  nameEn: Wiang Kaen
+  slug: wiang-kaen
 - id: 206
   provinceId: 13
   name: เวียงชัย
-  slug: เวียงชัย
+  nameEn: Wiang Chai
+  slug: wiang-chai
 - id: 207
   provinceId: 13
   name: เวียงเชียงรุ้ง
-  slug: เวียงเชียงรุ้ง
+  nameEn: Wiang Chiang Rung
+  slug: wiang-chiang-rung
 - id: 208
   provinceId: 13
   name: เวียงป่าเป้า
-  slug: เวียงป่าเป้า
+  nameEn: Wiang Pa Pao
+  slug: wiang-pa-pao
 - id: 209
   provinceId: 14
   name: กัลยาณิวัฒนา
-  slug: กัลยาณิวัฒนา
+  nameEn: Galayani Vadhana
+  slug: galayani-vadhana
 - id: 210
   provinceId: 14
   name: จอมทอง
-  slug: จอมทอง
+  nameEn: Chom Thong
+  slug: chom-thong
 - id: 211
   provinceId: 14
   name: เชียงดาว
-  slug: เชียงดาว
+  nameEn: Chiang Dao
+  slug: chiang-dao
 - id: 212
   provinceId: 14
   name: ไชยปราการ
-  slug: ไชยปราการ
+  nameEn: Chai Prakan
+  slug: chai-prakan
 - id: 213
   provinceId: 14
   name: ดอยเต่า
-  slug: ดอยเต่า
+  nameEn: Doi Tao
+  slug: doi-tao
 - id: 214
   provinceId: 14
   name: ดอยสะเก็ด
-  slug: ดอยสะเก็ด
+  nameEn: Doi Saket
+  slug: doi-saket
 - id: 215
   provinceId: 14
   name: ดอยหล่อ
-  slug: ดอยหล่อ
+  nameEn: Doi Lo
+  slug: doi-lo
 - id: 216
   provinceId: 14
   name: ฝาง
-  slug: ฝาง
+  nameEn: Fang
+  slug: fang
 - id: 217
   provinceId: 14
   name: พร้าว
-  slug: พร้าว
+  nameEn: Phrao
+  slug: phrao
 - id: 218
   provinceId: 14
   name: เมืองเชียงใหม่
-  slug: เมืองเชียงใหม่
+  nameEn: Mueang Chiang Mai
+  slug: mueang-chiang-mai
 - id: 219
   provinceId: 14
   name: แม่แจ่ม
-  slug: แม่แจ่ม
+  nameEn: Mae Chaem
+  slug: mae-chaem
 - id: 220
   provinceId: 14
   name: แม่แตง
-  slug: แม่แตง
+  nameEn: Mae Taeng
+  slug: mae-taeng
 - id: 221
   provinceId: 14
   name: แม่ริม
-  slug: แม่ริม
+  nameEn: Mae Rim
+  slug: mae-rim
 - id: 222
   provinceId: 14
   name: แม่วาง
-  slug: แม่วาง
+  nameEn: Mae Wang
+  slug: mae-wang
 - id: 223
   provinceId: 14
   name: แม่ออน
-  slug: แม่ออน
+  nameEn: Mae On
+  slug: mae-on
 - id: 224
   provinceId: 14
   name: แม่อาย
-  slug: แม่อาย
+  nameEn: Mae Ai
+  slug: mae-ai
 - id: 225
   provinceId: 14
   name: เวียงแหง
-  slug: เวียงแหง
+  nameEn: Wiang Haeng
+  slug: wiang-haeng
 - id: 226
   provinceId: 14
   name: สะเมิง
-  slug: สะเมิง
+  nameEn: Samoeng
+  slug: samoeng
 - id: 227
   provinceId: 14
   name: สันกำแพง
-  slug: สันกำแพง
+  nameEn: San Kamphaeng
+  slug: san-kamphaeng
 - id: 228
   provinceId: 14
   name: สันทราย
-  slug: สันทราย
+  nameEn: San Sai
+  slug: san-sai
 - id: 229
   provinceId: 14
   name: สันป่าตอง
-  slug: สันป่าตอง
+  nameEn: San Pa Tong
+  slug: san-pa-tong
 - id: 230
   provinceId: 14
   name: สารภี
-  slug: สารภี
+  nameEn: Saraphi
+  slug: saraphi
 - id: 231
   provinceId: 14
   name: หางดง
-  slug: หางดง
+  nameEn: Hang Dong
+  slug: hang-dong
 - id: 232
   provinceId: 14
   name: อมก๋อย
-  slug: อมก๋อย
+  nameEn: Omkoi
+  slug: omkoi
 - id: 233
   provinceId: 14
   name: ฮอด
-  slug: ฮอด
+  nameEn: Hot
+  slug: hot
 - id: 234
   provinceId: 15
   name: กันตัง
-  slug: กันตัง
+  nameEn: Kantang
+  slug: kantang
 - id: 235
   provinceId: 15
   name: นาโยง
-  slug: นาโยง
+  nameEn: Na Yong
+  slug: na-yong
 - id: 236
   provinceId: 15
   name: ปะเหลียน
-  slug: ปะเหลียน
+  nameEn: Palian
+  slug: palian
 - id: 237
   provinceId: 15
   name: เมืองตรัง
-  slug: เมืองตรัง
+  nameEn: Mueang Trang
+  slug: mueang-trang
 - id: 238
   provinceId: 15
   name: ย่านตาขาว
-  slug: ย่านตาขาว
+  nameEn: Yan Ta Khao
+  slug: yan-ta-khao
 - id: 239
   provinceId: 15
   name: รัษฎา
-  slug: รัษฎา
+  nameEn: Ratsada
+  slug: ratsada
 - id: 240
   provinceId: 15
   name: วังวิเศษ
-  slug: วังวิเศษ
+  nameEn: Wang Wiset
+  slug: wang-wiset
 - id: 241
   provinceId: 15
   name: สิเกา
-  slug: สิเกา
+  nameEn: Sikao
+  slug: sikao
 - id: 242
   provinceId: 15
   name: ห้วยยอด
-  slug: ห้วยยอด
+  nameEn: Huai Yot
+  slug: huai-yot
 - id: 243
   provinceId: 15
   name: หาดสำราญ
-  slug: หาดสำราญ
+  nameEn: Hat Samran
+  slug: hat-samran
 - id: 244
   provinceId: 16
   name: เกาะกูด
-  slug: เกาะกูด
+  nameEn: Ko Kut
+  slug: ko-kut
 - id: 245
   provinceId: 16
   name: เกาะช้าง
-  slug: เกาะช้าง
+  nameEn: Ko Chang
+  slug: ko-chang
 - id: 246
   provinceId: 16
   name: เขาสมิง
-  slug: เขาสมิง
+  nameEn: Khao Saming
+  slug: khao-saming
 - id: 247
   provinceId: 16
   name: คลองใหญ่
-  slug: คลองใหญ่
+  nameEn: Khlong Yai
+  slug: khlong-yai
 - id: 248
   provinceId: 16
   name: บ่อไร่
-  slug: บ่อไร่
+  nameEn: Bo Rai
+  slug: bo-rai
 - id: 249
   provinceId: 16
   name: เมืองตราด
-  slug: เมืองตราด
+  nameEn: Mueang Trat
+  slug: mueang-trat
 - id: 250
   provinceId: 16
   name: แหลมงอบ
-  slug: แหลมงอบ
+  nameEn: Laem Ngop
+  slug: laem-ngop
 - id: 251
   provinceId: 17
   name: ท่าสองยาง
-  slug: ท่าสองยาง
+  nameEn: Tha Song Yang
+  slug: tha-song-yang
 - id: 252
   provinceId: 17
   name: บ้านตาก
-  slug: บ้านตาก
+  nameEn: Ban Tak
+  slug: ban-tak
 - id: 253
   provinceId: 17
   name: พบพระ
-  slug: พบพระ
+  nameEn: Phop Phra
+  slug: phop-phra
 - id: 254
   provinceId: 17
   name: เมืองตาก
-  slug: เมืองตาก
+  nameEn: Mueang Tak
+  slug: mueang-tak
 - id: 255
   provinceId: 17
   name: แม่ระมาด
-  slug: แม่ระมาด
+  nameEn: Mae Ramat
+  slug: mae-ramat
 - id: 256
   provinceId: 17
   name: แม่สอด
-  slug: แม่สอด
+  nameEn: Mae Sot
+  slug: mae-sot
 - id: 257
   provinceId: 17
   name: วังเจ้า
-  slug: วังเจ้า
+  nameEn: Wang Chao
+  slug: wang-chao
 - id: 258
   provinceId: 17
   name: สามเงา
-  slug: สามเงา
+  nameEn: Sam Ngao
+  slug: sam-ngao
 - id: 259
   provinceId: 17
   name: อุ้มผาง
-  slug: อุ้มผาง
+  nameEn: Umphang
+  slug: umphang
 - id: 260
   provinceId: 18
   name: บ้านนา
-  slug: บ้านนา
+  nameEn: Ban Na
+  slug: ban-na
 - id: 261
   provinceId: 18
   name: ปากพลี
-  slug: ปากพลี
+  nameEn: Pak Phli
+  slug: pak-phli
 - id: 262
   provinceId: 18
   name: เมืองนครนายก
-  slug: เมืองนครนายก
+  nameEn: Mueang Nakhon Nayok
+  slug: mueang-nakhon-nayok
 - id: 263
   provinceId: 18
   name: องครักษ์
-  slug: องครักษ์
+  nameEn: Ongkharak
+  slug: ongkharak
 - id: 264
   provinceId: 19
   name: กำแพงแสน
-  slug: กำแพงแสน
+  nameEn: Kamphaeng Saen
+  slug: kamphaeng-saen
 - id: 265
   provinceId: 19
   name: ดอนตูม
-  slug: ดอนตูม
+  nameEn: Don Tum
+  slug: don-tum
 - id: 266
   provinceId: 19
   name: นครชัยศรี
-  slug: นครชัยศรี
+  nameEn: Nakhon Chai Si
+  slug: nakhon-chai-si
 - id: 267
   provinceId: 19
   name: บางเลน
-  slug: บางเลน
+  nameEn: Bang Len
+  slug: bang-len
 - id: 268
   provinceId: 19
   name: พุทธมณฑล
-  slug: พุทธมณฑล
+  nameEn: Phutthamonthon
+  slug: phutthamonthon
 - id: 269
   provinceId: 19
   name: เมืองนครปฐม
-  slug: เมืองนครปฐม
+  nameEn: Mueang Nakhon Pathom
+  slug: mueang-nakhon-pathom
 - id: 270
   provinceId: 19
   name: สามพราน
-  slug: สามพราน
+  nameEn: Sam Phran
+  slug: sam-phran
 - id: 271
   provinceId: 20
   name: ท่าอุเทน
-  slug: ท่าอุเทน
+  nameEn: Tha Uthen
+  slug: tha-uthen
 - id: 272
   provinceId: 20
   name: ธาตุพนม
-  slug: ธาตุพนม
+  nameEn: That Phanom
+  slug: that-phanom
 - id: 273
   provinceId: 20
   name: นาแก
-  slug: นาแก
+  nameEn: Na Kae
+  slug: na-kae
 - id: 274
   provinceId: 20
   name: นาทม
-  slug: นาทม
+  nameEn: Na Thom
+  slug: na-thom
 - id: 275
   provinceId: 20
   name: นาหว้า
-  slug: นาหว้า
+  nameEn: Na Wa
+  slug: na-wa
 - id: 276
   provinceId: 20
   name: บ้านแพง
-  slug: บ้านแพง
+  nameEn: Ban Phaeng
+  slug: ban-phaeng
 - id: 277
   provinceId: 20
   name: ปลาปาก
-  slug: ปลาปาก
+  nameEn: Pla Pak
+  slug: pla-pak
 - id: 278
   provinceId: 20
   name: โพนสวรรค์
-  slug: โพนสวรรค์
+  nameEn: Phon Sawan
+  slug: phon-sawan
 - id: 279
   provinceId: 20
   name: เมืองนครพนม
-  slug: เมืองนครพนม
+  nameEn: Mueang Nakhon Phanom
+  slug: mueang-nakhon-phanom
 - id: 280
   provinceId: 20
   name: เรณูนคร
-  slug: เรณูนคร
+  nameEn: Renu Nakhon
+  slug: renu-nakhon
 - id: 281
   provinceId: 20
   name: วังยาง
-  slug: วังยาง
+  nameEn: Wang Yang
+  slug: wang-yang
 - id: 282
   provinceId: 20
   name: ศรีสงคราม
-  slug: ศรีสงคราม
+  nameEn: Si Songkhram
+  slug: si-songkhram
 - id: 283
   provinceId: 21
   name: แก้งสนามนาง
-  slug: แก้งสนามนาง
+  nameEn: Kaeng Sanam Nang
+  slug: kaeng-sanam-nang
 - id: 284
   provinceId: 21
   name: ขามทะเลสอ
-  slug: ขามทะเลสอ
+  nameEn: Kham Thale So
+  slug: kham-thale-so
 - id: 285
   provinceId: 21
   name: ขามสะแกแสง
-  slug: ขามสะแกแสง
+  nameEn: Kham Sakaesaeng
+  slug: kham-sakaesaeng
 - id: 286
   provinceId: 21
   name: คง
-  slug: คง
+  nameEn: Khong
+  slug: khong
 - id: 287
   provinceId: 21
   name: ครบุรี
-  slug: ครบุรี
+  nameEn: Khon Buri
+  slug: khon-buri
 - id: 288
   provinceId: 21
   name: จักราช
-  slug: จักราช
+  nameEn: Chakkarat
+  slug: chakkarat
 - id: 289
   provinceId: 21
   name: เฉลิมพระเกียรติ
-  slug: เฉลิมพระเกียรติ
+  nameEn: Chaloem Phra Kiat
+  slug: chaloem-phra-kiat
 - id: 290
   provinceId: 21
   name: ชุมพวง
-  slug: ชุมพวง
+  nameEn: Chum Phuang
+  slug: chum-phuang
 - id: 291
   provinceId: 21
   name: โชคชัย
-  slug: โชคชัย
+  nameEn: Chok Chai
+  slug: chok-chai
 - id: 292
   provinceId: 21
   name: ด่านขุนทด
-  slug: ด่านขุนทด
+  nameEn: Dan Khun Thot
+  slug: dan-khun-thot
 - id: 293
   provinceId: 21
   name: เทพารักษ์
-  slug: เทพารักษ์
+  nameEn: Thepharak
+  slug: thepharak
 - id: 294
   provinceId: 21
   name: โนนแดง
-  slug: โนนแดง
+  nameEn: Non Daeng
+  slug: non-daeng
 - id: 295
   provinceId: 21
   name: โนนไทย
-  slug: โนนไทย
+  nameEn: Non Thai
+  slug: non-thai
 - id: 296
   provinceId: 21
   name: โนนสูง
-  slug: โนนสูง
+  nameEn: Non Sung
+  slug: non-sung
 - id: 297
   provinceId: 21
   name: บัวลาย
-  slug: บัวลาย
+  nameEn: Bua Lai
+  slug: bua-lai
 - id: 298
   provinceId: 21
   name: บัวใหญ่
-  slug: บัวใหญ่
+  nameEn: Bua Yai
+  slug: bua-yai
 - id: 299
   provinceId: 21
   name: บ้านเหลื่อม
-  slug: บ้านเหลื่อม
+  nameEn: Ban Lueam
+  slug: ban-lueam
 - id: 300
   provinceId: 21
   name: ประทาย
-  slug: ประทาย
+  nameEn: Prathai
+  slug: prathai
 - id: 301
   provinceId: 21
   name: ปักธงชัย
-  slug: ปักธงชัย
+  nameEn: Pak Thong Chai
+  slug: pak-thong-chai
 - id: 302
   provinceId: 21
   name: ปากช่อง
-  slug: ปากช่อง
+  nameEn: Pak Chong
+  slug: pak-chong
 - id: 303
   provinceId: 21
   name: พระทองคำ
-  slug: พระทองคำ
+  nameEn: Phra Thong Kham
+  slug: phra-thong-kham
 - id: 304
   provinceId: 21
   name: พิมาย
-  slug: พิมาย
+  nameEn: Phimai
+  slug: phimai
 - id: 305
   provinceId: 21
   name: เมืองนครราชสีมา
-  slug: เมืองนครราชสีมา
+  nameEn: Mueang Nakhon Ratchasima
+  slug: mueang-nakhon-ratchasima
 - id: 306
   provinceId: 21
   name: เมืองยาง
-  slug: เมืองยาง
+  nameEn: Mueang Yang
+  slug: mueang-yang
 - id: 307
   provinceId: 21
   name: ลำทะเมนชัย
-  slug: ลำทะเมนชัย
+  nameEn: Lam Thamenchai
+  slug: lam-thamenchai
 - id: 308
   provinceId: 21
   name: วังน้ำเขียว
-  slug: วังน้ำเขียว
+  nameEn: Wang Nam Khiao
+  slug: wang-nam-khiao
 - id: 309
   provinceId: 21
   name: สีคิ้ว
-  slug: สีคิ้ว
+  nameEn: Sikhio
+  slug: sikhio
 - id: 310
   provinceId: 21
   name: สีดา
-  slug: สีดา
+  nameEn: Sida
+  slug: sida
 - id: 311
   provinceId: 21
   name: สูงเนิน
-  slug: สูงเนิน
+  nameEn: Sung Noen
+  slug: sung-noen
 - id: 312
   provinceId: 21
   name: เสิงสาง
-  slug: เสิงสาง
+  nameEn: Soeng Sang
+  slug: soeng-sang
 - id: 313
   provinceId: 21
   name: หนองบุญมาก
-  slug: หนองบุญมาก
+  nameEn: Nong Bunmak
+  slug: nong-bunmak
 - id: 314
   provinceId: 21
   name: ห้วยแถลง
-  slug: ห้วยแถลง
+  nameEn: Huai Thalaeng
+  slug: huai-thalaeng
 - id: 315
   provinceId: 22
   name: ขนอม
-  slug: ขนอม
+  nameEn: Khanom
+  slug: khanom
 - id: 316
   provinceId: 22
   name: จุฬาภรณ์
-  slug: จุฬาภรณ์
+  nameEn: Chulabhorn
+  slug: chulabhorn
 - id: 317
   provinceId: 22
   name: ฉวาง
-  slug: ฉวาง
+  nameEn: Chawang
+  slug: chawang
 - id: 318
   provinceId: 22
   name: เฉลิมพระเกียรติ
-  slug: เฉลิมพระเกียรติ
+  nameEn: Chaloem Phra Kiat
+  slug: chaloem-phra-kiat
 - id: 319
   provinceId: 22
   name: ชะอวด
-  slug: ชะอวด
+  nameEn: Cha-uat
+  slug: cha-uat
 - id: 320
   provinceId: 22
   name: ช้างกลาง
-  slug: ช้างกลาง
+  nameEn: Chang Klang
+  slug: chang-klang
 - id: 321
   provinceId: 22
   name: เชียรใหญ่
-  slug: เชียรใหญ่
+  nameEn: Chian Yai
+  slug: chian-yai
 - id: 322
   provinceId: 22
   name: ถ้ำพรรณรา
-  slug: ถ้ำพรรณรา
+  nameEn: Tham Phannara
+  slug: tham-phannara
 - id: 323
   provinceId: 22
   name: ท่าศาลา
-  slug: ท่าศาลา
+  nameEn: Tha Sala
+  slug: tha-sala
 - id: 324
   provinceId: 22
   name: ทุ่งสง
-  slug: ทุ่งสง
+  nameEn: Thung Song
+  slug: thung-song
 - id: 325
   provinceId: 22
   name: ทุ่งใหญ่
-  slug: ทุ่งใหญ่
+  nameEn: Thung Yai
+  slug: thung-yai
 - id: 326
   provinceId: 22
   name: นบพิตำ
-  slug: นบพิตำ
+  nameEn: Nopphitam
+  slug: nopphitam
 - id: 327
   provinceId: 22
   name: นาบอน
-  slug: นาบอน
+  nameEn: Na Bon
+  slug: na-bon
 - id: 328
   provinceId: 22
   name: บางขัน
-  slug: บางขัน
+  nameEn: Bang Khan
+  slug: bang-khan
 - id: 329
   provinceId: 22
   name: ปากพนัง
-  slug: ปากพนัง
+  nameEn: Pak Phanang
+  slug: pak-phanang
 - id: 330
   provinceId: 22
   name: พรหมคีรี
-  slug: พรหมคีรี
+  nameEn: Phrom Khiri
+  slug: phrom-khiri
 - id: 331
   provinceId: 22
   name: พระพรหม
-  slug: พระพรหม
+  nameEn: Phra Phrom
+  slug: phra-phrom
 - id: 332
   provinceId: 22
   name: พิปูน
-  slug: พิปูน
+  nameEn: Phipun
+  slug: phipun
 - id: 333
   provinceId: 22
   name: เมืองนครศรีธรรมราช
-  slug: เมืองนครศรีธรรมราช
+  nameEn: Mueang Nakhon Si Thammarat
+  slug: mueang-nakhon-si-thammarat
 - id: 334
   provinceId: 22
   name: ร่อนพิบูลย์
-  slug: ร่อนพิบูลย์
+  nameEn: Ron Phibun
+  slug: ron-phibun
 - id: 335
   provinceId: 22
   name: ลานสกา
-  slug: ลานสกา
+  nameEn: Lan Saka
+  slug: lan-saka
 - id: 336
   provinceId: 22
   name: สิชล
-  slug: สิชล
+  nameEn: Sichon
+  slug: sichon
 - id: 337
   provinceId: 22
   name: หัวไทร
-  slug: หัวไทร
+  nameEn: Hua Sai
+  slug: hua-sai
 - id: 338
   provinceId: 23
   name: เก้าเลี้ยว
-  slug: เก้าเลี้ยว
+  nameEn: Kao Liao
+  slug: kao-liao
 - id: 339
   provinceId: 23
   name: โกรกพระ
-  slug: โกรกพระ
+  nameEn: Krok Phra
+  slug: krok-phra
 - id: 340
   provinceId: 23
   name: ชุมตาบง
-  slug: ชุมตาบง
+  nameEn: Chum Ta Bong
+  slug: chum-ta-bong
 - id: 341
   provinceId: 23
   name: ชุมแสง
-  slug: ชุมแสง
+  nameEn: Chum Saeng
+  slug: chum-saeng
 - id: 342
   provinceId: 23
   name: ตากฟ้า
-  slug: ตากฟ้า
+  nameEn: Tak Fa
+  slug: tak-fa
 - id: 343
   provinceId: 23
   name: ตาคลี
-  slug: ตาคลี
+  nameEn: Takhli
+  slug: takhli
 - id: 344
   provinceId: 23
   name: ท่าตะโก
-  slug: ท่าตะโก
+  nameEn: Tha Tako
+  slug: tha-tako
 - id: 345
   provinceId: 23
   name: บรรพตพิสัย
-  slug: บรรพตพิสัย
+  nameEn: Banphot Phisai
+  slug: banphot-phisai
 - id: 346
   provinceId: 23
   name: พยุหะคีรี
-  slug: พยุหะคีรี
+  nameEn: Phayuha Khiri
+  slug: phayuha-khiri
 - id: 347
   provinceId: 23
   name: ไพศาลี
-  slug: ไพศาลี
+  nameEn: Phaisali
+  slug: phaisali
 - id: 348
   provinceId: 23
   name: เมืองนครสวรรค์
-  slug: เมืองนครสวรรค์
+  nameEn: Mueang Nakhon Sawan
+  slug: mueang-nakhon-sawan
 - id: 349
   provinceId: 23
   name: แม่เปิน
-  slug: แม่เปิน
+  nameEn: Mae Poen
+  slug: mae-poen
 - id: 350
   provinceId: 23
   name: แม่วงก์
-  slug: แม่วงก์
+  nameEn: Mae Wong
+  slug: mae-wong
 - id: 351
   provinceId: 23
   name: ลาดยาว
-  slug: ลาดยาว
+  nameEn: Lat Yao
+  slug: lat-yao
 - id: 352
   provinceId: 23
   name: หนองบัว
-  slug: หนองบัว
+  nameEn: Nong Bua
+  slug: nong-bua
 - id: 353
   provinceId: 24
   name: ไทรน้อย
-  slug: ไทรน้อย
+  nameEn: Sai Noi
+  slug: sai-noi
 - id: 354
   provinceId: 24
   name: บางกรวย
-  slug: บางกรวย
+  nameEn: Bang Kruai
+  slug: bang-kruai
 - id: 355
   provinceId: 24
   name: บางบัวทอง
-  slug: บางบัวทอง
+  nameEn: Bang Bua Thong
+  slug: bang-bua-thong
 - id: 356
   provinceId: 24
   name: บางใหญ่
-  slug: บางใหญ่
+  nameEn: Bang Yai
+  slug: bang-yai
 - id: 357
   provinceId: 24
   name: ปากเกร็ด
-  slug: ปากเกร็ด
+  nameEn: Pak Kret
+  slug: pak-kret
 - id: 358
   provinceId: 24
   name: เมืองนนทบุรี
-  slug: เมืองนนทบุรี
+  nameEn: Mueang Nonthaburi
+  slug: mueang-nonthaburi
 - id: 359
   provinceId: 25
   name: จะแนะ
-  slug: จะแนะ
+  nameEn: Chanae
+  slug: chanae
 - id: 360
   provinceId: 25
   name: เจาะไอร้อง
-  slug: เจาะไอร้อง
+  nameEn: Cho-airong
+  slug: cho-airong
 - id: 361
   provinceId: 25
   name: ตากใบ
-  slug: ตากใบ
+  nameEn: Tak Bai
+  slug: tak-bai
 - id: 362
   provinceId: 25
   name: บาเจาะ
-  slug: บาเจาะ
+  nameEn: Bacho
+  slug: bacho
 - id: 363
   provinceId: 25
   name: เมืองนราธิวาส
-  slug: เมืองนราธิวาส
+  nameEn: Mueang Narathiwat
+  slug: mueang-narathiwat
 - id: 364
   provinceId: 25
   name: ยี่งอ
-  slug: ยี่งอ
+  nameEn: Yi-ngo
+  slug: yi-ngo
 - id: 365
   provinceId: 25
   name: ระแงะ
-  slug: ระแงะ
+  nameEn: Ra-ngae
+  slug: ra-ngae
 - id: 366
   provinceId: 25
   name: รือเสาะ
-  slug: รือเสาะ
+  nameEn: Rueso
+  slug: rueso
 - id: 367
   provinceId: 25
   name: แว้ง
-  slug: แว้ง
+  nameEn: Waeng
+  slug: waeng
 - id: 368
   provinceId: 25
   name: ศรีสาคร
-  slug: ศรีสาคร
+  nameEn: Si Sakhon
+  slug: si-sakhon
 - id: 369
   provinceId: 25
   name: สุคิริน
-  slug: สุคิริน
+  nameEn: Sukhirin
+  slug: sukhirin
 - id: 370
   provinceId: 25
   name: สุไหงโก-ลก
-  slug: สุไหงโก-ลก
+  nameEn: Su-ngai Kolok
+  slug: su-ngai-kolok
 - id: 371
   provinceId: 25
   name: สุไหงปาดี
-  slug: สุไหงปาดี
+  nameEn: Su-ngai Padi
+  slug: su-ngai-padi
 - id: 372
   provinceId: 26
   name: เฉลิมพระเกียรติ
-  slug: เฉลิมพระเกียรติ
+  nameEn: Chaloem Phra Kiat
+  slug: chaloem-phra-kiat
 - id: 373
   provinceId: 26
   name: เชียงกลาง
-  slug: เชียงกลาง
+  nameEn: Chiang Klang
+  slug: chiang-klang
 - id: 374
   provinceId: 26
   name: ท่าวังผา
-  slug: ท่าวังผา
+  nameEn: Tha Wang Pha
+  slug: tha-wang-pha
 - id: 375
   provinceId: 26
   name: ทุ่งช้าง
-  slug: ทุ่งช้าง
+  nameEn: Thung Chang
+  slug: thung-chang
 - id: 376
   provinceId: 26
   name: นาน้อย
-  slug: นาน้อย
+  nameEn: Na Noi
+  slug: na-noi
 - id: 377
   provinceId: 26
   name: นาหมื่น
-  slug: นาหมื่น
+  nameEn: Na Muen
+  slug: na-muen
 - id: 378
   provinceId: 26
   name: บ่อเกลือ
-  slug: บ่อเกลือ
+  nameEn: Bo Kluea
+  slug: bo-kluea
 - id: 379
   provinceId: 26
   name: บ้านหลวง
-  slug: บ้านหลวง
+  nameEn: Ban Luang
+  slug: ban-luang
 - id: 380
   provinceId: 26
   name: ปัว
-  slug: ปัว
+  nameEn: Pua
+  slug: pua
 - id: 381
   provinceId: 26
   name: ภูเพียง
-  slug: ภูเพียง
+  nameEn: Phu Phiang
+  slug: phu-phiang
 - id: 382
   provinceId: 26
   name: เมืองน่าน
-  slug: เมืองน่าน
+  nameEn: Mueang Nan
+  slug: mueang-nan
 - id: 383
   provinceId: 26
   name: แม่จริม
-  slug: แม่จริม
+  nameEn: Mae Charim
+  slug: mae-charim
 - id: 384
   provinceId: 26
   name: เวียงสา
-  slug: เวียงสา
+  nameEn: Wiang Sa
+  slug: wiang-sa
 - id: 385
   provinceId: 26
   name: สองแคว
-  slug: สองแคว
+  nameEn: Song Khwae
+  slug: song-khwae
 - id: 386
   provinceId: 26
   name: สันติสุข
-  slug: สันติสุข
+  nameEn: Santi Suk
+  slug: santi-suk
 - id: 387
   provinceId: 27
   name: เซกา
-  slug: เซกา
+  nameEn: Seka
+  slug: seka
 - id: 388
   provinceId: 27
   name: โซ่พิสัย
-  slug: โซ่พิสัย
+  nameEn: So Phisai
+  slug: so-phisai
 - id: 389
   provinceId: 27
   name: บึงโขงหลง
-  slug: บึงโขงหลง
+  nameEn: Bueng Khong Long
+  slug: bueng-khong-long
 - id: 390
   provinceId: 27
   name: บุ่งคล้า
-  slug: บุ่งคล้า
+  nameEn: Bung Khla
+  slug: bung-khla
 - id: 391
   provinceId: 27
   name: ปากคาด
-  slug: ปากคาด
+  nameEn: Pak Khat
+  slug: pak-khat
 - id: 392
   provinceId: 27
   name: พรเจริญ
-  slug: พรเจริญ
+  nameEn: Phon Charoen
+  slug: phon-charoen
 - id: 393
   provinceId: 27
   name: เมืองบึงกาฬ
-  slug: เมืองบึงกาฬ
+  nameEn: Mueang Bueng Kan
+  slug: mueang-bueng-kan
 - id: 394
   provinceId: 27
   name: ศรีวิไล
-  slug: ศรีวิไล
+  nameEn: Si Wilai
+  slug: si-wilai
 - id: 395
   provinceId: 28
   name: กระสัง
-  slug: กระสัง
+  nameEn: Krasang
+  slug: krasang
 - id: 396
   provinceId: 28
   name: คูเมือง
-  slug: คูเมือง
+  nameEn: Khu Mueang
+  slug: khu-mueang
 - id: 397
   provinceId: 28
   name: แคนดง
-  slug: แคนดง
+  nameEn: Khaen Dong
+  slug: khaen-dong
 - id: 398
   provinceId: 28
   name: เฉลิมพระเกียรติ
-  slug: เฉลิมพระเกียรติ
+  nameEn: Chaloem Phra Kiat
+  slug: chaloem-phra-kiat
 - id: 399
   provinceId: 28
   name: ชำนิ
-  slug: ชำนิ
+  nameEn: Chamni
+  slug: chamni
 - id: 400
   provinceId: 28
   name: นางรอง
-  slug: นางรอง
+  nameEn: Nang Rong
+  slug: nang-rong
 - id: 401
   provinceId: 28
   name: นาโพธิ์
-  slug: นาโพธิ์
+  nameEn: Na Pho
+  slug: na-pho
 - id: 402
   provinceId: 28
   name: โนนดินแดง
-  slug: โนนดินแดง
+  nameEn: Non Din Daeng
+  slug: non-din-daeng
 - id: 403
   provinceId: 28
   name: โนนสุวรรณ
-  slug: โนนสุวรรณ
+  nameEn: Non Suwan
+  slug: non-suwan
 - id: 404
   provinceId: 28
   name: บ้านกรวด
-  slug: บ้านกรวด
+  nameEn: Ban Kruat
+  slug: ban-kruat
 - id: 405
   provinceId: 28
   name: บ้านด่าน
-  slug: บ้านด่าน
+  nameEn: Ban Dan
+  slug: ban-dan
 - id: 406
   provinceId: 28
   name: บ้านใหม่ไชยพจน์
-  slug: บ้านใหม่ไชยพจน์
+  nameEn: Ban Mai Chaiyaphot
+  slug: ban-mai-chaiyaphot
 - id: 407
   provinceId: 28
   name: ประโคนชัย
-  slug: ประโคนชัย
+  nameEn: Prakhon Chai
+  slug: prakhon-chai
 - id: 408
   provinceId: 28
   name: ปะคำ
-  slug: ปะคำ
+  nameEn: Pakham
+  slug: pakham
 - id: 409
   provinceId: 28
   name: พลับพลาชัย
-  slug: พลับพลาชัย
+  nameEn: Phlapphla Chai
+  slug: phlapphla-chai
 - id: 410
   provinceId: 28
   name: พุทไธสง
-  slug: พุทไธสง
+  nameEn: Phutthaisong
+  slug: phutthaisong
 - id: 411
   provinceId: 28
   name: เมืองบุรีรัมย์
-  slug: เมืองบุรีรัมย์
+  nameEn: Mueang Buri Ram
+  slug: mueang-buri-ram
 - id: 412
   provinceId: 28
   name: ละหานทราย
-  slug: ละหานทราย
+  nameEn: Lahan Sai
+  slug: lahan-sai
 - id: 413
   provinceId: 28
   name: ลำปลายมาศ
-  slug: ลำปลายมาศ
+  nameEn: Lam Plai Mat
+  slug: lam-plai-mat
 - id: 414
   provinceId: 28
   name: สตึก
-  slug: สตึก
+  nameEn: Satuek
+  slug: satuek
 - id: 415
   provinceId: 28
   name: หนองกี่
-  slug: หนองกี่
+  nameEn: Nong Ki
+  slug: nong-ki
 - id: 416
   provinceId: 28
   name: หนองหงส์
-  slug: หนองหงส์
+  nameEn: Nong Hong
+  slug: nong-hong
 - id: 417
   provinceId: 28
   name: ห้วยราช
-  slug: ห้วยราช
+  nameEn: Huai Rat
+  slug: huai-rat
 - id: 418
   provinceId: 29
   name: คลองหลวง
-  slug: คลองหลวง
+  nameEn: Khlong Luang
+  slug: khlong-luang
 - id: 419
   provinceId: 29
   name: ธัญบุรี
-  slug: ธัญบุรี
+  nameEn: Thanyaburi
+  slug: thanyaburi
 - id: 420
   provinceId: 29
   name: เมืองปทุมธานี
-  slug: เมืองปทุมธานี
+  nameEn: Mueang Pathum Thani
+  slug: mueang-pathum-thani
 - id: 421
   provinceId: 29
   name: ลาดหลุมแก้ว
-  slug: ลาดหลุมแก้ว
+  nameEn: Lat Lum Kaeo
+  slug: lat-lum-kaeo
 - id: 422
   provinceId: 29
   name: ลำลูกกา
-  slug: ลำลูกกา
+  nameEn: Lam Luk Ka
+  slug: lam-luk-ka
 - id: 423
   provinceId: 29
   name: สามโคก
-  slug: สามโคก
+  nameEn: Sam Khok
+  slug: sam-khok
 - id: 424
   provinceId: 29
   name: หนองเสือ
-  slug: หนองเสือ
+  nameEn: Nong Suea
+  slug: nong-suea
 - id: 425
   provinceId: 30
   name: กุยบุรี
-  slug: กุยบุรี
+  nameEn: Kui Buri
+  slug: kui-buri
 - id: 426
   provinceId: 30
   name: ทับสะแก
-  slug: ทับสะแก
+  nameEn: Thap Sakae
+  slug: thap-sakae
 - id: 427
   provinceId: 30
   name: บางสะพาน
-  slug: บางสะพาน
+  nameEn: Bang Saphan
+  slug: bang-saphan
 - id: 428
   provinceId: 30
   name: บางสะพานน้อย
-  slug: บางสะพานน้อย
+  nameEn: Bang Saphan Noi
+  slug: bang-saphan-noi
 - id: 429
   provinceId: 30
   name: ปราณบุรี
-  slug: ปราณบุรี
+  nameEn: Pran Buri
+  slug: pran-buri
 - id: 430
   provinceId: 30
   name: เมืองประจวบคีรีขันธ์
-  slug: เมืองประจวบคีรีขันธ์
+  nameEn: Mueang Prachuap Khiri Khan
+  slug: mueang-prachuap-khiri-khan
 - id: 431
   provinceId: 30
   name: สามร้อยยอด
-  slug: สามร้อยยอด
+  nameEn: Sam Roi Yot
+  slug: sam-roi-yot
 - id: 432
   provinceId: 30
   name: หัวหิน
-  slug: หัวหิน
+  nameEn: Hua Hin
+  slug: hua-hin
 - id: 433
   provinceId: 31
   name: กบินทร์บุรี
-  slug: กบินทร์บุรี
+  nameEn: Kabin Buri
+  slug: kabin-buri
 - id: 434
   provinceId: 31
   name: นาดี
-  slug: นาดี
+  nameEn: Na Di
+  slug: na-di
 - id: 435
   provinceId: 31
   name: บ้านสร้าง
-  slug: บ้านสร้าง
+  nameEn: Ban Sang
+  slug: ban-sang
 - id: 436
   provinceId: 31
   name: ประจันตคาม
-  slug: ประจันตคาม
+  nameEn: Prachantakham
+  slug: prachantakham
 - id: 437
   provinceId: 31
   name: เมืองปราจีนบุรี
-  slug: เมืองปราจีนบุรี
+  nameEn: Mueang Prachin Buri
+  slug: mueang-prachin-buri
 - id: 438
   provinceId: 31
   name: ศรีมหาโพธิ
-  slug: ศรีมหาโพธิ
+  nameEn: Si Maha Phot
+  slug: si-maha-phot
 - id: 439
   provinceId: 31
   name: ศรีมโหสถ
-  slug: ศรีมโหสถ
+  nameEn: Si Mahosot
+  slug: si-mahosot
 - id: 440
   provinceId: 32
   name: กะพ้อ
-  slug: กะพ้อ
+  nameEn: Kapho
+  slug: kapho
 - id: 441
   provinceId: 32
   name: โคกโพธิ์
-  slug: โคกโพธิ์
+  nameEn: Khok Pho
+  slug: khok-pho
 - id: 442
   provinceId: 32
   name: ทุ่งยางแดง
-  slug: ทุ่งยางแดง
+  nameEn: Thung Yang Daeng
+  slug: thung-yang-daeng
 - id: 443
   provinceId: 32
   name: ปะนาเระ
-  slug: ปะนาเระ
+  nameEn: Panare
+  slug: panare
 - id: 444
   provinceId: 32
   name: มายอ
-  slug: มายอ
+  nameEn: Mayo
+  slug: mayo
 - id: 445
   provinceId: 32
   name: เมืองปัตตานี
-  slug: เมืองปัตตานี
+  nameEn: Mueang Pattani
+  slug: mueang-pattani
 - id: 446
   provinceId: 32
   name: แม่ลาน
-  slug: แม่ลาน
+  nameEn: Mae Lan
+  slug: mae-lan
 - id: 447
   provinceId: 32
   name: ไม้แก่น
-  slug: ไม้แก่น
+  nameEn: Mai Kaen
+  slug: mai-kaen
 - id: 448
   provinceId: 32
   name: ยะรัง
-  slug: ยะรัง
+  nameEn: Yarang
+  slug: yarang
 - id: 449
   provinceId: 32
   name: ยะหริ่ง
-  slug: ยะหริ่ง
+  nameEn: Yaring
+  slug: yaring
 - id: 450
   provinceId: 32
   name: สายบุรี
-  slug: สายบุรี
+  nameEn: Sai Buri
+  slug: sai-buri
 - id: 451
   provinceId: 32
   name: หนองจิก
-  slug: หนองจิก
+  nameEn: Nong Chik
+  slug: nong-chik
 - id: 452
   provinceId: 33
   name: ท่าเรือ
-  slug: ท่าเรือ
+  nameEn: Tha Ruea
+  slug: tha-ruea
 - id: 453
   provinceId: 33
   name: นครหลวง
-  slug: นครหลวง
+  nameEn: Nakhon Luang
+  slug: nakhon-luang
 - id: 454
   provinceId: 33
   name: บางซ้าย
-  slug: บางซ้าย
+  nameEn: Bang Sai
+  slug: bang-sai
 - id: 455
   provinceId: 33
   name: บางไทร
-  slug: บางไทร
+  nameEn: Bang Sai
+  slug: bang-sai
 - id: 456
   provinceId: 33
   name: บางบาล
-  slug: บางบาล
+  nameEn: Bang Ban
+  slug: bang-ban
 - id: 457
   provinceId: 33
   name: บางปะหัน
-  slug: บางปะหัน
+  nameEn: Bang Pahan
+  slug: bang-pahan
 - id: 458
   provinceId: 33
   name: บางปะอิน
-  slug: บางปะอิน
+  nameEn: Bang Pa-in
+  slug: bang-pa-in
 - id: 459
   provinceId: 33
   name: บ้านแพรก
-  slug: บ้านแพรก
+  nameEn: Ban Phraek
+  slug: ban-phraek
 - id: 460
   provinceId: 33
   name: ผักไห่
-  slug: ผักไห่
+  nameEn: Phak Hai
+  slug: phak-hai
 - id: 461
   provinceId: 33
   name: พระนครศรีอยุธยา
-  slug: พระนครศรีอยุธยา
+  nameEn: Phra Nakhon Si Ayutthaya
+  slug: phra-nakhon-si-ayutthaya
 - id: 462
   provinceId: 33
   name: ภาชี
-  slug: ภาชี
+  nameEn: Phachi
+  slug: phachi
 - id: 463
   provinceId: 33
   name: มหาราช
-  slug: มหาราช
+  nameEn: Maha Rat
+  slug: maha-rat
 - id: 464
   provinceId: 33
   name: ลาดบัวหลวง
-  slug: ลาดบัวหลวง
+  nameEn: Lat Bua Luang
+  slug: lat-bua-luang
 - id: 465
   provinceId: 33
   name: วังน้อย
-  slug: วังน้อย
+  nameEn: Wang Noi
+  slug: wang-noi
 - id: 466
   provinceId: 33
   name: เสนา
-  slug: เสนา
+  nameEn: Sena
+  slug: sena
 - id: 467
   provinceId: 33
   name: อุทัย
-  slug: อุทัย
+  nameEn: Uthai
+  slug: uthai
 - id: 468
   provinceId: 34
   name: จุน
-  slug: จุน
+  nameEn: Chun
+  slug: chun
 - id: 469
   provinceId: 34
   name: เชียงคำ
-  slug: เชียงคำ
+  nameEn: Chiang Kham
+  slug: chiang-kham
 - id: 470
   provinceId: 34
   name: เชียงม่วน
-  slug: เชียงม่วน
+  nameEn: Chiang Muan
+  slug: chiang-muan
 - id: 471
   provinceId: 34
   name: ดอกคำใต้
-  slug: ดอกคำใต้
+  nameEn: Dok Khamtai
+  slug: dok-khamtai
 - id: 472
   provinceId: 34
   name: ปง
-  slug: ปง
+  nameEn: Pong
+  slug: pong
 - id: 473
   provinceId: 34
   name: ภูกามยาว
-  slug: ภูกามยาว
+  nameEn: Phu Kamyao
+  slug: phu-kamyao
 - id: 474
   provinceId: 34
   name: ภูซาง
-  slug: ภูซาง
+  nameEn: Phu Sang
+  slug: phu-sang
 - id: 475
   provinceId: 34
   name: เมืองพะเยา
-  slug: เมืองพะเยา
+  nameEn: Mueang Phayao
+  slug: mueang-phayao
 - id: 476
   provinceId: 34
   name: แม่ใจ
-  slug: แม่ใจ
+  nameEn: Mae Chai
+  slug: mae-chai
 - id: 477
   provinceId: 35
   name: กะปง
-  slug: กะปง
+  nameEn: Kapong
+  slug: kapong
 - id: 478
   provinceId: 35
   name: เกาะยาว
-  slug: เกาะยาว
+  nameEn: Ko Yao
+  slug: ko-yao
 - id: 479
   provinceId: 35
   name: คุระบุรี
-  slug: คุระบุรี
+  nameEn: Khura Buri
+  slug: khura-buri
 - id: 480
   provinceId: 35
   name: ตะกั่วทุ่ง
-  slug: ตะกั่วทุ่ง
+  nameEn: Takua Thung
+  slug: takua-thung
 - id: 481
   provinceId: 35
   name: ตะกั่วป่า
-  slug: ตะกั่วป่า
+  nameEn: Takua Pa
+  slug: takua-pa
 - id: 482
   provinceId: 35
   name: ทับปุด
-  slug: ทับปุด
+  nameEn: Thap Put
+  slug: thap-put
 - id: 483
   provinceId: 35
   name: ท้ายเหมือง
-  slug: ท้ายเหมือง
+  nameEn: Thai Mueang
+  slug: thai-mueang
 - id: 484
   provinceId: 35
   name: เมืองพังงา
-  slug: เมืองพังงา
+  nameEn: Mueang Phang-nga
+  slug: mueang-phang-nga
 - id: 485
   provinceId: 36
   name: กงหรา
-  slug: กงหรา
+  nameEn: Kong Ra
+  slug: kong-ra
 - id: 486
   provinceId: 36
   name: เขาชัยสน
-  slug: เขาชัยสน
+  nameEn: Khao Chaison
+  slug: khao-chaison
 - id: 487
   provinceId: 36
   name: ควนขนุน
-  slug: ควนขนุน
+  nameEn: Khuan Khanun
+  slug: khuan-khanun
 - id: 488
   provinceId: 36
   name: ตะโหมด
-  slug: ตะโหมด
+  nameEn: Tamot
+  slug: tamot
 - id: 489
   provinceId: 36
   name: บางแก้ว
-  slug: บางแก้ว
+  nameEn: Bang Kaeo
+  slug: bang-kaeo
 - id: 490
   provinceId: 36
   name: ปากพะยูน
-  slug: ปากพะยูน
+  nameEn: Pak Phayun
+  slug: pak-phayun
 - id: 491
   provinceId: 36
   name: ป่าบอน
-  slug: ป่าบอน
+  nameEn: Pa Bon
+  slug: pa-bon
 - id: 492
   provinceId: 36
   name: ป่าพะยอม
-  slug: ป่าพะยอม
+  nameEn: Pa Phayom
+  slug: pa-phayom
 - id: 493
   provinceId: 36
   name: เมืองพัทลุง
-  slug: เมืองพัทลุง
+  nameEn: Mueang Phatthalung
+  slug: mueang-phatthalung
 - id: 494
   provinceId: 36
   name: ศรีนครินทร์
-  slug: ศรีนครินทร์
+  nameEn: Srinagarindra
+  slug: srinagarindra
 - id: 495
   provinceId: 36
   name: ศรีบรรพต
-  slug: ศรีบรรพต
+  nameEn: Si Banphot
+  slug: si-banphot
 - id: 496
   provinceId: 37
   name: ดงเจริญ
-  slug: ดงเจริญ
+  nameEn: Dong Charoen
+  slug: dong-charoen
 - id: 497
   provinceId: 37
   name: ตะพานหิน
-  slug: ตะพานหิน
+  nameEn: Taphan Hin
+  slug: taphan-hin
 - id: 498
   provinceId: 37
   name: ทับคล้อ
-  slug: ทับคล้อ
+  nameEn: Thap Khlo
+  slug: thap-khlo
 - id: 499
   provinceId: 37
   name: บางมูลนาก
-  slug: บางมูลนาก
+  nameEn: Bang Mun Nak
+  slug: bang-mun-nak
 - id: 500
   provinceId: 37
   name: บึงนาราง
-  slug: บึงนาราง
+  nameEn: Bueng Na Rang
+  slug: bueng-na-rang
 - id: 501
   provinceId: 37
   name: โพทะเล
-  slug: โพทะเล
+  nameEn: Pho Thale
+  slug: pho-thale
 - id: 502
   provinceId: 37
   name: โพธิ์ประทับช้าง
-  slug: โพธิ์ประทับช้าง
+  nameEn: Pho Prathap Chang
+  slug: pho-prathap-chang
 - id: 503
   provinceId: 37
   name: เมืองพิจิตร
-  slug: เมืองพิจิตร
+  nameEn: Mueang Phichit
+  slug: mueang-phichit
 - id: 504
   provinceId: 37
   name: วชิรบารมี
-  slug: วชิรบารมี
+  nameEn: Wachirabarami
+  slug: wachirabarami
 - id: 505
   provinceId: 37
   name: วังทรายพูน
-  slug: วังทรายพูน
+  nameEn: Wang Sai Phun
+  slug: wang-sai-phun
 - id: 506
   provinceId: 37
   name: สากเหล็ก
-  slug: สากเหล็ก
+  nameEn: Sak Lek
+  slug: sak-lek
 - id: 507
   provinceId: 37
   name: สามง่าม
-  slug: สามง่าม
+  nameEn: Sam Ngam
+  slug: sam-ngam
 - id: 508
   provinceId: 38
   name: ชาติตระการ
-  slug: ชาติตระการ
+  nameEn: Chat Trakan
+  slug: chat-trakan
 - id: 509
   provinceId: 38
   name: นครไทย
-  slug: นครไทย
+  nameEn: Nakhon Thai
+  slug: nakhon-thai
 - id: 510
   provinceId: 38
   name: เนินมะปราง
-  slug: เนินมะปราง
+  nameEn: Noen Maprang
+  slug: noen-maprang
 - id: 511
   provinceId: 38
   name: บางกระทุ่ม
-  slug: บางกระทุ่ม
+  nameEn: Bang Krathum
+  slug: bang-krathum
 - id: 512
   provinceId: 38
   name: บางระกำ
-  slug: บางระกำ
+  nameEn: Bang Rakam
+  slug: bang-rakam
 - id: 513
   provinceId: 38
   name: พรหมพิราม
-  slug: พรหมพิราม
+  nameEn: Phrom Phiram
+  slug: phrom-phiram
 - id: 514
   provinceId: 38
   name: เมืองพิษณุโลก
-  slug: เมืองพิษณุโลก
+  nameEn: Mueang Phitsanulok
+  slug: mueang-phitsanulok
 - id: 515
   provinceId: 38
   name: วังทอง
-  slug: วังทอง
+  nameEn: Wang Thong
+  slug: wang-thong
 - id: 516
   provinceId: 38
   name: วัดโบสถ์
-  slug: วัดโบสถ์
+  nameEn: Wat Bot
+  slug: wat-bot
 - id: 517
   provinceId: 39
   name: แก่งกระจาน
-  slug: แก่งกระจาน
+  nameEn: Kaeng Krachan
+  slug: kaeng-krachan
 - id: 518
   provinceId: 39
   name: เขาย้อย
-  slug: เขาย้อย
+  nameEn: Khao Yoi
+  slug: khao-yoi
 - id: 519
   provinceId: 39
   name: ชะอำ
-  slug: ชะอำ
+  nameEn: Cha-am
+  slug: cha-am
 - id: 520
   provinceId: 39
   name: ท่ายาง
-  slug: ท่ายาง
+  nameEn: Tha Yang
+  slug: tha-yang
 - id: 521
   provinceId: 39
   name: บ้านลาด
-  slug: บ้านลาด
+  nameEn: Ban Lat
+  slug: ban-lat
 - id: 522
   provinceId: 39
   name: บ้านแหลม
-  slug: บ้านแหลม
+  nameEn: Ban Laem
+  slug: ban-laem
 - id: 523
   provinceId: 39
   name: เมืองเพชรบุรี
-  slug: เมืองเพชรบุรี
+  nameEn: Mueang Phetchaburi
+  slug: mueang-phetchaburi
 - id: 524
   provinceId: 39
   name: หนองหญ้าปล้อง
-  slug: หนองหญ้าปล้อง
+  nameEn: Nong Ya Plong
+  slug: nong-ya-plong
 - id: 525
   provinceId: 40
   name: เขาค้อ
-  slug: เขาค้อ
+  nameEn: Khao Kho
+  slug: khao-kho
 - id: 526
   provinceId: 40
   name: ชนแดน
-  slug: ชนแดน
+  nameEn: Chon Daen
+  slug: chon-daen
 - id: 527
   provinceId: 40
   name: น้ำหนาว
-  slug: น้ำหนาว
+  nameEn: Nam Nao
+  slug: nam-nao
 - id: 528
   provinceId: 40
   name: บึงสามพัน
-  slug: บึงสามพัน
+  nameEn: Bueng Sam Phan
+  slug: bueng-sam-phan
 - id: 529
   provinceId: 40
   name: เมืองเพชรบูรณ์
-  slug: เมืองเพชรบูรณ์
+  nameEn: Mueang Phetchabun
+  slug: mueang-phetchabun
 - id: 530
   provinceId: 40
   name: วังโป่ง
-  slug: วังโป่ง
+  nameEn: Wang Pong
+  slug: wang-pong
 - id: 531
   provinceId: 40
   name: วิเชียรบุรี
-  slug: วิเชียรบุรี
+  nameEn: Wichian Buri
+  slug: wichian-buri
 - id: 532
   provinceId: 40
   name: ศรีเทพ
-  slug: ศรีเทพ
+  nameEn: Si Thep
+  slug: si-thep
 - id: 533
   provinceId: 40
   name: หนองไผ่
-  slug: หนองไผ่
+  nameEn: Nong Phai
+  slug: nong-phai
 - id: 534
   provinceId: 40
   name: หล่มเก่า
-  slug: หล่มเก่า
+  nameEn: Lom Kao
+  slug: lom-kao
 - id: 535
   provinceId: 40
   name: หล่มสัก
-  slug: หล่มสัก
+  nameEn: Lom Sak
+  slug: lom-sak
 - id: 536
   provinceId: 41
   name: เด่นชัย
-  slug: เด่นชัย
+  nameEn: Den Chai
+  slug: den-chai
 - id: 537
   provinceId: 41
   name: เมืองแพร่
-  slug: เมืองแพร่
+  nameEn: Mueang Phrae
+  slug: mueang-phrae
 - id: 538
   provinceId: 41
   name: ร้องกวาง
-  slug: ร้องกวาง
+  nameEn: Rong Kwang
+  slug: rong-kwang
 - id: 539
   provinceId: 41
   name: ลอง
-  slug: ลอง
+  nameEn: Long
+  slug: long
 - id: 540
   provinceId: 41
   name: วังชิ้น
-  slug: วังชิ้น
+  nameEn: Wang Chin
+  slug: wang-chin
 - id: 541
   provinceId: 41
   name: สอง
-  slug: สอง
+  nameEn: Song
+  slug: song
 - id: 542
   provinceId: 41
   name: สูงเม่น
-  slug: สูงเม่น
+  nameEn: Sung Men
+  slug: sung-men
 - id: 543
   provinceId: 41
   name: หนองม่วงไข่
-  slug: หนองม่วงไข่
+  nameEn: Nong Muang Khai
+  slug: nong-muang-khai
 - id: 544
   provinceId: 42
   name: กะทู้
-  slug: กะทู้
+  nameEn: Kathu
+  slug: kathu
 - id: 545
   provinceId: 42
   name: ถลาง
-  slug: ถลาง
+  nameEn: Thalang
+  slug: thalang
 - id: 546
   provinceId: 42
   name: เมืองภูเก็ต
-  slug: เมืองภูเก็ต
+  nameEn: Mueang Phuket
+  slug: mueang-phuket
 - id: 547
   provinceId: 43
   name: กันทรวิชัย
-  slug: กันทรวิชัย
+  nameEn: Kantharawichai
+  slug: kantharawichai
 - id: 548
   provinceId: 43
   name: กุดรัง
-  slug: กุดรัง
+  nameEn: Kut Rang
+  slug: kut-rang
 - id: 549
   provinceId: 43
   name: แกดำ
-  slug: แกดำ
+  nameEn: Kae Dam
+  slug: kae-dam
 - id: 550
   provinceId: 43
   name: โกสุมพิสัย
-  slug: โกสุมพิสัย
+  nameEn: Kosum Phisai
+  slug: kosum-phisai
 - id: 551
   provinceId: 43
   name: ชื่นชม
-  slug: ชื่นชม
+  nameEn: Chuen Chom
+  slug: chuen-chom
 - id: 552
   provinceId: 43
   name: เชียงยืน
-  slug: เชียงยืน
+  nameEn: Chiang Yuen
+  slug: chiang-yuen
 - id: 553
   provinceId: 43
   name: นาเชือก
-  slug: นาเชือก
+  nameEn: Na Chueak
+  slug: na-chueak
 - id: 554
   provinceId: 43
   name: นาดูน
-  slug: นาดูน
+  nameEn: Na Dun
+  slug: na-dun
 - id: 555
   provinceId: 43
   name: บรบือ
-  slug: บรบือ
+  nameEn: Borabue
+  slug: borabue
 - id: 556
   provinceId: 43
   name: พยัคฆภูมิพิสัย
-  slug: พยัคฆภูมิพิสัย
+  nameEn: Phayakkhaphum Phisai
+  slug: phayakkhaphum-phisai
 - id: 557
   provinceId: 43
   name: เมืองมหาสารคาม
-  slug: เมืองมหาสารคาม
+  nameEn: Mueang Maha Sarakham
+  slug: mueang-maha-sarakham
 - id: 558
   provinceId: 43
   name: ยางสีสุราช
-  slug: ยางสีสุราช
+  nameEn: Yang Si Surat
+  slug: yang-si-surat
 - id: 559
   provinceId: 43
   name: วาปีปทุม
-  slug: วาปีปทุม
+  nameEn: Wapi Pathum
+  slug: wapi-pathum
 - id: 560
   provinceId: 44
   name: คำชะอี
-  slug: คำชะอี
+  nameEn: Khamcha-i
+  slug: khamcha-i
 - id: 561
   provinceId: 44
   name: ดงหลวง
-  slug: ดงหลวง
+  nameEn: Dong Luang
+  slug: dong-luang
 - id: 562
   provinceId: 44
   name: ดอนตาล
-  slug: ดอนตาล
+  nameEn: Don Tan
+  slug: don-tan
 - id: 563
   provinceId: 44
   name: นิคมคำสร้อย
-  slug: นิคมคำสร้อย
+  nameEn: Nikhom Kham Soi
+  slug: nikhom-kham-soi
 - id: 564
   provinceId: 44
   name: เมืองมุกดาหาร
-  slug: เมืองมุกดาหาร
+  nameEn: Mueang Mukdahan
+  slug: mueang-mukdahan
 - id: 565
   provinceId: 44
   name: หนองสูง
-  slug: หนองสูง
+  nameEn: Nong Sung
+  slug: nong-sung
 - id: 566
   provinceId: 44
   name: หว้านใหญ่
-  slug: หว้านใหญ่
+  nameEn: Wan Yai
+  slug: wan-yai
 - id: 567
   provinceId: 45
   name: ขุนยวม
-  slug: ขุนยวม
+  nameEn: Khun Yuam
+  slug: khun-yuam
 - id: 568
   provinceId: 45
   name: ปางมะผ้า
-  slug: ปางมะผ้า
+  nameEn: Pang Mapha
+  slug: pang-mapha
 - id: 569
   provinceId: 45
   name: ปาย
-  slug: ปาย
+  nameEn: Pai
+  slug: pai
 - id: 570
   provinceId: 45
   name: เมืองแม่ฮ่องสอน
-  slug: เมืองแม่ฮ่องสอน
+  nameEn: Mueang Mae Hong Son
+  slug: mueang-mae-hong-son
 - id: 571
   provinceId: 45
   name: แม่ลาน้อย
-  slug: แม่ลาน้อย
+  nameEn: Mae La Noi
+  slug: mae-la-noi
 - id: 572
   provinceId: 45
   name: แม่สะเรียง
-  slug: แม่สะเรียง
+  nameEn: Mae Sariang
+  slug: mae-sariang
 - id: 573
   provinceId: 45
   name: สบเมย
-  slug: สบเมย
+  nameEn: Sop Moei
+  slug: sop-moei
 - id: 574
   provinceId: 46
   name: กุดชุม
-  slug: กุดชุม
+  nameEn: Kut Chum
+  slug: kut-chum
 - id: 575
   provinceId: 46
   name: ค้อวัง
-  slug: ค้อวัง
+  nameEn: Kho Wang
+  slug: kho-wang
 - id: 576
   provinceId: 46
   name: คำเขื่อนแก้ว
-  slug: คำเขื่อนแก้ว
+  nameEn: Kham Khuean Kaeo
+  slug: kham-khuean-kaeo
 - id: 577
   provinceId: 46
   name: ทรายมูล
-  slug: ทรายมูล
+  nameEn: Sai Mun
+  slug: sai-mun
 - id: 578
   provinceId: 46
   name: ไทยเจริญ
-  slug: ไทยเจริญ
+  nameEn: Thai Charoen
+  slug: thai-charoen
 - id: 579
   provinceId: 46
   name: ป่าติ้ว
-  slug: ป่าติ้ว
+  nameEn: Pa Tio
+  slug: pa-tio
 - id: 580
   provinceId: 46
   name: มหาชนะชัย
-  slug: มหาชนะชัย
+  nameEn: Maha Chana Chai
+  slug: maha-chana-chai
 - id: 581
   provinceId: 46
   name: เมืองยโสธร
-  slug: เมืองยโสธร
+  nameEn: Mueang Yasothon
+  slug: mueang-yasothon
 - id: 582
   provinceId: 46
   name: เลิงนกทา
-  slug: เลิงนกทา
+  nameEn: Loeng Nok Tha
+  slug: loeng-nok-tha
 - id: 583
   provinceId: 47
   name: กรงปินัง
-  slug: กรงปินัง
+  nameEn: Krong Pinang
+  slug: krong-pinang
 - id: 584
   provinceId: 47
   name: กาบัง
-  slug: กาบัง
+  nameEn: Kabang
+  slug: kabang
 - id: 585
   provinceId: 47
   name: ธารโต
-  slug: ธารโต
+  nameEn: Than To
+  slug: than-to
 - id: 586
   provinceId: 47
   name: บันนังสตา
-  slug: บันนังสตา
+  nameEn: Bannang Sata
+  slug: bannang-sata
 - id: 587
   provinceId: 47
   name: เบตง
-  slug: เบตง
+  nameEn: Betong
+  slug: betong
 - id: 588
   provinceId: 47
   name: เมืองยะลา
-  slug: เมืองยะลา
+  nameEn: Mueang Yala
+  slug: mueang-yala
 - id: 589
   provinceId: 47
   name: ยะหา
-  slug: ยะหา
+  nameEn: Yaha
+  slug: yaha
 - id: 590
   provinceId: 47
   name: รามัน
-  slug: รามัน
+  nameEn: Raman
+  slug: raman
 - id: 591
   provinceId: 48
   name: เกษตรวิสัย
-  slug: เกษตรวิสัย
+  nameEn: Kaset Wisai
+  slug: kaset-wisai
 - id: 592
   provinceId: 48
   name: จตุรพักตรพิมาน
-  slug: จตุรพักตรพิมาน
+  nameEn: Chaturaphak Phiman
+  slug: chaturaphak-phiman
 - id: 593
   provinceId: 48
   name: จังหาร
-  slug: จังหาร
+  nameEn: Changhan
+  slug: changhan
 - id: 594
   provinceId: 48
   name: เชียงขวัญ
-  slug: เชียงขวัญ
+  nameEn: Chiang Khwan
+  slug: chiang-khwan
 - id: 595
   provinceId: 48
   name: ทุ่งเขาหลวง
-  slug: ทุ่งเขาหลวง
+  nameEn: Thung Khao Luang
+  slug: thung-khao-luang
 - id: 596
   provinceId: 48
   name: ธวัชบุรี
-  slug: ธวัชบุรี
+  nameEn: Thawat Buri
+  slug: thawat-buri
 - id: 597
   provinceId: 48
   name: ปทุมรัตต์
-  slug: ปทุมรัตต์
+  nameEn: Pathum Rat
+  slug: pathum-rat
 - id: 598
   provinceId: 48
   name: พนมไพร
-  slug: พนมไพร
+  nameEn: Phanom Phrai
+  slug: phanom-phrai
 - id: 599
   provinceId: 48
   name: โพธิ์ชัย
-  slug: โพธิ์ชัย
+  nameEn: Pho Chai
+  slug: pho-chai
 - id: 600
   provinceId: 48
   name: โพนทราย
-  slug: โพนทราย
+  nameEn: Phon Sai
+  slug: phon-sai
 - id: 601
   provinceId: 48
   name: โพนทอง
-  slug: โพนทอง
+  nameEn: Phon Thong
+  slug: phon-thong
 - id: 602
   provinceId: 48
   name: เมยวดี
-  slug: เมยวดี
+  nameEn: Moei Wadi
+  slug: moei-wadi
 - id: 603
   provinceId: 48
   name: เมืองร้อยเอ็ด
-  slug: เมืองร้อยเอ็ด
+  nameEn: Mueang Roi Et
+  slug: mueang-roi-et
 - id: 604
   provinceId: 48
   name: เมืองสรวง
-  slug: เมืองสรวง
+  nameEn: Mueang Suang
+  slug: mueang-suang
 - id: 605
   provinceId: 48
   name: ศรีสมเด็จ
-  slug: ศรีสมเด็จ
+  nameEn: Si Somdet
+  slug: si-somdet
 - id: 606
   provinceId: 48
   name: สุวรรณภูมิ
-  slug: สุวรรณภูมิ
+  nameEn: Suwannaphum
+  slug: suwannaphum
 - id: 607
   provinceId: 48
   name: เสลภูมิ
-  slug: เสลภูมิ
+  nameEn: Selaphum
+  slug: selaphum
 - id: 608
   provinceId: 48
   name: หนองพอก
-  slug: หนองพอก
+  nameEn: Nong Phok
+  slug: nong-phok
 - id: 609
   provinceId: 48
   name: หนองฮี
-  slug: หนองฮี
+  nameEn: Nong Hi
+  slug: nong-hi
 - id: 610
   provinceId: 48
   name: อาจสามารถ
-  slug: อาจสามารถ
+  nameEn: At Samat
+  slug: at-samat
 - id: 611
   provinceId: 49
   name: กระบุรี
-  slug: กระบุรี
+  nameEn: Kra Buri
+  slug: kra-buri
 - id: 612
   provinceId: 49
   name: กะเปอร์
-  slug: กะเปอร์
+  nameEn: Kapoe
+  slug: kapoe
 - id: 613
   provinceId: 49
   name: เมืองระนอง
-  slug: เมืองระนอง
+  nameEn: Mueang Ranong
+  slug: mueang-ranong
 - id: 614
   provinceId: 49
   name: ละอุ่น
-  slug: ละอุ่น
+  nameEn: La-un
+  slug: la-un
 - id: 615
   provinceId: 49
   name: สุขสำราญ
-  slug: สุขสำราญ
+  nameEn: Suk Samran
+  slug: suk-samran
 - id: 616
   provinceId: 50
   name: แกลง
-  slug: แกลง
+  nameEn: Klaeng
+  slug: klaeng
 - id: 617
   provinceId: 50
   name: เขาชะเมา
-  slug: เขาชะเมา
+  nameEn: Khao Chamao
+  slug: khao-chamao
 - id: 618
   provinceId: 50
   name: นิคมพัฒนา
-  slug: นิคมพัฒนา
+  nameEn: Nikhom Phatthana
+  slug: nikhom-phatthana
 - id: 619
   provinceId: 50
   name: บ้านค่าย
-  slug: บ้านค่าย
+  nameEn: Ban Khai
+  slug: ban-khai
 - id: 620
   provinceId: 50
   name: บ้านฉาง
-  slug: บ้านฉาง
+  nameEn: Ban Chang
+  slug: ban-chang
 - id: 621
   provinceId: 50
   name: ปลวกแดง
-  slug: ปลวกแดง
+  nameEn: Pluak Daeng
+  slug: pluak-daeng
 - id: 622
   provinceId: 50
   name: เมืองระยอง
-  slug: เมืองระยอง
+  nameEn: Mueang Rayong
+  slug: mueang-rayong
 - id: 623
   provinceId: 50
   name: วังจันทร์
-  slug: วังจันทร์
+  nameEn: Wang Chan
+  slug: wang-chan
 - id: 624
   provinceId: 51
   name: จอมบึง
-  slug: จอมบึง
+  nameEn: Chom Bueng
+  slug: chom-bueng
 - id: 625
   provinceId: 51
   name: ดำเนินสะดวก
-  slug: ดำเนินสะดวก
+  nameEn: Damnoen Saduak
+  slug: damnoen-saduak
 - id: 626
   provinceId: 51
   name: บางแพ
-  slug: บางแพ
+  nameEn: Bang Phae
+  slug: bang-phae
 - id: 627
   provinceId: 51
   name: บ้านคา
-  slug: บ้านคา
+  nameEn: Ban Kha
+  slug: ban-kha
 - id: 628
   provinceId: 51
   name: บ้านโป่ง
-  slug: บ้านโป่ง
+  nameEn: Ban Pong
+  slug: ban-pong
 - id: 629
   provinceId: 51
   name: ปากท่อ
-  slug: ปากท่อ
+  nameEn: Pak Tho
+  slug: pak-tho
 - id: 630
   provinceId: 51
   name: โพธาราม
-  slug: โพธาราม
+  nameEn: Photharam
+  slug: photharam
 - id: 631
   provinceId: 51
   name: เมืองราชบุรี
-  slug: เมืองราชบุรี
+  nameEn: Mueang Ratchaburi
+  slug: mueang-ratchaburi
 - id: 632
   provinceId: 51
   name: วัดเพลง
-  slug: วัดเพลง
+  nameEn: Wat Phleng
+  slug: wat-phleng
 - id: 633
   provinceId: 51
   name: สวนผึ้ง
-  slug: สวนผึ้ง
+  nameEn: Suan Phueng
+  slug: suan-phueng
 - id: 634
   provinceId: 52
   name: โคกเจริญ
-  slug: โคกเจริญ
+  nameEn: Khok Charoen
+  slug: khok-charoen
 - id: 635
   provinceId: 52
   name: โคกสำโรง
-  slug: โคกสำโรง
+  nameEn: Khok Samrong
+  slug: khok-samrong
 - id: 636
   provinceId: 52
   name: ชัยบาดาล
-  slug: ชัยบาดาล
+  nameEn: Chai Badan
+  slug: chai-badan
 - id: 637
   provinceId: 52
   name: ท่าวุ้ง
-  slug: ท่าวุ้ง
+  nameEn: Tha Wung
+  slug: tha-wung
 - id: 638
   provinceId: 52
   name: ท่าหลวง
-  slug: ท่าหลวง
+  nameEn: Tha Luang
+  slug: tha-luang
 - id: 639
   provinceId: 52
   name: บ้านหมี่
-  slug: บ้านหมี่
+  nameEn: Ban Mi
+  slug: ban-mi
 - id: 640
   provinceId: 52
   name: พัฒนานิคม
-  slug: พัฒนานิคม
+  nameEn: Phatthana Nikhom
+  slug: phatthana-nikhom
 - id: 641
   provinceId: 52
   name: เมืองลพบุรี
-  slug: เมืองลพบุรี
+  nameEn: Mueang Lop Buri
+  slug: mueang-lop-buri
 - id: 642
   provinceId: 52
   name: ลำสนธิ
-  slug: ลำสนธิ
+  nameEn: Lam Sonthi
+  slug: lam-sonthi
 - id: 643
   provinceId: 52
   name: สระโบสถ์
-  slug: สระโบสถ์
+  nameEn: Sa Bot
+  slug: sa-bot
 - id: 644
   provinceId: 52
   name: หนองม่วง
-  slug: หนองม่วง
+  nameEn: Nong Muang
+  slug: nong-muang
 - id: 645
   provinceId: 53
   name: เกาะคา
-  slug: เกาะคา
+  nameEn: Ko Kha
+  slug: ko-kha
 - id: 646
   provinceId: 53
   name: งาว
-  slug: งาว
+  nameEn: Ngao
+  slug: ngao
 - id: 647
   provinceId: 53
   name: แจ้ห่ม
-  slug: แจ้ห่ม
+  nameEn: Chae Hom
+  slug: chae-hom
 - id: 648
   provinceId: 53
   name: เถิน
-  slug: เถิน
+  nameEn: Thoen
+  slug: thoen
 - id: 649
   provinceId: 53
   name: เมืองปาน
-  slug: เมืองปาน
+  nameEn: Mueang Pan
+  slug: mueang-pan
 - id: 650
   provinceId: 53
   name: เมืองลำปาง
-  slug: เมืองลำปาง
+  nameEn: Mueang Lampang
+  slug: mueang-lampang
 - id: 651
   provinceId: 53
   name: แม่ทะ
-  slug: แม่ทะ
+  nameEn: Mae Tha
+  slug: mae-tha
 - id: 652
   provinceId: 53
   name: แม่พริก
-  slug: แม่พริก
+  nameEn: Mae Phrik
+  slug: mae-phrik
 - id: 653
   provinceId: 53
   name: แม่เมาะ
-  slug: แม่เมาะ
+  nameEn: Mae Mo
+  slug: mae-mo
 - id: 654
   provinceId: 53
   name: วังเหนือ
-  slug: วังเหนือ
+  nameEn: Wang Nuea
+  slug: wang-nuea
 - id: 655
   provinceId: 53
   name: สบปราบ
-  slug: สบปราบ
+  nameEn: Sop Prap
+  slug: sop-prap
 - id: 656
   provinceId: 53
   name: เสริมงาม
-  slug: เสริมงาม
+  nameEn: Soem Ngam
+  slug: soem-ngam
 - id: 657
   provinceId: 53
   name: ห้างฉัตร
-  slug: ห้างฉัตร
+  nameEn: Hang Chat
+  slug: hang-chat
 - id: 658
   provinceId: 54
   name: ทุ่งหัวช้าง
-  slug: ทุ่งหัวช้าง
+  nameEn: Thung Hua Chang
+  slug: thung-hua-chang
 - id: 659
   provinceId: 54
   name: บ้านธิ
-  slug: บ้านธิ
+  nameEn: Ban Thi
+  slug: ban-thi
 - id: 660
   provinceId: 54
   name: บ้านโฮ่ง
-  slug: บ้านโฮ่ง
+  nameEn: Ban Hong
+  slug: ban-hong
 - id: 661
   provinceId: 54
   name: ป่าซาง
-  slug: ป่าซาง
+  nameEn: Pa Sang
+  slug: pa-sang
 - id: 662
   provinceId: 54
   name: เมืองลำพูน
-  slug: เมืองลำพูน
+  nameEn: Mueang Lamphun
+  slug: mueang-lamphun
 - id: 663
   provinceId: 54
   name: แม่ทา
-  slug: แม่ทา
+  nameEn: Mae Tha
+  slug: mae-tha
 - id: 664
   provinceId: 54
   name: ลี้
-  slug: ลี้
+  nameEn: Li
+  slug: li
 - id: 665
   provinceId: 54
   name: เวียงหนองล่อง
-  slug: เวียงหนองล่อง
+  nameEn: Wiang Nong Long
+  slug: wiang-nong-long
 - id: 666
   provinceId: 55
   name: เชียงคาน
-  slug: เชียงคาน
+  nameEn: Chiang Khan
+  slug: chiang-khan
 - id: 667
   provinceId: 55
   name: ด่านซ้าย
-  slug: ด่านซ้าย
+  nameEn: Dan Sai
+  slug: dan-sai
 - id: 668
   provinceId: 55
   name: ท่าลี่
-  slug: ท่าลี่
+  nameEn: Tha Li
+  slug: tha-li
 - id: 669
   provinceId: 55
   name: นาด้วง
-  slug: นาด้วง
+  nameEn: Na Duang
+  slug: na-duang
 - id: 670
   provinceId: 55
   name: นาแห้ว
-  slug: นาแห้ว
+  nameEn: Na Haeo
+  slug: na-haeo
 - id: 671
   provinceId: 55
   name: ปากชม
-  slug: ปากชม
+  nameEn: Pak Chom
+  slug: pak-chom
 - id: 672
   provinceId: 55
   name: ผาขาว
-  slug: ผาขาว
+  nameEn: Pha Khao
+  slug: pha-khao
 - id: 673
   provinceId: 55
   name: ภูกระดึง
-  slug: ภูกระดึง
+  nameEn: Phu Kradueng
+  slug: phu-kradueng
 - id: 674
   provinceId: 55
   name: ภูเรือ
-  slug: ภูเรือ
+  nameEn: Phu Ruea
+  slug: phu-ruea
 - id: 675
   provinceId: 55
   name: ภูหลวง
-  slug: ภูหลวง
+  nameEn: Phu Luang
+  slug: phu-luang
 - id: 676
   provinceId: 55
   name: เมืองเลย
-  slug: เมืองเลย
+  nameEn: Mueang Loei
+  slug: mueang-loei
 - id: 677
   provinceId: 55
   name: วังสะพุง
-  slug: วังสะพุง
+  nameEn: Wang Saphung
+  slug: wang-saphung
 - id: 678
   provinceId: 55
   name: หนองหิน
-  slug: หนองหิน
+  nameEn: Nong Hin
+  slug: nong-hin
 - id: 679
   provinceId: 55
   name: เอราวัณ
-  slug: เอราวัณ
+  nameEn: Erawan
+  slug: erawan
 - id: 680
   provinceId: 56
   name: กันทรลักษ์
-  slug: กันทรลักษ์
+  nameEn: Kantharalak
+  slug: kantharalak
 - id: 681
   provinceId: 56
   name: กันทรารมย์
-  slug: กันทรารมย์
+  nameEn: Kanthararom
+  slug: kanthararom
 - id: 682
   provinceId: 56
   name: ขุขันธ์
-  slug: ขุขันธ์
+  nameEn: Khukhan
+  slug: khukhan
 - id: 683
   provinceId: 56
   name: ขุนหาญ
-  slug: ขุนหาญ
+  nameEn: Khun Han
+  slug: khun-han
 - id: 684
   provinceId: 56
   name: น้ำเกลี้ยง
-  slug: น้ำเกลี้ยง
+  nameEn: Nam Kliang
+  slug: nam-kliang
 - id: 685
   provinceId: 56
   name: โนนคูณ
-  slug: โนนคูณ
+  nameEn: Non Khun
+  slug: non-khun
 - id: 686
   provinceId: 56
   name: บึงบูรพ์
-  slug: บึงบูรพ์
+  nameEn: Bueng Bun
+  slug: bueng-bun
 - id: 687
   provinceId: 56
   name: เบญจลักษ์
-  slug: เบญจลักษ์
+  nameEn: Benchalak
+  slug: benchalak
 - id: 688
   provinceId: 56
   name: ปรางค์กู่
-  slug: ปรางค์กู่
+  nameEn: Prang Ku
+  slug: prang-ku
 - id: 689
   provinceId: 56
   name: พยุห์
-  slug: พยุห์
+  nameEn: Phayu
+  slug: phayu
 - id: 690
   provinceId: 56
   name: โพธิ์ศรีสุวรรณ
-  slug: โพธิ์ศรีสุวรรณ
+  nameEn: Pho Si Suwan
+  slug: pho-si-suwan
 - id: 691
   provinceId: 56
   name: ไพรบึง
-  slug: ไพรบึง
+  nameEn: Phrai Bueng
+  slug: phrai-bueng
 - id: 692
   provinceId: 56
   name: ภูสิงห์
-  slug: ภูสิงห์
+  nameEn: Phu Sing
+  slug: phu-sing
 - id: 693
   provinceId: 56
   name: เมืองจันทร์
-  slug: เมืองจันทร์
+  nameEn: Mueang Chan
+  slug: mueang-chan
 - id: 694
   provinceId: 56
   name: เมืองศรีสะเกษ
-  slug: เมืองศรีสะเกษ
+  nameEn: Mueang Si Sa Ket
+  slug: mueang-si-sa-ket
 - id: 695
   provinceId: 56
   name: ยางชุมน้อย
-  slug: ยางชุมน้อย
+  nameEn: Yang Chum Noi
+  slug: yang-chum-noi
 - id: 696
   provinceId: 56
   name: ราษีไศล
-  slug: ราษีไศล
+  nameEn: Rasi Salai
+  slug: rasi-salai
 - id: 697
   provinceId: 56
   name: วังหิน
-  slug: วังหิน
+  nameEn: Wang Hin
+  slug: wang-hin
 - id: 698
   provinceId: 56
   name: ศรีรัตนะ
-  slug: ศรีรัตนะ
+  nameEn: Si Rattana
+  slug: si-rattana
 - id: 699
   provinceId: 56
   name: ศิลาลาด
-  slug: ศิลาลาด
+  nameEn: Sila Lat
+  slug: sila-lat
 - id: 700
   provinceId: 56
   name: ห้วยทับทัน
-  slug: ห้วยทับทัน
+  nameEn: Huai Thap Than
+  slug: huai-thap-than
 - id: 701
   provinceId: 56
   name: อุทุมพรพิสัย
-  slug: อุทุมพรพิสัย
+  nameEn: Uthumphon Phisai
+  slug: uthumphon-phisai
 - id: 702
   provinceId: 57
   name: กุดบาก
-  slug: กุดบาก
+  nameEn: Kut Bak
+  slug: kut-bak
 - id: 703
   provinceId: 57
   name: กุสุมาลย์
-  slug: กุสุมาลย์
+  nameEn: Kusuman
+  slug: kusuman
 - id: 704
   provinceId: 57
   name: คำตากล้า
-  slug: คำตากล้า
+  nameEn: Kham Ta Kla
+  slug: kham-ta-kla
 - id: 705
   provinceId: 57
   name: โคกศรีสุพรรณ
-  slug: โคกศรีสุพรรณ
+  nameEn: Khok Si Suphan
+  slug: khok-si-suphan
 - id: 706
   provinceId: 57
   name: เจริญศิลป์
-  slug: เจริญศิลป์
+  nameEn: Charoen Sin
+  slug: charoen-sin
 - id: 707
   provinceId: 57
   name: เต่างอย
-  slug: เต่างอย
+  nameEn: Tao Ngoi
+  slug: tao-ngoi
 - id: 708
   provinceId: 57
   name: นิคมน้ำอูน
-  slug: นิคมน้ำอูน
+  nameEn: Nikhom Nam Un
+  slug: nikhom-nam-un
 - id: 709
   provinceId: 57
   name: บ้านม่วง
-  slug: บ้านม่วง
+  nameEn: Ban Muang
+  slug: ban-muang
 - id: 710
   provinceId: 57
   name: พรรณานิคม
-  slug: พรรณานิคม
+  nameEn: Phanna Nikhom
+  slug: phanna-nikhom
 - id: 711
   provinceId: 57
   name: พังโคน
-  slug: พังโคน
+  nameEn: Phang Khon
+  slug: phang-khon
 - id: 712
   provinceId: 57
   name: โพนนาแก้ว
-  slug: โพนนาแก้ว
+  nameEn: Phon Na Kaeo
+  slug: phon-na-kaeo
 - id: 713
   provinceId: 57
   name: ภูพาน
-  slug: ภูพาน
+  nameEn: Phu Phan
+  slug: phu-phan
 - id: 714
   provinceId: 57
   name: เมืองสกลนคร
-  slug: เมืองสกลนคร
+  nameEn: Mueang Sakon Nakhon
+  slug: mueang-sakon-nakhon
 - id: 715
   provinceId: 57
   name: วานรนิวาส
-  slug: วานรนิวาส
+  nameEn: Wanon Niwat
+  slug: wanon-niwat
 - id: 716
   provinceId: 57
   name: วาริชภูมิ
-  slug: วาริชภูมิ
+  nameEn: Waritchaphum
+  slug: waritchaphum
 - id: 717
   provinceId: 57
   name: สว่างแดนดิน
-  slug: สว่างแดนดิน
+  nameEn: Sawang Daen Din
+  slug: sawang-daen-din
 - id: 718
   provinceId: 57
   name: ส่องดาว
-  slug: ส่องดาว
+  nameEn: Song Dao
+  slug: song-dao
 - id: 719
   provinceId: 57
   name: อากาศอำนวย
-  slug: อากาศอำนวย
+  nameEn: Akat Amnuai
+  slug: akat-amnuai
 - id: 720
   provinceId: 58
   name: กระแสสินธุ์
-  slug: กระแสสินธุ์
+  nameEn: Krasae Sin
+  slug: krasae-sin
 - id: 721
   provinceId: 58
   name: คลองหอยโข่ง
-  slug: คลองหอยโข่ง
+  nameEn: Khlong Hoi Khong
+  slug: khlong-hoi-khong
 - id: 722
   provinceId: 58
   name: ควนเนียง
-  slug: ควนเนียง
+  nameEn: Khuan Niang
+  slug: khuan-niang
 - id: 723
   provinceId: 58
   name: จะนะ
-  slug: จะนะ
+  nameEn: Chana
+  slug: chana
 - id: 724
   provinceId: 58
   name: เทพา
-  slug: เทพา
+  nameEn: Thepha
+  slug: thepha
 - id: 725
   provinceId: 58
   name: นาทวี
-  slug: นาทวี
+  nameEn: Na Thawi
+  slug: na-thawi
 - id: 726
   provinceId: 58
   name: นาหม่อม
-  slug: นาหม่อม
+  nameEn: Na Mom
+  slug: na-mom
 - id: 727
   provinceId: 58
   name: บางกล่ำ
-  slug: บางกล่ำ
+  nameEn: Bang Klam
+  slug: bang-klam
 - id: 728
   provinceId: 58
   name: เมืองสงขลา
-  slug: เมืองสงขลา
+  nameEn: Mueang Songkhla
+  slug: mueang-songkhla
 - id: 729
   provinceId: 58
   name: ระโนด
-  slug: ระโนด
+  nameEn: Ranot
+  slug: ranot
 - id: 730
   provinceId: 58
   name: รัตภูมิ
-  slug: รัตภูมิ
+  nameEn: Rattaphum
+  slug: rattaphum
 - id: 731
   provinceId: 58
   name: สทิงพระ
-  slug: สทิงพระ
+  nameEn: Sathing Phra
+  slug: sathing-phra
 - id: 732
   provinceId: 58
   name: สะเดา
-  slug: สะเดา
+  nameEn: Sadao
+  slug: sadao
 - id: 733
   provinceId: 58
   name: สะบ้าย้อย
-  slug: สะบ้าย้อย
+  nameEn: Saba Yoi
+  slug: saba-yoi
 - id: 734
   provinceId: 58
   name: สิงหนคร
-  slug: สิงหนคร
+  nameEn: Singhanakhon
+  slug: singhanakhon
 - id: 735
   provinceId: 58
   name: หาดใหญ่
-  slug: หาดใหญ่
+  nameEn: Hat Yai
+  slug: hat-yai
 - id: 736
   provinceId: 59
   name: ควนกาหลง
-  slug: ควนกาหลง
+  nameEn: Khuan Kalong
+  slug: khuan-kalong
 - id: 737
   provinceId: 59
   name: ควนโดน
-  slug: ควนโดน
+  nameEn: Khuan Don
+  slug: khuan-don
 - id: 738
   provinceId: 59
   name: ท่าแพ
-  slug: ท่าแพ
+  nameEn: Tha Phae
+  slug: tha-phae
 - id: 739
   provinceId: 59
   name: ทุ่งหว้า
-  slug: ทุ่งหว้า
+  nameEn: Thung Wa
+  slug: thung-wa
 - id: 740
   provinceId: 59
   name: มะนัง
-  slug: มะนัง
+  nameEn: Manang
+  slug: manang
 - id: 741
   provinceId: 59
   name: เมืองสตูล
-  slug: เมืองสตูล
+  nameEn: Mueang Satun
+  slug: mueang-satun
 - id: 742
   provinceId: 59
   name: ละงู
-  slug: ละงู
+  nameEn: La-ngu
+  slug: la-ngu
 - id: 743
   provinceId: 60
   name: บางบ่อ
-  slug: บางบ่อ
+  nameEn: Bang Bo
+  slug: bang-bo
 - id: 744
   provinceId: 60
   name: บางพลี
-  slug: บางพลี
+  nameEn: Bang Phli
+  slug: bang-phli
 - id: 745
   provinceId: 60
   name: บางเสาธง
-  slug: บางเสาธง
+  nameEn: Bang Sao Thong
+  slug: bang-sao-thong
 - id: 746
   provinceId: 60
   name: พระประแดง
-  slug: พระประแดง
+  nameEn: Phra Pradaeng
+  slug: phra-pradaeng
 - id: 747
   provinceId: 60
   name: พระสมุทรเจดีย์
-  slug: พระสมุทรเจดีย์
+  nameEn: Phra Samut Chedi
+  slug: phra-samut-chedi
 - id: 748
   provinceId: 60
   name: เมืองสมุทรปราการ
-  slug: เมืองสมุทรปราการ
+  nameEn: Mueang Samut Prakan
+  slug: mueang-samut-prakan
 - id: 749
   provinceId: 61
   name: บางคนที
-  slug: บางคนที
+  nameEn: Bang Khonthi
+  slug: bang-khonthi
 - id: 750
   provinceId: 61
   name: เมืองสมุทรสงคราม
-  slug: เมืองสมุทรสงคราม
+  nameEn: Mueang Samut Songkhram
+  slug: mueang-samut-songkhram
 - id: 751
   provinceId: 61
   name: อัมพวา
-  slug: อัมพวา
+  nameEn: Amphawa
+  slug: amphawa
 - id: 752
   provinceId: 62
   name: กระทุ่มแบน
-  slug: กระทุ่มแบน
+  nameEn: Krathum Baen
+  slug: krathum-baen
 - id: 753
   provinceId: 62
   name: บ้านแพ้ว
-  slug: บ้านแพ้ว
+  nameEn: Ban Phaeo
+  slug: ban-phaeo
 - id: 754
   provinceId: 62
   name: เมืองสมุทรสาคร
-  slug: เมืองสมุทรสาคร
+  nameEn: Mueang Samut Sakhon
+  slug: mueang-samut-sakhon
 - id: 755
   provinceId: 63
   name: เขาฉกรรจ์
-  slug: เขาฉกรรจ์
+  nameEn: Khao Chakan
+  slug: khao-chakan
 - id: 756
   provinceId: 63
   name: คลองหาด
-  slug: คลองหาด
+  nameEn: Khlong Hat
+  slug: khlong-hat
 - id: 757
   provinceId: 63
   name: โคกสูง
-  slug: โคกสูง
+  nameEn: Khok Sung
+  slug: khok-sung
 - id: 758
   provinceId: 63
   name: ตาพระยา
-  slug: ตาพระยา
+  nameEn: Ta Phraya
+  slug: ta-phraya
 - id: 759
   provinceId: 63
   name: เมืองสระแก้ว
-  slug: เมืองสระแก้ว
+  nameEn: Mueang Sa Kaeo
+  slug: mueang-sa-kaeo
 - id: 760
   provinceId: 63
   name: วังน้ำเย็น
-  slug: วังน้ำเย็น
+  nameEn: Wang Nam Yen
+  slug: wang-nam-yen
 - id: 761
   provinceId: 63
   name: วังสมบูรณ์
-  slug: วังสมบูรณ์
+  nameEn: Wang Sombun
+  slug: wang-sombun
 - id: 762
   provinceId: 63
   name: วัฒนานคร
-  slug: วัฒนานคร
+  nameEn: Watthana Nakhon
+  slug: watthana-nakhon
 - id: 763
   provinceId: 63
   name: อรัญประเทศ
-  slug: อรัญประเทศ
+  nameEn: Aranyaprathet
+  slug: aranyaprathet
 - id: 764
   provinceId: 64
   name: แก่งคอย
-  slug: แก่งคอย
+  nameEn: Kaeng Khoi
+  slug: kaeng-khoi
 - id: 765
   provinceId: 64
   name: เฉลิมพระเกียรติ
-  slug: เฉลิมพระเกียรติ
+  nameEn: Chaloem Phra Kiat
+  slug: chaloem-phra-kiat
 - id: 766
   provinceId: 64
   name: ดอนพุด
-  slug: ดอนพุด
+  nameEn: Don Phut
+  slug: don-phut
 - id: 767
   provinceId: 64
   name: บ้านหมอ
-  slug: บ้านหมอ
+  nameEn: Ban Mo
+  slug: ban-mo
 - id: 768
   provinceId: 64
   name: พระพุทธบาท
-  slug: พระพุทธบาท
+  nameEn: Phra Phutthabat
+  slug: phra-phutthabat
 - id: 769
   provinceId: 64
   name: มวกเหล็ก
-  slug: มวกเหล็ก
+  nameEn: Muak Lek
+  slug: muak-lek
 - id: 770
   provinceId: 64
   name: เมืองสระบุรี
-  slug: เมืองสระบุรี
+  nameEn: Mueang Saraburi
+  slug: mueang-saraburi
 - id: 771
   provinceId: 64
   name: วังม่วง
-  slug: วังม่วง
+  nameEn: Wang Muang
+  slug: wang-muang
 - id: 772
   provinceId: 64
   name: วิหารแดง
-  slug: วิหารแดง
+  nameEn: Wihan Daeng
+  slug: wihan-daeng
 - id: 773
   provinceId: 64
   name: เสาไห้
-  slug: เสาไห้
+  nameEn: Sao Hai
+  slug: sao-hai
 - id: 774
   provinceId: 64
   name: หนองแค
-  slug: หนองแค
+  nameEn: Nong Khae
+  slug: nong-khae
 - id: 775
   provinceId: 64
   name: หนองแซง
-  slug: หนองแซง
+  nameEn: Nong Saeng
+  slug: nong-saeng
 - id: 776
   provinceId: 64
   name: หนองโดน
-  slug: หนองโดน
+  nameEn: Nong Don
+  slug: nong-don
 - id: 777
   provinceId: 65
   name: ค่ายบางระจัน
-  slug: ค่ายบางระจัน
+  nameEn: Khai Bang Rachan
+  slug: khai-bang-rachan
 - id: 778
   provinceId: 65
   name: ท่าช้าง
-  slug: ท่าช้าง
+  nameEn: Tha Chang
+  slug: tha-chang
 - id: 779
   provinceId: 65
   name: บางระจัน
-  slug: บางระจัน
+  nameEn: Bang Rachan
+  slug: bang-rachan
 - id: 780
   provinceId: 65
   name: พรหมบุรี
-  slug: พรหมบุรี
+  nameEn: Phrom Buri
+  slug: phrom-buri
 - id: 781
   provinceId: 65
   name: เมืองสิงห์บุรี
-  slug: เมืองสิงห์บุรี
+  nameEn: Mueang Sing Buri
+  slug: mueang-sing-buri
 - id: 782
   provinceId: 65
   name: อินทร์บุรี
-  slug: อินทร์บุรี
+  nameEn: In Buri
+  slug: in-buri
 - id: 783
   provinceId: 66
   name: กงไกรลาศ
-  slug: กงไกรลาศ
+  nameEn: Kong Krailat
+  slug: kong-krailat
 - id: 784
   provinceId: 66
   name: คีรีมาศ
-  slug: คีรีมาศ
+  nameEn: Khiri Mat
+  slug: khiri-mat
 - id: 785
   provinceId: 66
   name: ทุ่งเสลี่ยม
-  slug: ทุ่งเสลี่ยม
+  nameEn: Thung Saliam
+  slug: thung-saliam
 - id: 786
   provinceId: 66
   name: บ้านด่านลานหอย
-  slug: บ้านด่านลานหอย
+  nameEn: Ban Dan Lan Hoi
+  slug: ban-dan-lan-hoi
 - id: 787
   provinceId: 66
   name: เมืองสุโขทัย
-  slug: เมืองสุโขทัย
+  nameEn: Mueang Sukhothai
+  slug: mueang-sukhothai
 - id: 788
   provinceId: 66
   name: ศรีนคร
-  slug: ศรีนคร
+  nameEn: Si Nakhon
+  slug: si-nakhon
 - id: 789
   provinceId: 66
   name: ศรีสัชนาลัย
-  slug: ศรีสัชนาลัย
+  nameEn: Si Satchanalai
+  slug: si-satchanalai
 - id: 790
   provinceId: 66
   name: ศรีสำโรง
-  slug: ศรีสำโรง
+  nameEn: Si Samrong
+  slug: si-samrong
 - id: 791
   provinceId: 66
   name: สวรรคโลก
-  slug: สวรรคโลก
+  nameEn: Sawankhalok
+  slug: sawankhalok
 - id: 792
   provinceId: 67
   name: ดอนเจดีย์
-  slug: ดอนเจดีย์
+  nameEn: Don Chedi
+  slug: don-chedi
 - id: 793
   provinceId: 67
   name: ด่านช้าง
-  slug: ด่านช้าง
+  nameEn: Dan Chang
+  slug: dan-chang
 - id: 794
   provinceId: 67
   name: เดิมบางนางบวช
-  slug: เดิมบางนางบวช
+  nameEn: Doem Bang Nang Buat
+  slug: doem-bang-nang-buat
 - id: 795
   provinceId: 67
   name: บางปลาม้า
-  slug: บางปลาม้า
+  nameEn: Bang Pla Ma
+  slug: bang-pla-ma
 - id: 796
   provinceId: 67
   name: เมืองสุพรรณบุรี
-  slug: เมืองสุพรรณบุรี
+  nameEn: Mueang Suphan Buri
+  slug: mueang-suphan-buri
 - id: 797
   provinceId: 67
   name: ศรีประจันต์
-  slug: ศรีประจันต์
+  nameEn: Si Prachan
+  slug: si-prachan
 - id: 798
   provinceId: 67
   name: สองพี่น้อง
-  slug: สองพี่น้อง
+  nameEn: Song Phi Nong
+  slug: song-phi-nong
 - id: 799
   provinceId: 67
   name: สามชุก
-  slug: สามชุก
+  nameEn: Sam Chuk
+  slug: sam-chuk
 - id: 800
   provinceId: 67
   name: หนองหญ้าไซ
-  slug: หนองหญ้าไซ
+  nameEn: Nong Ya Sai
+  slug: nong-ya-sai
 - id: 801
   provinceId: 67
   name: อู่ทอง
-  slug: อู่ทอง
+  nameEn: U Thong
+  slug: u-thong
 - id: 802
   provinceId: 68
   name: กาญจนดิษฐ์
-  slug: กาญจนดิษฐ์
+  nameEn: Kanchanadit
+  slug: kanchanadit
 - id: 803
   provinceId: 68
   name: เกาะพะงัน
-  slug: เกาะพะงัน
+  nameEn: Ko Pha-ngan
+  slug: ko-pha-ngan
 - id: 804
   provinceId: 68
   name: เกาะสมุย
-  slug: เกาะสมุย
+  nameEn: Ko Samui
+  slug: ko-samui
 - id: 805
   provinceId: 68
   name: คีรีรัฐนิคม
-  slug: คีรีรัฐนิคม
+  nameEn: Khiri Rat Nikhom
+  slug: khiri-rat-nikhom
 - id: 806
   provinceId: 68
   name: เคียนซา
-  slug: เคียนซา
+  nameEn: Khian Sa
+  slug: khian-sa
 - id: 807
   provinceId: 68
   name: ชัยบุรี
-  slug: ชัยบุรี
+  nameEn: Chai Buri
+  slug: chai-buri
 - id: 808
   provinceId: 68
   name: ไชยา
-  slug: ไชยา
+  nameEn: Chaiya
+  slug: chaiya
 - id: 809
   provinceId: 68
   name: ดอนสัก
-  slug: ดอนสัก
+  nameEn: Don Sak
+  slug: don-sak
 - id: 810
   provinceId: 68
   name: ท่าฉาง
-  slug: ท่าฉาง
+  nameEn: Tha Chang
+  slug: tha-chang
 - id: 811
   provinceId: 68
   name: ท่าชนะ
-  slug: ท่าชนะ
+  nameEn: Tha Chana
+  slug: tha-chana
 - id: 812
   provinceId: 68
   name: บ้านตาขุน
-  slug: บ้านตาขุน
+  nameEn: Ban Ta Khun
+  slug: ban-ta-khun
 - id: 813
   provinceId: 68
   name: บ้านนาเดิม
-  slug: บ้านนาเดิม
+  nameEn: Ban Na Doem
+  slug: ban-na-doem
 - id: 814
   provinceId: 68
   name: บ้านนาสาร
-  slug: บ้านนาสาร
+  nameEn: Ban Na San
+  slug: ban-na-san
 - id: 815
   provinceId: 68
   name: พนม
-  slug: พนม
+  nameEn: Phanom
+  slug: phanom
 - id: 816
   provinceId: 68
   name: พระแสง
-  slug: พระแสง
+  nameEn: Phrasaeng
+  slug: phrasaeng
 - id: 817
   provinceId: 68
   name: พุนพิน
-  slug: พุนพิน
+  nameEn: Phunphin
+  slug: phunphin
 - id: 818
   provinceId: 68
   name: เมืองสุราษฎร์ธานี
-  slug: เมืองสุราษฎร์ธานี
+  nameEn: Mueang Surat Thani
+  slug: mueang-surat-thani
 - id: 819
   provinceId: 68
   name: วิภาวดี
-  slug: วิภาวดี
+  nameEn: Vibhavadi
+  slug: vibhavadi
 - id: 820
   provinceId: 68
   name: เวียงสระ
-  slug: เวียงสระ
+  nameEn: Wiang Sa
+  slug: wiang-sa
 - id: 821
   provinceId: 69
   name: กาบเชิง
-  slug: กาบเชิง
+  nameEn: Kap Choeng
+  slug: kap-choeng
 - id: 822
   provinceId: 69
   name: เขวาสินรินทร์
-  slug: เขวาสินรินทร์
+  nameEn: Khwao Sinrin
+  slug: khwao-sinrin
 - id: 823
   provinceId: 69
   name: จอมพระ
-  slug: จอมพระ
+  nameEn: Chom Phra
+  slug: chom-phra
 - id: 824
   provinceId: 69
   name: ชุมพลบุรี
-  slug: ชุมพลบุรี
+  nameEn: Chumphon Buri
+  slug: chumphon-buri
 - id: 825
   provinceId: 69
   name: ท่าตูม
-  slug: ท่าตูม
+  nameEn: Tha Tum
+  slug: tha-tum
 - id: 826
   provinceId: 69
   name: โนนนารายณ์
-  slug: โนนนารายณ์
+  nameEn: Non Narai
+  slug: non-narai
 - id: 827
   provinceId: 69
   name: บัวเชด
-  slug: บัวเชด
+  nameEn: Buachet
+  slug: buachet
 - id: 828
   provinceId: 69
   name: ปราสาท
-  slug: ปราสาท
+  nameEn: Prasat
+  slug: prasat
 - id: 829
   provinceId: 69
   name: พนมดงรัก
-  slug: พนมดงรัก
+  nameEn: Phanom Dong Rak
+  slug: phanom-dong-rak
 - id: 830
   provinceId: 69
   name: เมืองสุรินทร์
-  slug: เมืองสุรินทร์
+  nameEn: Mueang Surin
+  slug: mueang-surin
 - id: 831
   provinceId: 69
   name: รัตนบุรี
-  slug: รัตนบุรี
+  nameEn: Rattanaburi
+  slug: rattanaburi
 - id: 832
   provinceId: 69
   name: ลำดวน
-  slug: ลำดวน
+  nameEn: Lamduan
+  slug: lamduan
 - id: 833
   provinceId: 69
   name: ศรีณรงค์
-  slug: ศรีณรงค์
+  nameEn: Si Narong
+  slug: si-narong
 - id: 834
   provinceId: 69
   name: ศีขรภูมิ
-  slug: ศีขรภูมิ
+  nameEn: Sikhoraphum
+  slug: sikhoraphum
 - id: 835
   provinceId: 69
   name: สนม
-  slug: สนม
+  nameEn: Sanom
+  slug: sanom
 - id: 836
   provinceId: 69
   name: สังขะ
-  slug: สังขะ
+  nameEn: Sangkha
+  slug: sangkha
 - id: 837
   provinceId: 69
   name: สำโรงทาบ
-  slug: สำโรงทาบ
+  nameEn: Samrong Thap
+  slug: samrong-thap
 - id: 838
   provinceId: 70
   name: ท่าบ่อ
-  slug: ท่าบ่อ
+  nameEn: Tha Bo
+  slug: tha-bo
 - id: 839
   provinceId: 70
   name: เฝ้าไร่
-  slug: เฝ้าไร่
+  nameEn: Fao Rai
+  slug: fao-rai
 - id: 840
   provinceId: 70
   name: โพธิ์ตาก
-  slug: โพธิ์ตาก
+  nameEn: Pho Tak
+  slug: pho-tak
 - id: 841
   provinceId: 70
   name: โพนพิสัย
-  slug: โพนพิสัย
+  nameEn: Phon Phisai
+  slug: phon-phisai
 - id: 842
   provinceId: 70
   name: เมืองหนองคาย
-  slug: เมืองหนองคาย
+  nameEn: Mueang Nong Khai
+  slug: mueang-nong-khai
 - id: 843
   provinceId: 70
   name: รัตนวาปี
-  slug: รัตนวาปี
+  nameEn: Rattanawapi
+  slug: rattanawapi
 - id: 844
   provinceId: 70
   name: ศรีเชียงใหม่
-  slug: ศรีเชียงใหม่
+  nameEn: Si Chiang Mai
+  slug: si-chiang-mai
 - id: 845
   provinceId: 70
   name: สระใคร
-  slug: สระใคร
+  nameEn: Sakhrai
+  slug: sakhrai
 - id: 846
   provinceId: 70
   name: สังคม
-  slug: สังคม
+  nameEn: Sangkhom
+  slug: sangkhom
 - id: 847
   provinceId: 71
   name: นากลาง
-  slug: นากลาง
+  nameEn: Na Klang
+  slug: na-klang
 - id: 848
   provinceId: 71
   name: นาวัง
-  slug: นาวัง
+  nameEn: Na Wang
+  slug: na-wang
 - id: 849
   provinceId: 71
   name: โนนสัง
-  slug: โนนสัง
+  nameEn: Non Sang
+  slug: non-sang
 - id: 850
   provinceId: 71
   name: เมืองหนองบัวลำภู
-  slug: เมืองหนองบัวลำภู
+  nameEn: Mueang Nong Bua Lam Phu
+  slug: mueang-nong-bua-lam-phu
 - id: 851
   provinceId: 71
   name: ศรีบุญเรือง
-  slug: ศรีบุญเรือง
+  nameEn: Si Bun Rueang
+  slug: si-bun-rueang
 - id: 852
   provinceId: 71
   name: สุวรรณคูหา
-  slug: สุวรรณคูหา
+  nameEn: Suwannakhuha
+  slug: suwannakhuha
 - id: 853
   provinceId: 72
   name: ไชโย
-  slug: ไชโย
+  nameEn: Chaiyo
+  slug: chaiyo
 - id: 854
   provinceId: 72
   name: ป่าโมก
-  slug: ป่าโมก
+  nameEn: Pa Mok
+  slug: pa-mok
 - id: 855
   provinceId: 72
   name: โพธิ์ทอง
-  slug: โพธิ์ทอง
+  nameEn: Pho Thong
+  slug: pho-thong
 - id: 856
   provinceId: 72
   name: เมืองอ่างทอง
-  slug: เมืองอ่างทอง
+  nameEn: Mueang Ang Thong
+  slug: mueang-ang-thong
 - id: 857
   provinceId: 72
   name: วิเศษชัยชาญ
-  slug: วิเศษชัยชาญ
+  nameEn: Wiset Chai Chan
+  slug: wiset-chai-chan
 - id: 858
   provinceId: 72
   name: สามโก้
-  slug: สามโก้
+  nameEn: Samko
+  slug: samko
 - id: 859
   provinceId: 72
   name: แสวงหา
-  slug: แสวงหา
+  nameEn: Sawaeng Ha
+  slug: sawaeng-ha
 - id: 860
   provinceId: 73
   name: ชานุมาน
-  slug: ชานุมาน
+  nameEn: Chanuman
+  slug: chanuman
 - id: 861
   provinceId: 73
   name: ปทุมราชวงศา
-  slug: ปทุมราชวงศา
+  nameEn: Pathum Ratchawongsa
+  slug: pathum-ratchawongsa
 - id: 862
   provinceId: 73
   name: พนา
-  slug: พนา
+  nameEn: Phana
+  slug: phana
 - id: 863
   provinceId: 73
   name: เมืองอำนาจเจริญ
-  slug: เมืองอำนาจเจริญ
+  nameEn: Mueang Amnat Charoen
+  slug: mueang-amnat-charoen
 - id: 864
   provinceId: 73
   name: ลืออำนาจ
-  slug: ลืออำนาจ
+  nameEn: Lue Amnat
+  slug: lue-amnat
 - id: 865
   provinceId: 73
   name: เสนางคนิคม
-  slug: เสนางคนิคม
+  nameEn: Senangkhanikhom
+  slug: senangkhanikhom
 - id: 866
   provinceId: 73
   name: หัวตะพาน
-  slug: หัวตะพาน
+  nameEn: Hua Taphan
+  slug: hua-taphan
 - id: 867
   provinceId: 74
   name: กุดจับ
-  slug: กุดจับ
+  nameEn: Kut Chap
+  slug: kut-chap
 - id: 868
   provinceId: 74
   name: กุมภวาปี
-  slug: กุมภวาปี
+  nameEn: Kumphawapi
+  slug: kumphawapi
 - id: 869
   provinceId: 74
   name: กู่แก้ว
-  slug: กู่แก้ว
+  nameEn: Ku Kaeo
+  slug: ku-kaeo
 - id: 870
   provinceId: 74
   name: ไชยวาน
-  slug: ไชยวาน
+  nameEn: Chai Wan
+  slug: chai-wan
 - id: 871
   provinceId: 74
   name: ทุ่งฝน
-  slug: ทุ่งฝน
+  nameEn: Thung Fon
+  slug: thung-fon
 - id: 872
   provinceId: 74
   name: นายูง
-  slug: นายูง
+  nameEn: Na Yung
+  slug: na-yung
 - id: 873
   provinceId: 74
   name: น้ำโสม
-  slug: น้ำโสม
+  nameEn: Nam Som
+  slug: nam-som
 - id: 874
   provinceId: 74
   name: โนนสะอาด
-  slug: โนนสะอาด
+  nameEn: Non Sa-at
+  slug: non-sa-at
 - id: 875
   provinceId: 74
   name: บ้านดุง
-  slug: บ้านดุง
+  nameEn: Ban Dung
+  slug: ban-dung
 - id: 876
   provinceId: 74
   name: บ้านผือ
-  slug: บ้านผือ
+  nameEn: Ban Phue
+  slug: ban-phue
 - id: 877
   provinceId: 74
   name: ประจักษ์ศิลปาคม
-  slug: ประจักษ์ศิลปาคม
+  nameEn: Prachak Sinlapakhom
+  slug: prachak-sinlapakhom
 - id: 878
   provinceId: 74
   name: พิบูลย์รักษ์
-  slug: พิบูลย์รักษ์
+  nameEn: Phibun Rak
+  slug: phibun-rak
 - id: 879
   provinceId: 74
   name: เพ็ญ
-  slug: เพ็ญ
+  nameEn: Phen
+  slug: phen
 - id: 880
   provinceId: 74
   name: เมืองอุดรธานี
-  slug: เมืองอุดรธานี
+  nameEn: Mueang Udon Thani
+  slug: mueang-udon-thani
 - id: 881
   provinceId: 74
   name: วังสามหมอ
-  slug: วังสามหมอ
+  nameEn: Wang Sam Mo
+  slug: wang-sam-mo
 - id: 882
   provinceId: 74
   name: ศรีธาตุ
-  slug: ศรีธาตุ
+  nameEn: Si That
+  slug: si-that
 - id: 883
   provinceId: 74
   name: สร้างคอม
-  slug: สร้างคอม
+  nameEn: Sang Khom
+  slug: sang-khom
 - id: 884
   provinceId: 74
   name: หนองวัวซอ
-  slug: หนองวัวซอ
+  nameEn: Nong Wua So
+  slug: nong-wua-so
 - id: 885
   provinceId: 74
   name: หนองแสง
-  slug: หนองแสง
+  nameEn: Nong Saeng
+  slug: nong-saeng
 - id: 886
   provinceId: 74
   name: หนองหาน
-  slug: หนองหาน
+  nameEn: Nong Han
+  slug: nong-han
 - id: 887
   provinceId: 75
   name: ตรอน
-  slug: ตรอน
+  nameEn: Tron
+  slug: tron
 - id: 888
   provinceId: 75
   name: ทองแสนขัน
-  slug: ทองแสนขัน
+  nameEn: Thong Saen Khan
+  slug: thong-saen-khan
 - id: 889
   provinceId: 75
   name: ท่าปลา
-  slug: ท่าปลา
+  nameEn: Tha Pla
+  slug: tha-pla
 - id: 890
   provinceId: 75
   name: น้ำปาด
-  slug: น้ำปาด
+  nameEn: Nam Pat
+  slug: nam-pat
 - id: 891
   provinceId: 75
   name: บ้านโคก
-  slug: บ้านโคก
+  nameEn: Ban Khok
+  slug: ban-khok
 - id: 892
   provinceId: 75
   name: พิชัย
-  slug: พิชัย
+  nameEn: Phichai
+  slug: phichai
 - id: 893
   provinceId: 75
   name: ฟากท่า
-  slug: ฟากท่า
+  nameEn: Fak Tha
+  slug: fak-tha
 - id: 894
   provinceId: 75
   name: เมืองอุตรดิตถ์
-  slug: เมืองอุตรดิตถ์
+  nameEn: Mueang Uttaradit
+  slug: mueang-uttaradit
 - id: 895
   provinceId: 75
   name: ลับแล
-  slug: ลับแล
+  nameEn: Laplae
+  slug: laplae
 - id: 896
   provinceId: 76
   name: ทัพทัน
-  slug: ทัพทัน
+  nameEn: Thap Than
+  slug: thap-than
 - id: 897
   provinceId: 76
   name: บ้านไร่
-  slug: บ้านไร่
+  nameEn: Ban Rai
+  slug: ban-rai
 - id: 898
   provinceId: 76
   name: เมืองอุทัยธานี
-  slug: เมืองอุทัยธานี
+  nameEn: Mueang Uthai Thani
+  slug: mueang-uthai-thani
 - id: 899
   provinceId: 76
   name: ลานสัก
-  slug: ลานสัก
+  nameEn: Lan Sak
+  slug: lan-sak
 - id: 900
   provinceId: 76
   name: สว่างอารมณ์
-  slug: สว่างอารมณ์
+  nameEn: Sawang Arom
+  slug: sawang-arom
 - id: 901
   provinceId: 76
   name: หนองขาหย่าง
-  slug: หนองขาหย่าง
+  nameEn: Nong Khayang
+  slug: nong-khayang
 - id: 902
   provinceId: 76
   name: หนองฉาง
-  slug: หนองฉาง
+  nameEn: Nong Chang
+  slug: nong-chang
 - id: 903
   provinceId: 76
   name: ห้วยคต
-  slug: ห้วยคต
+  nameEn: Huai Khot
+  slug: huai-khot
 - id: 904
   provinceId: 77
   name: กุดข้าวปุ้น
-  slug: กุดข้าวปุ้น
+  nameEn: Kut Khaopun
+  slug: kut-khaopun
 - id: 905
   provinceId: 77
   name: เขมราฐ
-  slug: เขมราฐ
+  nameEn: Khemarat
+  slug: khemarat
 - id: 906
   provinceId: 77
   name: เขื่องใน
-  slug: เขื่องใน
+  nameEn: Khueang Nai
+  slug: khueang-nai
 - id: 907
   provinceId: 77
   name: โขงเจียม
-  slug: โขงเจียม
+  nameEn: Khong Chiam
+  slug: khong-chiam
 - id: 908
   provinceId: 77
   name: ดอนมดแดง
-  slug: ดอนมดแดง
+  nameEn: Don Mot Daeng
+  slug: don-mot-daeng
 - id: 909
   provinceId: 77
   name: เดชอุดม
-  slug: เดชอุดม
+  nameEn: Det Udom
+  slug: det-udom
 - id: 910
   provinceId: 77
   name: ตระการพืชผล
-  slug: ตระการพืชผล
+  nameEn: Trakan Phuet Phon
+  slug: trakan-phuet-phon
 - id: 911
   provinceId: 77
   name: ตาลสุม
-  slug: ตาลสุม
+  nameEn: Tan Sum
+  slug: tan-sum
 - id: 912
   provinceId: 77
   name: ทุ่งศรีอุดม
-  slug: ทุ่งศรีอุดม
+  nameEn: Thung Si Udom
+  slug: thung-si-udom
 - id: 913
   provinceId: 77
   name: นาจะหลวย
-  slug: นาจะหลวย
+  nameEn: Na Chaluai
+  slug: na-chaluai
 - id: 914
   provinceId: 77
   name: นาตาล
-  slug: นาตาล
+  nameEn: Na Tan
+  slug: na-tan
 - id: 915
   provinceId: 77
   name: นาเยีย
-  slug: นาเยีย
+  nameEn: Na Yia
+  slug: na-yia
 - id: 916
   provinceId: 77
   name: น้ำขุ่น
-  slug: น้ำขุ่น
+  nameEn: Nam Khun
+  slug: nam-khun
 - id: 917
   provinceId: 77
   name: น้ำยืน
-  slug: น้ำยืน
+  nameEn: Nam Yuen
+  slug: nam-yuen
 - id: 918
   provinceId: 77
   name: บุณฑริก
-  slug: บุณฑริก
+  nameEn: Buntharik
+  slug: buntharik
 - id: 919
   provinceId: 77
   name: พิบูลมังสาหาร
-  slug: พิบูลมังสาหาร
+  nameEn: Phibun Mangsahan
+  slug: phibun-mangsahan
 - id: 920
   provinceId: 77
   name: โพธิ์ไทร
-  slug: โพธิ์ไทร
+  nameEn: Pho Sai
+  slug: pho-sai
 - id: 921
   provinceId: 77
   name: ม่วงสามสิบ
-  slug: ม่วงสามสิบ
+  nameEn: Muang Sam Sip
+  slug: muang-sam-sip
 - id: 922
   provinceId: 77
   name: เมืองอุบลราชธานี
-  slug: เมืองอุบลราชธานี
+  nameEn: Mueang Ubon Ratchathani
+  slug: mueang-ubon-ratchathani
 - id: 923
   provinceId: 77
   name: วารินชำราบ
-  slug: วารินชำราบ
+  nameEn: Warin Chamrap
+  slug: warin-chamrap
 - id: 924
   provinceId: 77
   name: ศรีเมืองใหม่
-  slug: ศรีเมืองใหม่
+  nameEn: Si Mueang Mai
+  slug: si-mueang-mai
 - id: 925
   provinceId: 77
   name: สว่างวีระวงศ์
-  slug: สว่างวีระวงศ์
+  nameEn: Sawang Wirawong
+  slug: sawang-wirawong
 - id: 926
   provinceId: 77
   name: สำโรง
-  slug: สำโรง
+  nameEn: Samrong
+  slug: samrong
 - id: 927
   provinceId: 77
   name: สิรินธร
-  slug: สิรินธร
+  nameEn: Sirindhorn
+  slug: sirindhorn
 - id: 928
   provinceId: 77
   name: เหล่าเสือโก้ก
-  slug: เหล่าเสือโก้ก
+  nameEn: Lao Suea Kok
+  slug: lao-suea-kok
