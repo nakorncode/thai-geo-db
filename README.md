@@ -1,10 +1,91 @@
 # Thai Geo DB
 
-ชุดเครื่องมือ Node.js สำหรับแปลงข้อมูลภูมิศาสตร์ไทยจากไฟล์ Excel เป็นข้อมูลที่นำไปใช้ต่อได้ง่าย เช่น JSON, YAML, CSV, plain text, SQL สำหรับ PostgreSQL/MySQL และ MongoDB seed script
+ฐานข้อมูลจังหวัดประเทศไทย อำเภอ ตำบล และรหัสไปรษณีย์ พร้อม export เป็น JSON, CSV, YAML, SQL, MongoDB และ plain text สำหรับนำไปใช้ในเว็บ แอป API backend ระบบค้นหาที่อยู่ ระบบสมาชิก ระบบจัดส่ง หรือ seed database เริ่มต้นของโปรเจกต์
 
-เวอร์ชันแรกโฟกัสที่ table ชื่อ `รหัสไปรษณีย์` ซึ่งจับคู่ `ตำบล`, `อำเภอ`, `จังหวัด`, และ `รหัสไปรษณีย์`
+โปรเจกต์นี้ช่วยแปลงไฟล์ Excel ต้นทางของข้อมูลภูมิศาสตร์ไทยให้เป็น format ที่นำไปใช้งานต่อได้ง่าย ทั้งแบบรวม table เดียวและแบบ relational แยกเป็น `provinces`, `districts`, `subdistricts`, และ `postal_codes`
 
-ตัว extractor จะอ่าน `TambonDatabase` เพิ่มเติมเพื่อ join ชื่อภาษาอังกฤษของจังหวัด อำเภอ และตำบลผ่าน `TambonID`
+English README: [README.en.md](README.en.md)
+
+## เหมาะสำหรับค้นหาและใช้งานเรื่อง
+
+- ฐานข้อมูลจังหวัดประเทศไทย
+- ฐานข้อมูลจังหวัด อำเภอ ตำบล
+- ฐานข้อมูลรหัสไปรษณีย์ไทย
+- รายชื่อจังหวัด อำเภอ ตำบล ภาษาไทยและภาษาอังกฤษ
+- Thai province district subdistrict database
+- Thailand postal code database
+- seed data จังหวัด อำเภอ ตำบล สำหรับ PostgreSQL, MySQL, MongoDB
+- JSON / CSV / YAML รายชื่อจังหวัดไทย
+
+## ข้อมูลที่มี
+
+แต่ละ record หลักประกอบด้วย:
+
+- จังหวัด ภาษาไทยและภาษาอังกฤษ
+- อำเภอ/เขต ภาษาไทยและภาษาอังกฤษ
+- ตำบล/แขวง ภาษาไทยและภาษาอังกฤษ
+- รหัสไปรษณีย์
+- slug ของจังหวัด อำเภอ และตำบล
+
+ตัวอย่าง canonical JSON:
+
+```json
+{
+  "id": 1,
+  "province": "กระบี่",
+  "provinceEn": "Krabi",
+  "district": "เกาะลันตา",
+  "districtEn": "Ko Lanta",
+  "subdistrict": "เกาะกลาง",
+  "subdistrictEn": "Ko Klang",
+  "postalCode": "81120",
+  "provinceSlug": "krabi",
+  "districtSlug": "ko-lanta",
+  "subdistrictSlug": "ko-klang"
+}
+```
+
+รหัสไปรษณีย์เก็บเป็น string เสมอ และชื่อภาษาไทย/อังกฤษจะคงตามต้นฉบับ ยกเว้นการ normalize whitespace
+
+## Output ที่สร้างได้
+
+ไฟล์แบบรวม:
+
+- `dist/thai-postal-codes.json`
+- `dist/thai-postal-codes.jsonl`
+- `dist/thai-postal-codes.csv`
+- `dist/thai-postal-codes.txt`
+- `dist/thai-postal-codes.yaml`
+
+ไฟล์แบบแยก entity:
+
+- `dist/relational/provinces.*`
+- `dist/relational/districts.*`
+- `dist/relational/subdistricts.*`
+- `dist/relational/postal-codes.*`
+
+Database seed:
+
+- `dist/sql/postgresql.sql`
+- `dist/sql/postgresql-relational.sql`
+- `dist/sql/mysql.sql`
+- `dist/sql/mysql-relational.sql`
+- `dist/mongodb/thai-postal-codes.mongodb.js`
+- `dist/mongodb/thai-postal-codes.relational.mongodb.js`
+
+ทุกครั้งที่ใช้ `build` ระบบจะล้าง output directory เดิมก่อนสร้างไฟล์ใหม่ เพื่อไม่ให้มีไฟล์เก่าค้างอยู่ใน `dist/`
+
+## แหล่งข้อมูลและเครดิตข้อมูล
+
+ข้อมูลตั้งต้นนำมาจาก ThepExcel: [ฐานข้อมูลตำบล อำเภอ จังหวัด รหัสไปรษณีย์ ของประเทศไทย V3](https://www.thepexcel.com/thailand-tambon-database/)
+
+ไฟล์ Excel ตัวอย่างจาก ThepExcel:
+
+```text
+https://github.com/ThepExcel/download/blob/master/ThepExcel-Thailand-Tambon.xlsx
+```
+
+โปรเจกต์นี้เป็นเครื่องมือแปลง format เพื่อให้นำข้อมูลไปใช้ต่อได้ง่ายขึ้น ไม่ใช่แหล่งข้อมูลราชการหรือ official government database โปรดตรวจสอบความถูกต้องกับแหล่งข้อมูลที่เหมาะสมก่อนใช้ในงานสำคัญ
 
 ## ติดตั้ง
 
@@ -18,19 +99,7 @@ npm install
 sources/thai-postal-codes.xlsx
 ```
 
-## แหล่งข้อมูลและเครดิต
-
-ข้อมูลตั้งต้นนำมาจาก ThepExcel: [ฐานข้อมูลตำบล อำเภอ จังหวัด รหัสไปรษณีย์ ของประเทศไทย V3](https://www.thepexcel.com/thailand-tambon-database/)
-
-ไฟล์ Excel ตัวอย่างอยู่ที่ GitHub ของ ThepExcel:
-
-```text
-https://github.com/ThepExcel/download/blob/master/ThepExcel-Thailand-Tambon.xlsx
-```
-
-โปรเจกต์นี้เป็นเครื่องมือแปลง format เพื่อให้นำข้อมูลไปใช้ต่อได้ง่ายขึ้น ไม่ใช่แหล่งข้อมูลราชการหรือ official database โปรดตรวจสอบความถูกต้องกับแหล่งข้อมูลที่เหมาะสมก่อนใช้ในงานสำคัญ
-
-## Extract ข้อมูลจาก XLSX
+## Extract จาก XLSX
 
 ```bash
 npm run extract
@@ -42,19 +111,7 @@ npm run extract
 npx thai-geo-db extract --source sources/thai-postal-codes.xlsx --table "รหัสไปรษณีย์"
 ```
 
-คำสั่งนี้จะสร้าง canonical data ที่ `dist/thai-postal-codes.json`
-
-เลือก slug style ได้:
-
-```bash
-npx thai-geo-db extract --slug-style slug-case
-npx thai-geo-db extract --slug-style PascalCase
-npx thai-geo-db extract --slug-style camelCase
-npx thai-geo-db extract --slug-style snake_case
-npx thai-geo-db extract --slug-style UPPER_UNDERSCORE_CASE
-```
-
-ค่า default คือ `slug-case` และ slug จะใช้ชื่อภาษาอังกฤษก่อน ถ้าไม่มีจึง fallback เป็นภาษาไทย
+Extractor จะอ่าน table/worksheet `รหัสไปรษณีย์` และอ่าน `TambonDatabase` เพิ่มเพื่อ join ชื่อภาษาอังกฤษผ่าน `TambonID`
 
 ## Build Output ทั้งหมด
 
@@ -62,25 +119,28 @@ npx thai-geo-db extract --slug-style UPPER_UNDERSCORE_CASE
 npm run build:outputs
 ```
 
-ไฟล์ที่สร้าง:
+หรือเลือกเฉพาะ format:
 
-- `dist/thai-postal-codes.json`
-- `dist/thai-postal-codes.jsonl`
-- `dist/thai-postal-codes.csv`
-- `dist/thai-postal-codes.txt`
-- `dist/thai-postal-codes.yaml`
-- `dist/relational/provinces.*`
-- `dist/relational/districts.*`
-- `dist/relational/subdistricts.*`
-- `dist/relational/postal-codes.*`
-- `dist/sql/postgresql.sql`
-- `dist/sql/postgresql-relational.sql`
-- `dist/sql/mysql.sql`
-- `dist/sql/mysql-relational.sql`
-- `dist/mongodb/thai-postal-codes.mongodb.js`
-- `dist/mongodb/thai-postal-codes.relational.mongodb.js`
+```bash
+npx thai-geo-db build --format json csv yaml
+npx thai-geo-db build --format postgresql mysql mongodb
+```
 
-ทุกครั้งที่ใช้ `build` จะล้าง output directory เดิมก่อนสร้างไฟล์ใหม่ เพื่อไม่ให้มีไฟล์เก่าค้างอยู่ใน `dist/`
+## Slug Style
+
+ค่า default คือ `slug-case` โดยใช้ชื่อภาษาอังกฤษก่อน ถ้าไม่มีจึง fallback เป็นภาษาไทย
+
+เลือก style ได้:
+
+```bash
+npx thai-geo-db extract --slug-style slug-case
+npx thai-geo-db extract --slug-style snake_case
+npx thai-geo-db extract --slug-style camelCase
+npx thai-geo-db extract --slug-style PascalCase
+npx thai-geo-db extract --slug-style UPPER_UNDERSCORE_CASE
+npx thai-geo-db extract --slug-style lowercase
+npx thai-geo-db extract --slug-style UPPERCASE
+```
 
 ## Interactive CLI
 
@@ -88,11 +148,11 @@ npm run build:outputs
 npm run wizard
 ```
 
-Wizard ใช้เลือก output format, output directory, SQL dialect, table name, column name และตัวเลือก SQL เช่น `DROP TABLE`, `CREATE TABLE`, และ `INSERT`
+Wizard ใช้เลือก output format, output directory, slug style, SQL table name, SQL column name, relational table/collection name และตัวเลือก SQL เช่น `DROP TABLE`, `CREATE TABLE`, และ `INSERT`
 
 ## DB Output Layout
 
-ค่า default ของ DB output คือ `both` เพื่อสร้างทั้งแบบรวม table เดียว และแบบ relational
+ค่า default ของ DB output คือ `both` เพื่อสร้างทั้งแบบรวม table เดียวและแบบ relational
 
 ```bash
 npx thai-geo-db build --format postgresql --db-layout both
@@ -111,7 +171,9 @@ npx thai-geo-db build --format postgresql --db-layout relational
 - `subdistricts`
 - `postal_codes`
 
-## ตัวอย่าง SQL แบบกำหนดชื่อ table/column
+## ปรับชื่อ Table และ Column
+
+ตัวอย่างเปลี่ยนชื่อ table/column สำหรับ output แบบรวม:
 
 ```bash
 npx thai-geo-db build \
@@ -120,14 +182,7 @@ npx thai-geo-db build \
   --column-postal-code zip_code
 ```
 
-ค่า default:
-
-- Table: `thai_postal_codes`
-- Columns: `id`, `province`, `district`, `subdistrict`, `postal_code`
-
-ตัวเลือก `--table` และ `--column-*` ใช้กับไฟล์แบบรวม table เดียว ส่วนไฟล์ relational ใช้ชื่อ table มาตรฐาน `provinces`, `districts`, `subdistricts`, และ `postal_codes`
-
-สามารถเปลี่ยนชื่อ relational table หรือ MongoDB collection ได้:
+ตัวอย่างเปลี่ยนชื่อ relational table หรือ MongoDB collection:
 
 ```bash
 npx thai-geo-db build \
@@ -139,25 +194,10 @@ npx thai-geo-db build \
   --table-postal-codes geo_postal_codes
 ```
 
-## Data Model
+ค่า default ของ combined SQL:
 
-```json
-{
-  "id": 1,
-  "province": "กรุงเทพมหานคร",
-  "provinceEn": "Bangkok",
-  "district": "พระนคร",
-  "districtEn": "Phra Nakhon",
-  "subdistrict": "พระบรมมหาราชวัง",
-  "subdistrictEn": "Phra Borom Maha Ratchawang",
-  "postalCode": "10200",
-  "provinceSlug": "bangkok",
-  "districtSlug": "phra-nakhon",
-  "subdistrictSlug": "phra-borom-maha-ratchawang"
-}
-```
-
-ข้อมูลภาษาไทยและภาษาอังกฤษจะถูกคงไว้ตามต้นฉบับ ยกเว้นการ normalize whitespace และรหัสไปรษณีย์จะเป็น string เสมอ
+- Table: `thai_postal_codes`
+- Columns: `id`, `province`, `province_en`, `district`, `district_en`, `subdistrict`, `subdistrict_en`, `postal_code`
 
 ## Development
 
