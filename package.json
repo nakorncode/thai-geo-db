@@ -1,0 +1,41 @@
+{
+  "name": "thai-geo-db",
+  "version": "0.1.0",
+  "description": "Extract Thai postal-code geography data from XLSX and generate JSON, YAML, SQL, MongoDB, and plain text outputs.",
+  "type": "module",
+  "bin": {
+    "thai-geo-db": "./src/cli.js"
+  },
+  "files": [
+    "src",
+    "dist",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "extract": "node src/cli.js extract --source sources/thai-postal-codes.xlsx --table \"รหัสไปรษณีย์\"",
+    "build:outputs": "node src/cli.js build",
+    "wizard": "node src/cli.js wizard",
+    "test": "node --test"
+  },
+  "keywords": [
+    "thai",
+    "geography",
+    "postal-code",
+    "xlsx",
+    "sql",
+    "mongodb",
+    "json",
+    "yaml"
+  ],
+  "author": "NakornCode",
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^7.10.1",
+    "commander": "^14.0.1",
+    "exceljs": "^4.4.0",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {}
+}
